@@ -1,0 +1,488 @@
+#footer_pg{
+	height: 420px; 
+	width: 100%; 
+	background: url('/img/footer_bg.png'); 
+	background-size: 100%; 
+	padding: 0px; 
+	position: absolute; 
+	z-index: -2;
+}
+#footer_pg_left{
+	width: 50%; 
+	height: 100%; 
+	float: left; 
+	margin: 0px; 
+	background: black; 
+	-webkit-filter: opacity(0.7); 
+	position: absolute; 
+	z-index: -1;
+}
+#footer_pg_right{
+	width: 50%; 
+	height: 100%; 
+	float: right; 
+	margin: 0px; 
+	background: #C7C7C7; 
+	-webkit-filter: opacity(0.9); 
+}
+#footer_pg_right p{
+	float: left; 
+	margin-left: 19%; 
+	font-size: 22px; 
+	color: black; 
+	margin-top: 6%; 
+	font-family: arial; 
+	font-weight: 700; 
+	letter-spacing: 1px;
+}
+#footer_pg_right_div{
+	border-top: 2px solid black; 
+	float: left; 
+	width: 21%; 
+	margin-top: 11%; 
+	margin-left: -22%;
+}
+#footer_pg_texto{
+	height: 420px; 
+	width: 100%;
+}
+#texto_left{
+	width: 52%; 
+	float: left;
+}
+#texto_right{
+	width: 46%; 
+	float: right; 
+	padding-top: 9%
+}
+#texto_siguenos{
+	color: white; 
+	font-size: 32px; 
+	margin-left: 37%; 
+	padding-top: 3%; 
+	font-weight: 600; 
+	letter-spacing: 2px; 
+	font-family: lucida Sans Unicode;
+}
+#subraya_left{
+	border-top: 2px solid white; 
+	width: 19%; 
+	margin-top: 1%; 
+	margin-left: 37%
+}
+#redes{
+	margin-top: 4%; 
+	margin-left: 37%;
+	width: 13%;
+}
+#web{
+	margin-top: 4%; 
+	margin-left: 37%; 
+	width: 20%; 
+	color: white; 
+	font-size: 12px; 
+	font-weight: 100;
+}
+#web img{
+	width: 20px; 
+	margin-right: 5%;
+	margin-top: -3%;
+}
+#email_web{
+	margin-top: 2%; 
+	margin-left: 37%; 
+	width: 30%; 
+	color: white; 
+	font-size: 12px; 
+	font-weight: 100;
+}
+#email_web img{
+	width: 20px; 
+	margin-right: 5%; 
+	margin-top: -3%;
+}
+#telefonos{
+	margin-top: 2%; 
+	margin-left: 37%;
+	width: 30%; 
+	color: white; 
+	font-size: 12px; 
+	font-weight: 100;
+}
+#telefonos img{
+	width: 20px; 
+	margin-right: 5%; 
+	margin-top: -5%;
+}
+#texto_nuestros{
+	margin-top: 3%; 
+	margin-left: 37%; 
+	width: 30%; 
+	color: white; 
+	font-size: 18px; 
+	font-family: arial; 
+	letter-spacing: 1.5px; 
+	font-weight: 500;
+}
+#box_horarios{
+	margin-top: 1%; 
+	margin-left: 37%; 
+	width: 40%; 
+	color: white; 
+	font-size: 14px; 
+	font-family: arial;
+}
+#tex_dias{
+	width: 45%; 
+	border-right: 1px solid white; 
+	height: 70px; 
+	display: inline-block; 
+	float: left; 
+	font-weight: 100; 
+	text-align: center; 
+	padding-right: 5%;
+}
+#tex_dias p{
+	font-size: 11px; 
+	margin-top: 8%;
+}
+#tex_domin{
+	width: 38%; 
+	height: 70px; 
+	display: inline-block; 
+	float: right; 
+	text-align: center; 
+	margin-right: 16%;
+}
+#tex_domin p{
+	font-size: 11px; 
+	margin-top: 8%;
+}
+#inputcontacto{
+	width: 50%; 
+	background: none; 
+	border: none; 
+	border-bottom: 1px solid black; 
+	position: relative; 
+	color: black; 
+	margin-bottom: 2%; 
+	font-size: 12px;
+}
+#submitcontacto{
+	background: url(/img/BOTON-formulario.png); 
+	width: 12.5%; 
+	background-position:  0px 0px; 
+	background-repeat: no-repeat; 
+	border: 0px; 
+	background-color: none; 
+	height: 32.5px; 
+	text-align: center; 
+	font-size: 12px; 
+	color: white; 
+	margin-left: 18%;
+}
+#bottom_footer{
+	height: 60px; 
+	width: 100%; 
+	background: #A8A8A8; 
+	text-align: center
+}
+#bottom_footer img{
+	width: 110px; 
+	margin-left: 1%; 
+	display: inline-block; 
+	float: left;
+}
+#bottom_footer_center{
+	color: black; 
+	display:  inline-block; 
+	margin-top: 2%; 
+	font-size: 12px; 
+	font-weight: 500;
+}
+#bottom_footer_right{
+	display: inline-block; 
+	float: right; 
+	color: black; 
+	font-size: 13px; 
+	width: 8%; 
+	margin-top: 1%;	
+}
+@media screen and (max-width: 1680px) {
+	#bottom_footer_right{
+		width: 8%;
+	}
+}
+@media screen and (max-width: 1480px) {
+	#texto_siguenos{
+		font-size: 30px;
+	}
+	#redes{
+		margin-top: 3%; 
+	}
+	#instagram_img{
+		height: 30px;
+		width: 30px;
+	}
+	#fb_img{
+		height: 31px;
+		width: 31px;
+	}
+	#web{
+		margin-top: 3%;
+	}
+	#bottom_footer_right{
+		width: 9%;
+	}
+	#submitcontacto{
+		width: 14.5%;
+	}
+}
+@media screen and (max-width: 1280px) {
+	#texto_siguenos{
+		font-size: 28px;
+	}
+	#instagram_img{
+		height: 28px;
+		width: 28px;
+	}
+	#fb_img{
+		height: 29px;
+		width: 29px;
+	}
+	#web{
+		margin-top: 3%;
+		width: 30%;
+	}
+	#telefonos{
+		width: 35%;
+	}
+	#texto_nuestros{
+		width: 40%;
+	}
+	#box_horarios{
+		width: 47%
+	}
+	#bottom_footer_right{
+		width: 10%;
+	}
+	#submitcontacto{
+		width: 15.5%;
+	}
+}
+@media screen and (max-width: 1024px) {
+	#email_web{
+		width: 38%;
+	}
+	#texto_nuestros{
+		width: 45%;
+	}
+	#telefonos{
+		width: 41%;
+	}
+	#box_horarios{
+		width: 58%;
+	}
+	#texto_siguenos{
+		padding-top: 10%;
+	}
+	#texto_right{
+		padding-top: 14%
+	}
+	#footer_pg_right p{
+		margin-left: 21%;
+		margin-top: 11%;
+	}
+	#footer_pg_right_div{
+		margin-top: 18%;
+		margin-left: -36%;
+		width: 37%;
+	}
+	#submitcontacto{
+		width: 19.5%;
+	}
+	#bottom_footer_right{
+		width: 14%;
+	}
+}
+@media screen and (max-width: 768px) {
+	#footer_pg_texto{
+		height: 342px;
+	}
+	#footer_pg{
+		height: 342px;
+	}
+	#texto_siguenos{
+		font-size: 25px;
+		margin-left: 33%;
+	}
+	#subraya_left{
+		margin-left: 33%;
+	}
+	#redes{
+		width: 20%;
+		margin-left: 33%;
+	}
+	#web{
+		width: 39%;
+		margin-left: 33%;
+	}
+	#email_web{
+		width: 48%;
+		margin-left: 33%
+	}
+	#telefonos{
+		width: 55%;
+		margin-left: 33%;
+	}
+	#texto_nuestros{
+		width: 58%;
+		margin-left: 33%;
+	}
+	#box_horarios{
+		width: 76%;
+		margin-left: 33%;
+	}
+	#bottom_footer_right{
+		width: 17%;
+	}
+	#texto_right{
+		padding-left: 4%
+	}
+	#footer_pg_right_div{
+		margin-top: 20%;
+    	margin-left: -49%;
+    	width: 50%;
+	}
+	#inputcontacto{
+		width: 70%;
+		font-size: 11px;
+	}
+	#submitcontacto{
+		width: 28.5%;
+		margin-left: 21%;
+		margin-top: 5%;
+	}
+}
+@media screen and (max-width: 760px) {
+	#texto_siguenos{
+		margin-left: 15%;
+		font-size: 11px;
+		padding-top: 10%;
+		margin-bottom: 4px;
+	}
+	#subraya_left{
+		margin-left: 15%;
+		width: 43%;
+	}
+	#redes{
+		width: 40%;
+		margin-left: 15%;
+		margin-top: 8%;
+	}
+	#fb_img{
+		width: 18px;
+		height: 18px;
+	}
+	#instagram_img{
+		width: 17px;
+		height: 17px;
+	}
+	#web{
+		width: 70%;
+		margin-left: 15%;
+		font-size: 8px;
+		margin-top: 1%;
+	}
+	#web img{
+		width: 11px;
+	}
+	#email_web{
+		width: 75%;
+		margin-left: 15%;
+		font-size: 8px;
+	}
+	#email_web img{
+		width: 11px;
+	}
+	#telefonos{
+		width: 85%;
+		margin-left: 15%;
+		font-size: 8px;
+	}
+	#telefonos img{
+		width: 11px;
+	}
+	#texto_nuestros{
+		width: 75%;
+		font-size: 9px;
+		margin-left: 15%;
+		margin-top: 2%;
+		display: none;
+	}
+	#box_horarios{
+		margin-left: 15%;
+		font-size: 10px;
+		width: 100%;
+		display: none;
+	}
+	#tex_dias p{
+		font-size: 8px;
+	}
+	#tex_domin p{
+		font-size: 8px;
+	}
+	#footer_pg_texto{
+		height: 146px;
+	}
+	#footer_pg{
+		height: 146px;
+	}
+	#tex_dias{
+		height: 54px;
+	}
+	#texto_right{
+		padding-top: 3%;
+	}
+	#inputcontacto{
+		font-size: 7px;
+		margin-bottom: 0px;
+	}
+	#footer_pg_right p{
+		font-size: 11px;
+		margin-top: 3%;
+		margin-left: 16%;
+	}
+	#footer_pg_right_div{
+		margin-top: -6%;
+    	margin-left: 16%;
+    	width: 39%;
+    	border-top: 1px solid black;
+    	display: none;
+	}
+	#submitcontacto{
+		background-size: 100%;
+		width: 28.5%;
+    	margin-left: 20%;
+    	margin-top: 0%;
+    	height: 19.5px;
+    	font-size: 7px;
+	}
+	#bottom_footer img{
+		width: 55px;
+	}
+	#bottom_footer_right{
+		width: 71px;
+		font-size: 7px;
+	}
+	#texto_right{
+		height: 146px;
+	}
+	#bottom_footer_center{
+		font-size: 7px;
+	}
+	#bottom_footer{
+		height: 32px
+	}
+
+}

@@ -1,0 +1,108 @@
+#mision_vision{
+	width: 100%; height: 270px; background: white; padding-top: 1.5%
+}
+#mision{
+	width: 50%; border-right: 2px solid #AC0000; height: 85%; text-align: right; display: inline-block;
+}
+#mision img{
+	margin-top: 4%; margin-right: 2%; width: 68px
+}
+#mision_title{
+	color: black; margin-top: 1.5%; font-size: 24px; font-weight: 800; font-family: Trebuchet MS; letter-spacing: 3px; margin-right: 2%; margin-bottom: 0px
+}
+#mision_subraya{
+	border-top: 2px solid #AC0000; width: 8%; margin-right: 2%; margin-top: 1%; float: right;
+}
+#mision_texto{
+	color: black; margin-top: 2.5%; font-size: 14px; font-family: Trebuchet MS; margin-right: 2%; margin-bottom: 0px
+}
+#vision{
+	width: 47%; height: 85%; text-align: left; display: inline-block;
+}
+#vision img{
+	margin-top: 4%; margin-left: 2%; width: 70px
+}
+#vision_title{
+	color: black; margin-top: 1.5%; font-size: 24px; font-weight: 800; font-family: Trebuchet MS; letter-spacing: 3px; margin-left: 2%; margin-bottom: 0px
+}
+#vision_subraya{
+	border-top: 2px solid #AC0000; width: 8%; margin-left: 2%; margin-top: 1%; float: left;
+}
+#vision_texto{
+	color: black; margin-top: 2.5%; font-size: 14px; font-family: Trebuchet MS; margin-left: 2%; margin-bottom: 0px
+}
+
+@media screen and (max-width: 1680px) {
+
+}
+@media screen and (max-width: 1480px) {
+
+}
+@media screen and (max-width: 1280px) {
+
+}
+@media screen and (max-width: 1024px) {
+	#mision_vision{
+		height: 235px;
+	}
+	#mision_subraya{
+		width: 13%;
+	}
+	#vision_subraya{
+		width: 13%;
+	}
+}
+@media screen and (max-width: 768px) {
+	#mision_vision{
+		height: 210px;
+	}
+	#vision_texto{
+		font-size: 90%;
+	}
+	#mision_texto{
+		font-size: 90%;
+	}
+	#vision img{
+		width: 65px;
+	}
+	#mision img{
+		width: 63px;
+	}
+	#vision_title{
+		font-size: 22px;
+	}
+	#mision_title{
+		font-size: 22px;
+	}
+}
+@media screen and (max-width: 760px) {
+	#mision img{
+		width: 53px; margin-right: 5%;
+	}
+	#vision img{
+		width: 55px; margin-left: 4%;
+	}
+	#vision_title{
+		margin-top: 3.5%;
+		font-size: 18px; margin-left: 4%;
+	}
+	#mision_title{
+		margin-top: 3.5%;
+		font-size: 18px; margin-right: 5%;
+	}
+	#mision_subraya{
+		width: 28%; margin-right: 6%;
+	}
+	#vision_subraya{
+		width: 28%; margin-left: 4%;
+	}
+	#mision_texto{
+		font-size: 75%; margin-right: 5%;
+	}
+	#vision_texto{
+		font-size: 75%; margin-left: 4%;
+	}
+	#mision_vision{
+		height: 170px; 
+	}
+}
