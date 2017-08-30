@@ -74,17 +74,29 @@
                     <p id="vision_texto">Ser la primera empresa de servicio veterinario en el Perú.</p>
                 </div>
             </div> 
-            <div id="nuestros_valores" style="width: 100%; height: 350px;">
-                <div id="nuestros_valores_bg" style="background: url(/img/nuestros_valores_bg2.png); width: 100%; height: 350px; position: absolute; z-index: -3; background-size: 100%"></div>  
-                <div id="nuestros_valores_bg" style="background: black; width: 100%; height: 175px; position: absolute; filter: opacity(0.5); z-index: -2"></div>                
-                <div style="width: 100%; height: 350px; padding-top: 6%; padding-left: 22%">
-                    <img src="/img/solidaridad.png" style="z-index: -1; position: absolute; background: transparent;">
-                    <img src="/img/compromiso.png" style="z-index: -1; position: absolute; background: transparent; margin-left: 12%">
-                    <img src="/img/pasion.png" style="z-index: -1; position: absolute; background: transparent; margin-left: 24%">
-                    <img src="/img/solidaridad.png" style="z-index: -1; position: absolute; background: transparent; margin-left: 36%">
-                    <img src="/img/compromiso.png" style="z-index: -1; position: absolute; background: transparent; margin-left: 48%">
+            <div id="nuestros_valores">
+                <div id="nuestros_valores_bg"></div>
+                <div id="nuestros_valores_bg_top"></div>                
+                <div id="nuestros_valores_divg">
+                    <p id="nuestros_valores_title">NUESTROS VALORES</p>
+                    <div id="nuestros_valores_subraya"></div>
+                    <img id="solidaridad" src="/img/solidaridad.png">
+                    <img id="compromiso" src="/img/compromiso.png">
+                    <img id="pasion" src="/img/pasion.png">
+                    <img id="integridad" src="/img/solidaridad.png">
+                    <img id="rsocial" src="/img/compromiso.png">
+                    <div id="texto_nuestros_valores">
+                      <p id="texto_soli">SOLIDARIDAD</p>
+                      <p id="texto_comp">COMPROMISO</p>
+                      <p id="texto_pasi">PASIÓN</p>
+                      <p id="texto_inte">INTEGRIDAD</p>
+                      <p id="texto_rsoc">RESPONSABILIDAD SOCIAL</p>
+                    </div>
                 </div>  
             </div>  
+            <div id="porque_elegir">
+              
+            </div>
             @include('partials.nosotros_js')        
         @include('partials.footer')        
     </div>
