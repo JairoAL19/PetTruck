@@ -93,7 +93,7 @@
                       <p id="texto_rsoc">RESPONSABILIDAD SOCIAL</p>
                     </div>
                 </div>  
-            </div>  
+            </div> 
             <div id="porque_elegir">
               
             </div>
