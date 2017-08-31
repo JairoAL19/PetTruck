@@ -94,13 +94,13 @@
                     </div>
                 </div>  
             </div> 
-            <div id="porque_elegir"  style="height: 60%;">
-                <div style="width: 100%; height: 60%; background: url('/img/perro2.png'); background-size: 100%; position: absolute; z-index: -2"></div>
-                <div style="width: 100%; height: 55%; background: url('/img/perro2.png'); background-size: 100%; position: absolute; z-index: -2; filter: blur(3px);"></div>                
-                <div style="width: 13%; background: url('/img/bg3.png'); background-repeat: no-repeat; position: absolute; z-index: -1; filter: opacity(0.6); height: 45%; margin-top: 8%; background-size: 100%; margin-left: 20%; height: 38%"></div>
-                <div style="width: 13%; background: url('/img/bg3.png'); background-repeat: no-repeat; position: absolute; z-index: -1; filter: opacity(0.6); height: 45%; margin-top: 8%; background-size: 100%; margin-left: 38%; height: 38%"></div>
-                <div style="width: 13%; background: url('/img/bg3.png'); background-repeat: no-repeat; position: absolute; z-index: -1; filter: opacity(0.6); height: 45%; margin-top: 8%; background-size: 100%; margin-left: 54%; height: 38%"></div>
-                <div style="width: 13%; background: url('/img/bg3.png'); background-repeat: no-repeat; position: absolute; z-index: -1; filter: opacity(0.6); height: 45%; margin-top: 8%; background-size: 100%; margin-left: 71%; height: 38%"></div>
+            <div id="porque_elegir">
+                <div id="porque_elegir_bg1"></div>
+                <div id="porque_elegir_bg2"></div>                
+                <div id="porque_elegir_base1"></div>
+                <div id="porque_elegir_base2"></div>
+                <div id="porque_elegir_base3"></div>
+                <div id="porque_elegir_base4"></div>
 
                 <div style="background: url('/img/pasion-animal.png'); width: 5%; background-repeat: no-repeat; background-size: 100%; height: 30%; position: absolute; z-index: -1; margin-left: 24%; margin-top: 8.5%"></div>
                 <div style="background: url('/img/tecxnologia.png'); width: 4.5%; background-repeat: no-repeat; background-size: 100%; height: 30%; position: absolute; z-index: -1; margin-left: 42%; margin-top: 8.5%"></div>

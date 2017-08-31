@@ -1,315 +1,61 @@
-#mision_vision{
-	width: 100%; height: 270px; background: white; padding-top: 1.5%
+#mision_vision{	width: 100%; height: 270px; background: white; padding-top: 1.5% } #mision{	width: 50%; border-right: 2px solid #AC0000; height: 85%; text-align: right; display: inline-block; } #mision img{ margin-top: 4%; margin-right: 2%; width: 68px } #mision_title{ color: black; margin-top: 1.5%; font-size: 24px; font-weight: 800; font-family: Trebuchet MS; letter-spacing: 3px; margin-right: 2%; margin-bottom: 0px } #mision_subraya{ border-top: 2px solid #AC0000; width: 8%; margin-right: 2%; margin-top: 1%; float: right; } #mision_texto{ color: black; margin-top: 2.5%; font-size: 14px; font-family: Trebuchet MS; margin-right: 2%; margin-bottom: 0px } #vision{ width: 47%; height: 85%; text-align: left; display: inline-block; } #vision img{ margin-top: 4%; margin-left: 2%; width: 70px } #vision_title{ color: black; margin-top: 1.5%; font-size: 24px; font-weight: 800; font-family: Trebuchet MS; letter-spacing: 3px; margin-left: 2%; margin-bottom: 0px } #vision_subraya{ border-top: 2px solid #AC0000; width: 8%; margin-left: 2%; margin-top: 1%; float: left; }
+#vision_texto{ color: black; margin-top: 2.5%; font-size: 14px; font-family: Trebuchet MS; margin-left: 2%; margin-bottom: 0px}
+#nuestros_valores{ width: 100%; height: 350px }
+#nuestros_valores_bg{ background: url(/img/nuestros_valores_bg2.jpg); width: 100%; height: 350px; position: absolute; z-index: -3; background-size: 100% }
+#nuestros_valores_bg_top{ background: black; width: 100%; height: 200px; position: absolute; filter: opacity(0.5); z-index: -2; }
+#nuestros_valores_divg{ width: 100%; height: 350px; padding-top: 2%; padding-left: 20% }
+#nuestros_valores_title{ color: white; margin-top: 0px; font-size: 30px; font-weight: 700; letter-spacing: 3px }
+#nuestros_valores_subraya{ border-top: 2px solid #AC0000; width: 15%; margin-bottom: 3% }
+#solidaridad{ z-index: 1; position: absolute; background: transparent; margin-left: 3% }
+#compromiso{ z-index: 1; position: absolute; background: transparent; margin-left: 15% }
+#pasion{ z-index: 1; position: absolute; background: transparent; margin-left: 27% }
+#integridad{ z-index: 1; position: absolute; background: transparent; margin-left: 39% }
+#rsocial{ z-index: 1; position: absolute; background: transparent; margin-left: 51% }
+#texto_nuestros_valores{ padding-left: 5% }
+#texto_soli{display: inline-block; margin-right: 5%; color: white; margin-top: 13%; font-weight: 700; letter-spacing: 1px }
+#texto_comp{ display: inline-block; margin-right: 6%; color: white; margin-top: 13%; font-weight: 700; letter-spacing: 1px }
+#texto_pasi{ display: inline-block; margin-right: 8%; color: white; margin-top: 13%; font-weight: 700; letter-spacing: 1px }
+#texto_inte{ display: inline-block; color: white; margin-top: 13%; font-weight: 700; letter-spacing: 1px }
+#texto_rsoc{ display: inline-block; color: white; margin-top: 13%; font-weight: 700; letter-spacing: 1px; width: 10%; float: right; margin-right: 28.5%; text-align: center; }
+
+#porque_elegir{
+	height: 60%;
 }
-#mision{
-	width: 50%; border-right: 2px solid #AC0000; height: 85%; text-align: right; display: inline-block;
+#porque_elegir_bg1{
+	width: 100%; height: 60%; background: url('/img/perro2.png'); background-size: 100%; position: absolute; z-index: -2
 }
-#mision img{
-	margin-top: 4%; margin-right: 2%; width: 68px
+#porque_elegir_bg2{
+	width: 100%; height: 55%; background: url('/img/perro2.png'); background-size: 100%; position: absolute; z-index: -2; filter: blur(3px);
 }
-#mision_title{
-	color: black; margin-top: 1.5%; font-size: 24px; font-weight: 800; font-family: Trebuchet MS; letter-spacing: 3px; margin-right: 2%; margin-bottom: 0px
+#porque_elegir_base1{
+	width: 13%; background: url('/img/bg3.png'); background-repeat: no-repeat; position: absolute; z-index: -1; filter: opacity(0.6); height: 45%; margin-top: 8%; background-size: 100%; margin-left: 20%; height: 38%
 }
-#mision_subraya{
-	border-top: 2px solid #AC0000; width: 8%; margin-right: 2%; margin-top: 1%; float: right;
+#porque_elegir_base2{
+	width: 13%; background: url('/img/bg3.png'); background-repeat: no-repeat; position: absolute; z-index: -1; filter: opacity(0.6); height: 45%; margin-top: 8%; background-size: 100%; margin-left: 38%; height: 38%
 }
-#mision_texto{
-	color: black; margin-top: 2.5%; font-size: 14px; font-family: Trebuchet MS; margin-right: 2%; margin-bottom: 0px
+#porque_elegir_base3{
+	width: 13%; background: url('/img/bg3.png'); background-repeat: no-repeat; position: absolute; z-index: -1; filter: opacity(0.6); height: 45%; margin-top: 8%; background-size: 100%; margin-left: 54%; height: 38%
 }
-#vision{
-	width: 47%; height: 85%; text-align: left; display: inline-block;
-}
-#vision img{
-	margin-top: 4%; margin-left: 2%; width: 70px
-}
-#vision_title{
-	color: black; margin-top: 1.5%; font-size: 24px; font-weight: 800; font-family: Trebuchet MS; letter-spacing: 3px; margin-left: 2%; margin-bottom: 0px
-}
-#vision_subraya{
-	border-top: 2px solid #AC0000; width: 8%; margin-left: 2%; margin-top: 1%; float: left;
-}
-#vision_texto{
-	color: black; margin-top: 2.5%; font-size: 14px; font-family: Trebuchet MS; margin-left: 2%; margin-bottom: 0px
-}
-#nuestros_valores{
-	width: 100%; height: 350px
-}
-#nuestros_valores_bg{
-	background: url(/img/nuestros_valores_bg2.jpg); width: 100%; height: 350px; position: absolute; z-index: -3; background-size: 100%
-}
-#nuestros_valores_bg_top{
-	background: black; width: 100%; height: 200px; position: absolute; filter: opacity(0.5); z-index: -2; 
-}
-#nuestros_valores_divg{
-	width: 100%; height: 350px; padding-top: 2%; padding-left: 20%
-}
-#nuestros_valores_title{
-	color: white; margin-top: 0px; font-size: 30px; font-weight: 700; letter-spacing: 3px
-}
-#nuestros_valores_subraya{
-	border-top: 2px solid #AC0000; width: 15%; margin-bottom: 3%
-}
-#solidaridad{
-	z-index: 1; position: absolute; background: transparent; margin-left: 3%
-}
-#compromiso{
-	z-index: 1; position: absolute; background: transparent; margin-left: 15%
-}
-#pasion{
-	z-index: 1; position: absolute; background: transparent; margin-left: 27%
-}
-#integridad{
-	z-index: 1; position: absolute; background: transparent; margin-left: 39%
-}
-#rsocial{
-	z-index: 1; position: absolute; background: transparent; margin-left: 51%
-}
-#texto_nuestros_valores{
-	padding-left: 5%
-}
-#texto_soli{
-	display: inline-block; margin-right: 5%; color: white; margin-top: 13%; font-weight: 700; letter-spacing: 1px
-}
-#texto_comp{
-	display: inline-block; margin-right: 6%; color: white; margin-top: 13%; font-weight: 700; letter-spacing: 1px
-}
-#texto_pasi{
-	display: inline-block; margin-right: 8%; color: white; margin-top: 13%; font-weight: 700; letter-spacing: 1px
-}
-#texto_inte{
-	display: inline-block; color: white; margin-top: 13%; font-weight: 700; letter-spacing: 1px
-}
-#texto_rsoc{
-	display: inline-block; color: white; margin-top: 13%; font-weight: 700; letter-spacing: 1px; width: 10%; float: right; margin-right: 28.5%; text-align: center;
+#porque_elegir_base4{
+	width: 13%; background: url('/img/bg3.png'); background-repeat: no-repeat; position: absolute; z-index: -1; filter: opacity(0.6); height: 45%; margin-top: 8%; background-size: 100%; margin-left: 71%; height: 38%
 }
 
 @media screen and (max-width: 1680px) {
-	#texto_comp{
-		margin-right: 7%
-	}
+	#texto_comp{ margin-right: 7% }
 }
 @media screen and (max-width: 1480px) {
-	#solidaridad{
-		width: 130px;
-	}
-	#compromiso{
-		width: 130px;
-	}
-	#pasion{
-		width: 130px;
-	}
-	#integridad{
-		width: 130px;
-	}
-	#rsocial{
-		width: 130px;
-	}
-	#texto_nuestros_valores{
-		padding-left: 4%
-	}
-	#texto_soli{
-		margin-right: 4%
-	}
-	#texto_pasi{
-		margin-right: 7%
-	}
+	#solidaridad{ width: 130px; } #compromiso{ width: 130px; }	#pasion{ width: 130px; } #integridad{ width: 130px; } #rsocial{ width: 130px; }	#texto_nuestros_valores{ padding-left: 4% }	#texto_soli{ margin-right: 4% }	#texto_pasi{ margin-right: 7% } 
 }
 @media screen and (max-width: 1280px) {
-	#texto_soli{
-		margin-top: 15%;
-	}
-	p{
-		font-size: 14px
-	}
-	#texto_rsoc{
-		margin-top: 15%;
-	}
-	#nuestros_valores_title{
-		font-size: 28px;
-	}
-	#solidaridad{
-		width: 120px;
-	}
-	#compromiso{
-		width: 120px;
-	}
-	#pasion{
-		width: 120px;
-	}
-	#integridad{
-		width: 120px;
-	}
-	#rsocial{
-		width: 120px;
-	}
-	#texto_pasi{
-		margin-right: 7%;
-	}
-	#nuestros_valores{
-		height: 335px;
-	}
-	#nuestros_valores_title{
-		margin-top: 11px
-	}
-	#nuestros_valores_subraya{
-		margin-bottom: 5%;
-	}
+	#texto_soli{ margin-top: 15%; }	p{ font-size: 14px } #texto_rsoc{ margin-top: 15%; } #nuestros_valores_title{ font-size: 28px; } #solidaridad{ width: 120px; } #compromiso{ width: 120px; }	#pasion{ width: 120px; } #integridad{ width: 120px;	} #rsocial{	width: 120px; }	#texto_pasi{ margin-right: 7%; } #nuestros_valores{ height: 335px; } #nuestros_valores_title{ margin-top: 11px } #nuestros_valores_subraya{ margin-bottom: 5%; }
 }
 @media screen and (max-width: 1024px) {
-	#mision_vision{
-		height: 235px;
-	}
-	#mision_subraya{
-		width: 13%;
-	}
-	#vision_subraya{
-		width: 13%;
-	}
-	#nuestros_valores_divg{
-		padding-left: 17%;
-	}
-	#solidaridad{
-		margin-left: 0px;
-	}
-	#compromiso{
-		margin-left: 13.5%
-	}
-	#integridad{
-		margin-left: 39.5%
-	}
-	#rsocial{
-		margin-left: 52%
-	}
-	#texto_soli{
-		margin-top: 16%
-	}
-	#texto_nuestros_valores{
-		padding-left: 1%
-	}
-	p{
-		font-size: 13px;
-	}
-	#texto_rsoc{
-		margin-right: 26.5%;
-		margin-top: 16%;
-	}
-
+	#mision_vision{	height: 235px; } #mision_subraya{ width: 13%; } #vision_subraya{ width: 13%; } #nuestros_valores_divg{ padding-left: 17%; } #solidaridad{ margin-left: 0px; } #compromiso{ margin-left: 13.5% } #integridad{ margin-left: 39.5% } #rsocial{ margin-left: 52% } #texto_soli{ margin-top: 16% } #texto_nuestros_valores{ padding-left: 1% } p{ font-size: 13px; } #texto_rsoc{ margin-right: 26.5%; margin-top: 16%; }
 }
 @media screen and (max-width: 768px) {
-	#mision_vision{
-		height: 210px;
-	}
-	#vision_texto{
-		font-size: 90%;
-	}
-	#mision_texto{
-		font-size: 90%;
-	}
-	#vision img{
-		width: 65px;
-	}
-	#mision img{
-		width: 63px;
-	}
-	#vision_title{
-		font-size: 22px;
-	}
-	#mision_title{
-		font-size: 22px;
-	}
-	#nuestros_valores_title{
-		margin-top: 9px;
-	}
-	#nuestros_valores_bg_top{
-		height: 170px;
-	}
-	#solidaridad{ width: 100px; } #compromiso{ width: 100px; margin-left: 15% } #pasion{ width: 100px; margin-left: 29.5% } #integridad{ width: 100px; margin-left: 44%} #rsocial{ width: 100px; margin-left: 58.5%; }
-	p{ font-size: 9px; }
-	#nuestros_valores_divg{
-		padding-left: 13%
-	}
-	#texto_nuestros_valores{
-		padding-left: 2%; 
-	}
-	#texto_soli{
-		margin-top: 17%; margin-right: 6%;
-	}
-	#texto_comp{
-		margin-right: 7.5%;
-	}
-	#texto_pasi{
-		margin-right: 8%;
-	}#texto_rsoc{ margin-right: 22.5%; margin-top: 17% } #nuestros_valores{ height: 258px; } #nuestros_valores_bg{ height: 258px }
+	#mision_vision{ height: 210px; } #vision_texto{ font-size: 90%; } #mision_texto{ font-size: 90%; } #vision img{ width: 65px; } #mision img{ width: 63px; } #vision_title{ font-size: 22px; } #mision_title{ font-size: 22px; } #nuestros_valores_title{ margin-top: 9px; } #nuestros_valores_bg_top{ height: 170px; } #solidaridad{ width: 100px; } #compromiso{ width: 100px; margin-left: 15% } #pasion{ width: 100px; margin-left: 29.5% } #integridad{ width: 100px; margin-left: 44%} #rsocial{ width: 100px; margin-left: 58.5%; }p{ font-size: 9px; } #nuestros_valores_divg{padding-left: 13% } #texto_nuestros_valores{ padding-left: 2%; } #texto_soli{ margin-top: 17%; margin-right: 6%; } #texto_comp{ margin-right: 7.5%; } #texto_pasi{ margin-right: 8%; }#texto_rsoc{ margin-right: 22.5%; margin-top: 17% } #nuestros_valores{ height: 258px; } #nuestros_valores_bg{ height: 258px }
 }
 @media screen and (max-width: 760px) {
-	#mision img{
-		width: 53px; margin-right: 5%;
-	}
-	#vision img{
-		width: 55px; margin-left: 4%;
-	}
-	#vision_title{
-		margin-top: 3.5%;
-		font-size: 18px; margin-left: 4%;
-	}
-	#mision_title{
-		margin-top: 3.5%;
-		font-size: 18px; margin-right: 5%;
-	}
-	#mision_subraya{
-		width: 28%; margin-right: 6%;
-	}
-	#vision_subraya{
-		width: 28%; margin-left: 4%;
-	}
-	#mision_texto{
-		font-size: 75%; margin-right: 5%;
-	}
-	#vision_texto{
-		font-size: 75%; margin-left: 4%;
-	}
-	#mision_vision{
-		height: 170px; 
-	}
-	#nuestros_valores_title{
-		font-size: 12px; margin-top: 0px; margin-bottom: 2%
-	}
-	#nuestros_valores_bg_top{
-		height: 11%;
-	}
-	#nuestros_valores_subraya{
-		margin-bottom: 1%;
-	}
-	#nuestros_valores_divg{
-		padding-left: 10%;
-	}
-	#nuestros_valores_bg{
-		height: 19%;
-	}
-	p{
-		font-size: 37.5%;
-	}
-	#texto_nuestros_valores{
-		padding-left: 0%;
-	}
-	#nuestros_valores_divg{
-		height: 19%
-	}
-	#texto_soli{
-		margin-top: 18%; margin-right: 3%;
-	}
-	#texto_comp{
-		margin-right: 4%;
-	}
-	#texto_pasi{
-		margin-right: 5%;
-	}
-	#texto_rsoc{
-		margin-right: 20.5%; margin-top: 18%;
-	}
-	#nuestros_valores{
-		height: 19%;
-	}
-	#solidaridad{ width: 14%; } #compromiso{ width: 14%; margin-left: 15.5% } #pasion{ width: 14%; margin-left: 31% } #integridad{ width: 14%; margin-left: 46.5%} #rsocial{ width: 14%; margin-left: 62%; }
+	#mision img{ width: 53px; margin-right: 5%; } #vision img{ width: 55px; margin-left: 4%; } #vision_title{ margin-top: 3.5%; font-size: 18px; margin-left: 4%; } #mision_title{ margin-top: 3.5%; font-size: 18px; margin-right: 5%; } #mision_subraya{ width: 28%; margin-right: 6%; } #vision_subraya{ width: 28%; margin-left: 4%; } #mision_texto{ font-size: 75%; margin-right: 5%; } #vision_texto{ font-size: 75%; margin-left: 4%; } #mision_vision{ height: 170px; } #nuestros_valores_title{ font-size: 12px; margin-top: 0px; margin-bottom: 2% } #nuestros_valores_bg_top{ height: 11%; } #nuestros_valores_subraya{ margin-bottom: 1%; } #nuestros_valores_divg{ padding-left: 10%; } #nuestros_valores_bg{ height: 19%; } p{ font-size: 37.5%; } #texto_nuestros_valores{ padding-left: 0%; } #nuestros_valores_divg{ height: 19% } #texto_soli{ margin-top: 18%; margin-right: 3%; } #texto_comp{ margin-right: 4%; } #texto_pasi{ margin-right: 5%; } #texto_rsoc{ margin-right: 20.5%; margin-top: 18%; } #nuestros_valores{ height: 19%; } #solidaridad{ width: 14%; } #compromiso{ width: 14%; margin-left: 15.5% } #pasion{ width: 14%; margin-left: 31% } #integridad{ width: 14%; margin-left: 46.5%} #rsocial{ width: 14%; margin-left: 62%; }
 
 }
