@@ -84,7 +84,9 @@
 }
 
 @media screen and (max-width: 1680px) {
-
+	#texto_comp{
+		margin-right: 7%
+	}
 }
 @media screen and (max-width: 1480px) {
 	#solidaridad{
