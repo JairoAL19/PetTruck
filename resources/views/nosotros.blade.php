@@ -149,41 +149,64 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8a847', end
                             <img src="/img/medicado.png">
                             <p style="color: white; margin-top: 4%; font-weight: 600; letter-spacing: 2px">BAÑO MEDICADO</p>
                             <div style="border-top: 2px solid #AC0000; width: 40%; margin-left: 30%"></div>
-                            <p style="width: 85%; margin-left: 7.5%; color: white; font-size: 13px; text-align: justify; margin-top: 2%; letter-spacing: 1px">¡Tu engreído merece lo mejor! Nuestros baños medicados le brindarán un momento de relajación</p>
+                            <p style="width: 85%; margin-left: 7.5%; color: white; font-size: 12px; text-align: justify; margin-top: 2%; letter-spacing: 1px">¡Tu engreído merece lo mejor! Nuestros baños medicados le brindarán un momento de relajación</p>
                         </div>
                         <div style="width: 20%; display: inline-block;">
                             <img src="/img/paticure.png">
-                            <p style="color: white; margin-top: 4%; font-weight: 600; letter-spacing: 2px">BAÑO MEDICADO</p>
+                            <p style="color: white; margin-top: 4%; font-weight: 600; letter-spacing: 2px">PELUQUERÍA + PATICURE</p>
                             <div style="border-top: 2px solid #AC0000; width: 40%; margin-left: 30%"></div>
-                            <p style="width: 85%; margin-left: 7.5%; color: white; font-size: 13px; text-align: justify; margin-top: 2%; letter-spacing: 1px">¡Tu engreído merece lo mejor! Nuestros baños medicados le brindarán un momento de relajación</p>
+                            <p style="width: 85%; margin-left: 7.5%; color: white; font-size: 12px; text-align: justify; margin-top: 2%; letter-spacing: 1px">¡Tu engreído merece lo mejor! Nuestros baños medicados le brindarán un momento de relajación</p>
                         </div>
                         <div style="width: 20%; display: inline-block;">
                             <img src="/img/pipetas.png">
-                            <p style="color: white; margin-top: 4%; font-weight: 600; letter-spacing: 2px">BAÑO MEDICADO</p>
+                            <p style="color: white; margin-top: 4%; font-weight: 600; letter-spacing: 2px">PIPETAS ANTI-PARÁSITOS</p>
                             <div style="border-top: 2px solid #AC0000; width: 40%; margin-left: 30%"></div>
-                            <p style="width: 85%; margin-left: 7.5%; color: white; font-size: 13px; text-align: justify; margin-top: 2%; letter-spacing: 1px">¡Tu engreído merece lo mejor! Nuestros baños medicados le brindarán un momento de relajación</p>
+                            <p style="width: 85%; margin-left: 7.5%; color: white; font-size: 12px; text-align: justify; margin-top: 2%; letter-spacing: 1px">¡Tu engreído merece lo mejor! Nuestros baños medicados le brindarán un momento de relajación</p>
                         </div>
                     </div>
                     <div style="width: 100%; margin-top: 2%">
                         <div style="width: 20%; display: inline-block;">
                             <img src="/img/microshit.png">
-                            <p style="color: white; margin-top: 4%; font-weight: 600; letter-spacing: 2px">BAÑO MEDICADO</p>
+                            <p style="color: white; margin-top: 4%; font-weight: 600; letter-spacing: 2px">MICROCHIPING</p>
                             <div style="border-top: 2px solid #AC0000; width: 40%; margin-left: 30%"></div>
-                            <p style="width: 85%; margin-left: 7.5%; color: white; font-size: 13px; text-align: justify; margin-top: 2%; letter-spacing: 1px">¡Tu engreído merece lo mejor! Nuestros baños medicados le brindarán un momento de relajación</p>
+                            <p style="width: 85%; margin-left: 7.5%; color: white; font-size: 12px; text-align: justify; margin-top: 2%; letter-spacing: 1px">¡Tu engreído merece lo mejor! Nuestros baños medicados le brindarán un momento de relajación</p>
                         </div>
                         <div style="width: 20%; display: inline-block;">
                             <img src="/img/vacuna.png">
-                            <p style="color: white; margin-top: 4%; font-weight: 600; letter-spacing: 2px">BAÑO MEDICADO</p>
+                            <p style="color: white; margin-top: 4%; font-weight: 600; letter-spacing: 2px">VACUNACIÓN</p>
                             <div style="border-top: 2px solid #AC0000; width: 40%; margin-left: 30%"></div>
-                            <p style="width: 85%; margin-left: 7.5%; color: white; font-size: 13px; text-align: justify; margin-top: 2%; letter-spacing: 1px">Tu engreido necesita estar protegido. ¡No lo expongas! Consulta nuestro cronograma de vacunación aquí</p>
+                            <p style="width: 85%; margin-left: 7.5%; color: white; font-size: 12px; text-align: justify; margin-top: 2%; letter-spacing: 1px">Tu engreido necesita estar protegido. ¡No lo expongas! Consulta nuestro cronograma de vacunación <a style="color: yellow" href="#">aquí</a></p>
                         </div>
                         <div style="width: 20%; display: inline-block;">
-                            <img src="/img/groming.png">
-                            <p style="color: white; margin-top: 4%; font-weight: 600; letter-spacing: 2px">BAÑO MEDICADO</p>
+                            <img src="/img/desparacitacion.png">
+                            <p style="color: white; margin-top: 4%; font-weight: 600; letter-spacing: 2px">DESPARACITACIÓN</p>
                             <div style="border-top: 2px solid #AC0000; width: 40%; margin-left: 30%"></div>
-                            <p style="width: 85%; margin-left: 7.5%; color: white; font-size: 13px; text-align: justify; margin-top: 2%; letter-spacing: 1px">¡Tu engreído merece lo mejor! Nuestros baños medicados le brindarán un momento de relajación</p>
-                        </div>
+                            <p style="width: 85%; margin-left: 7.5%; color: white; font-size: 12px; text-align: justify; margin-top: 2%; letter-spacing: 1px">¡Tu engreído merece lo mejor! Nuestros baños medicados le brindarán un momento de relajación</p>
+                        </div>                        
                     </div>
+                    <div style="width: 60%; border-top: 1px solid white; margin-left: 20%; margin-top: 3%"></div>
+                    <div style="width: 100%;"><p style="color: white; margin-top: 0px; font-size: 28px; font-weight: 700; letter-spacing: 3px; padding-top: 2%;">SERVICIOS EXPRESS</p></div>
+                    <div style="width: 100%; margin-top: 2%">
+                        <div style="width: 20%; display: inline-block;">
+                            <img src="/img/groming.png">
+                            <p style="color: white; margin-top: 4%; font-weight: 600; letter-spacing: 2px">GROOMING</p>
+                            <div style="border-top: 2px solid #AC0000; width: 40%; margin-left: 30%"></div>
+                            <p style="width: 85%; margin-left: 7.5%; color: white; font-size: 12px; text-align: justify; margin-top: 2%; letter-spacing: 1px">¡Tu engreído merece lo mejor! Nuestros baños medicados le brindarán un momento de relajación</p>
+                        </div>
+                        <div style="width: 20%; display: inline-block;">
+                            <img src="/img/adiestramiento.png">
+                            <p style="color: white; margin-top: 4%; font-weight: 600; letter-spacing: 2px">ADIESTRAMIENTO</p>
+                            <div style="border-top: 2px solid #AC0000; width: 40%; margin-left: 30%"></div>
+                            <p style="width: 85%; margin-left: 7.5%; color: white; font-size: 12px; text-align: justify; margin-top: 2%; letter-spacing: 1px">Nuestros coaches lograrán que sean obedientes sin perder su esencia. ¡No importa que tan traviesos sean!</p>
+                        </div>
+                        <div style="width: 20%; display: inline-block;">
+                            <img src="/img/paseo-de-perros.png">
+                            <p style="color: white; margin-top: 4%; font-weight: 600; letter-spacing: 2px">PASEOS CANINOS</p>
+                            <div style="border-top: 2px solid #AC0000; width: 40%; margin-left: 30%"></div>
+                            <p style="width: 85%; margin-left: 7.5%; color: white; font-size: 12px; text-align: justify; margin-top: 2%; letter-spacing: 1px">¡Tu engreído merece lo mejor! Nuestros baños medicados le brindarán un momento de relajación</p>
+                        </div>                        
+                    </div>
+                    <div><button style="background: url('/img/agenda-tu-citarojo.png'); background-size: 100%; border: 0px; height: 54px; color: white; font-size: 13px; width: 148px; margin-top: 3%">AGENDA TU CITA</button></div>
                 </div>
 
             </div>
