@@ -102,33 +102,33 @@
                 <div id="porque_elegir_base3"></div>
                 <div id="porque_elegir_base4"></div>
 
-                <div style="background: url('/img/pasion-animal.png'); width: 5%; background-repeat: no-repeat; background-size: 100%; height: 30%; position: absolute; z-index: -1; margin-left: 24%; margin-top: 8.5%"></div>
-                <div style="background: url('/img/tecxnologia.png'); width: 4.5%; background-repeat: no-repeat; background-size: 100%; height: 30%; position: absolute; z-index: -1; margin-left: 42%; margin-top: 8.5%"></div>
-                <div style="background: url('/img/tecxnologia.png'); width: 4.5%; background-repeat: no-repeat; background-size: 100%; height: 30%; position: absolute; z-index: -1; margin-left: 58%; margin-top: 8.5%"></div>
-                <div style="background: url('/img/ayuda-a-los-demas.png'); width: 3.5%; background-repeat: no-repeat; background-size: 100%; height: 30%; position: absolute; z-index: -1; margin-left: 76%; margin-top: 8%"></div>
+                <div id="pasion_animal"></div>
+                <div id="tecnologia"></div>
+                <div id="servicio_express"></div>
+                <div id="ayuda"></div>
 
-                <div style="height: 100%; width: 100%">     
-                        <p style="color: white; margin-top: 0px; font-size: 30px; font-weight: 700; letter-spacing: 3px; padding-top: 4%; margin-left: 35%">¿POR QUÉ ELEGIR PET TRUCK?</p>
-                        <div style="width: 15%; border-top: 2px solid #AC0000; margin-left: 45%"></div>
-                        <div style="width: 13%; height: 180px; margin-left: 20%; margin-top: 7%; display: inline-block;">
-                            <p style="text-align: center; color: white; letter-spacing: 2px; font-weight: 500; margin-bottom: 2%">PASIÓN POR</br> LOS ANIMALES</p>
-                            <div style="width: 90%; border-top: 2px solid white; margin-left: 5%"></div>
-                            <p style="width: 90%; margin-left: 5%; color: white; font-size: 13px; text-align: justify; margin-top: 5%; letter-spacing: 1px">Nos interesa que los animales estén cuidados y saludables, por eso tenemos el mejor Staff, los mejores productos y servicios especializados.</p>
+                <div id="textos_porque_elegir">     
+                        <p id="tittle_porque_e">¿POR QUÉ ELEGIR PET TRUCK?</p>
+                        <div id="subraya_title"></div>
+                        <div id="div_pasion_animal">
+                            <p id="text_pasion_animal">PASIÓN POR</br> LOS ANIMALES</p>
+                            <div id="linea_blanca"></div>
+                            <p id="text_pasion_animal2">Nos interesa que los animales estén cuidados y saludables, por eso tenemos el mejor Staff, los mejores productos y servicios especializados.</p>
                         </div>
-                        <div style="width: 13%; height: 180px; margin-left: 4.7%; margin-top: 7%; display: inline-block;">
-                            <p style="text-align: center; color: white; letter-spacing: 2px; font-weight: 500; margin-bottom: 2%">TECNOLOGÍA Y ACCESIBILIDAD</p>
-                            <div style="width: 90%; border-top: 2px solid white; margin-left: 5%"></div>
-                            <p style="width: 90%; margin-left: 5%; color: white; font-size: 11px; text-align: justify; margin-top: 5%; letter-spacing: 1px">¡Tomar nuestros servicios es súper fácil! Contamos con una aplicacíón móvil y central telefónica las 24 horas del día, solo tienes que programar tu cita y esperar que nuestro camión llegue. Es magia.</p>
+                        <div id="div_tecnolog">
+                            <p id="text_tecnolog">TECNOLOGÍA Y ACCESIBILIDAD</p>
+                            <div id="linea_blanca"></div>
+                            <p id="text_3">¡Tomar nuestros servicios es súper fácil! Contamos con una aplicacíón móvil y central telefónica las 24 horas del día, solo tienes que programar tu cita y esperar que nuestro camión llegue. Es magia.</p>
                         </div>
-                        <div style="width: 13%; height: 180px; margin-left: 2.7%; margin-top: 7%; display: inline-block;">
-                            <p style="text-align: center; color: white; letter-spacing: 2px; font-weight: 500; margin-bottom: 2%;">SERVICIO</br>EXPRESS</p>
-                            <div style="width: 90%; border-top: 2px solid white; margin-left: 5%"></div>
-                            <p style="width: 90%; margin-left: 5%; color: white; font-size: 11px; text-align: justify; margin-top: 5%; letter-spacing: 1px">¡Olvidate del tráfico! ¡Que tu engreido se olvide de las horas de espera en jaula y del espantoso transporte! Con nuestro camión ambientado todo se hace en la puerta de tu hogar. </p>
+                        <div id="div_serv_expre">
+                            <p id="text_serv_e">SERVICIO</br>EXPRESS</p>
+                            <div id="linea_blanca"></div>
+                            <p id="text_3">¡Olvidate del tráfico! ¡Que tu engreido se olvide de las horas de espera en jaula y del espantoso transporte! Con nuestro camión ambientado todo se hace en la puerta de tu hogar. </p>
                         </div>
-                        <div style="width: 13%; height: 180px; margin-left: 3.7%; margin-top: 7%; display: inline-block;">
-                            <p style="text-align: center; color: white; letter-spacing: 2px; font-weight: 500; margin-bottom: 2%;">AYUDA A</br>LOS DEMÁS</p>
-                            <div style="width: 90%; border-top: 2px solid white; margin-left: 5%"></div>
-                            <p style="width: 90%; margin-left: 5%; color: white; font-size: 11px; text-align: justify; margin-top: 5%; letter-spacing: 1px">Contratando nuestros servicios no solo ayudas a tu mascota, ¡también ayudas a los que no tienen la misma suerte! Visitamos una vez al mes diferentes albergues para brindar ayuda.</p>
+                        <div id="div_ayuda">
+                            <p id="text_ayuda">AYUDA A</br>LOS DEMÁS</p>
+                            <div id="linea_blanca"></div>
+                            <p id="text_3">Contratando nuestros servicios no solo ayudas a tu mascota, ¡también ayudas a los que no tienen la misma suerte! Visitamos una vez al mes diferentes albergues para brindar ayuda.</p>
                         </div>
 
                 </div>

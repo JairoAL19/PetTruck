@@ -39,7 +39,60 @@
 #porque_elegir_base4{
 	width: 13%; background: url('/img/bg3.png'); background-repeat: no-repeat; position: absolute; z-index: -1; filter: opacity(0.6); height: 45%; margin-top: 8%; background-size: 100%; margin-left: 71%; height: 38%
 }
-
+#pasion_animal{
+	background: url('/img/pasion-animal.png'); width: 5%; background-repeat: no-repeat; background-size: 100%; height: 30%; position: absolute; z-index: -1; margin-left: 24%; margin-top: 8.5%
+}
+#tecnologia{
+	background: url('/img/tecxnologia.png'); width: 4.5%; background-repeat: no-repeat; background-size: 100%; height: 30%; position: absolute; z-index: -1; margin-left: 42%; margin-top: 8.5%
+}
+#servicio_express{
+	background: url('/img/tecxnologia.png'); width: 4.5%; background-repeat: no-repeat; background-size: 100%; height: 30%; position: absolute; z-index: -1; margin-left: 58%; margin-top: 8.5%
+}
+#ayuda{
+	background: url('/img/ayuda-a-los-demas.png'); width: 3.5%; background-repeat: no-repeat; background-size: 100%; height: 30%; position: absolute; z-index: -1; margin-left: 76%; margin-top: 8%
+}
+#textos_porque_elegir{
+	height: 100%; width: 100%
+}
+#tittle_porque_e{
+	color: white; margin-top: 0px; font-size: 30px; font-weight: 700; letter-spacing: 3px; padding-top: 4%; margin-left: 35%
+}
+#subraya_title{
+	width: 15%; border-top: 2px solid #AC0000; margin-left: 45%
+}
+#div_pasion_animal{
+	width: 13%; height: 180px; margin-left: 20%; margin-top: 7%; display: inline-block;
+}
+#text_pasion_animal{
+	text-align: center; color: white; letter-spacing: 2px; font-weight: 500; margin-bottom: 2%
+}
+#linea_blanca{
+	width: 90%; border-top: 2px solid white; margin-left: 5%
+}
+#text_pasion_animal2{
+	width: 90%; margin-left: 5%; color: white; font-size: 13px; text-align: justify; margin-top: 5%; letter-spacing: 1px
+}
+#div_tecnolog{
+	width: 13%; height: 180px; margin-left: 4.7%; margin-top: 7%; display: inline-block;
+}
+#text_tecnolog{
+	text-align: center; color: white; letter-spacing: 2px; font-weight: 500; margin-bottom: 2%
+}
+#text_3{
+	width: 90%; margin-left: 5%; color: white; font-size: 11px; text-align: justify; margin-top: 5%; letter-spacing: 1px
+}
+#div_serv_expre{
+	width: 13%; height: 180px; margin-left: 2.7%; margin-top: 7%; display: inline-block;
+}
+#text_serv_e{
+	text-align: center; color: white; letter-spacing: 2px; font-weight: 500; margin-bottom: 2%;
+}
+#div_ayuda{
+	width: 13%; height: 180px; margin-left: 3.7%; margin-top: 7%; display: inline-block;
+}
+#text_ayuda{
+	text-align: center; color: white; letter-spacing: 2px; font-weight: 500; margin-bottom: 2%;
+}
 @media screen and (max-width: 1680px) {
 	#texto_comp{ margin-right: 7% }
 }
