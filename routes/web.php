@@ -19,3 +19,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/Nosotros', 'Nosotros@index')->name('Nosotros');
+Route::get('/Galería', 'Galeria@index')->name('Galeria');

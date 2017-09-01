@@ -35,7 +35,7 @@
                           <ul>
                             <li><a href="/"><p>HOME</p></a></li>
                             <li><a href="/Nosotros" ><p>NOSOTROS</p></a></li>
-                            <li><a href="#"><p>GALERÍA</p></a></li>
+                            <li><a href="/Galería"><p>GALERÍA</p></a></li>
                             <li><a href="#"><p>AYUDA SOCIAL</p></a></li>
                             <li><a href="#"><p>CONTACTO</p></a></li>
                             <li><a href="#"><p>MI CUENTA</p></a></li>
