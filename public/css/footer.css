@@ -78,7 +78,7 @@
 #web{
 	margin-top: 4%; 
 	margin-left: 37%; 
-	width: 20%; 
+	width: 22%; 
 	color: white; 
 	font-size: 12px; 
 	font-weight: 100;
@@ -170,14 +170,14 @@
 }
 #submitcontacto{
 	background: url(/img/BOTON-formulario.png); 
-	width: 12.5%; 
+	width: 13.5%; 
 	background-position:  0px 0px; 
 	background-repeat: no-repeat; 
 	border: 0px; 
 	background-color: none; 
 	height: 32.5px; 
 	text-align: center; 
-	font-size: 12px; 
+	font-size: 10px; 
 	color: white; 
 	margin-left: 18%;
 }
@@ -208,7 +208,7 @@
 	width: 8%; 
 	margin-top: 1%;	
 }
-@media screen and (max-width: 1680px) {
+@media screen and (max-width: 3680px) {
 	#bottom_footer_right{
 		width: 8%;
 	}
@@ -236,6 +236,12 @@
 	}
 	#submitcontacto{
 		width: 14.5%;
+	}
+	#texto_nuestros{
+		width: 50%;
+	}
+	#box_horarios{
+		width: 45%
 	}
 }
 @media screen and (max-width: 1280px) {
@@ -267,21 +273,23 @@
 		width: 10%;
 	}
 	#submitcontacto{
-		width: 15.5%;
+		width: 16.5%;
 	}
+	#texto_nuestros{ width: 45% !important }
+	#box_horarios{ width: 52% !important }
 }
 @media screen and (max-width: 1024px) {
 	#email_web{
 		width: 38%;
 	}
 	#texto_nuestros{
-		width: 45%;
+		width: 50%  !important; 
 	}
 	#telefonos{
 		width: 41%;
 	}
 	#box_horarios{
-		width: 58%;
+		width: 60% !important;
 	}
 	#texto_siguenos{
 		padding-top: 10%;
@@ -302,7 +310,7 @@
 		width: 19.5%;
 	}
 	#bottom_footer_right{
-		width: 14%;
+		width: 14% !important;
 	}
 }
 @media screen and (max-width: 768px) {
@@ -336,15 +344,15 @@
 		margin-left: 33%;
 	}
 	#texto_nuestros{
-		width: 58%;
+		width: 63% !important;
 		margin-left: 33%;
 	}
 	#box_horarios{
-		width: 76%;
+		width: 76% !important;
 		margin-left: 33%;
 	}
 	#bottom_footer_right{
-		width: 17%;
+		width: 17% !important;
 	}
 	#texto_right{
 		padding-left: 4%
@@ -441,11 +449,8 @@
 	#tex_dias{
 		height: 54px;
 	}
-	#texto_right{
-		padding-top: 3%;
-	}
 	#inputcontacto{
-		font-size: 7px;
+		font-size: 6px;
 		margin-bottom: 0px;
 	}
 	#footer_pg_right p{
@@ -462,11 +467,11 @@
 	}
 	#submitcontacto{
 		background-size: 100%;
-		width: 28.5%;
+		width: 30.5%;
     	margin-left: 20%;
     	margin-top: 0%;
-    	height: 19.5px;
-    	font-size: 7px;
+    	height: 16.5px;
+    	font-size: 5px;
 	}
 	#bottom_footer img{
 		width: 55px;
@@ -477,12 +482,16 @@
 	}
 	#texto_right{
 		height: 146px;
+		padding-top: 7.5%
 	}
 	#bottom_footer_center{
 		font-size: 7px;
 	}
 	#bottom_footer{
 		height: 32px
+	}
+	#bottom_footer_right{
+		width: 24%;
 	}
 
 }

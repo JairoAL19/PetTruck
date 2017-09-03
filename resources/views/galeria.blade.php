@@ -5,23 +5,13 @@
 @endsection
 
 @section('main-content')
-<link rel="stylesheet" href="/css/welcome.css">
-<link rel="stylesheet" href="/css/footer.css">
 <link rel="stylesheet" href="/assets/css/main.css" />
+<link rel="stylesheet" href="/css/welcome.css">
+<link rel="stylesheet" href="/css/banner_page.css">
+<link rel="stylesheet" href="/css/footer.css">
+<link rel="stylesheet" href="/css/galeria.css">
 <div class="wrapper">  
     <div class="main-panel">
-        <div id="myModal" class="modal">
-            <!-- Modal content -->
-            <div class="modal-content" id="modal_contenido">
-                <span class="close" style="color: white">&times;</span>
-                <video id="video_tag" controls="controls" poster="img" preload="true">
-                    <source src="/img/video.mp4" type="video/mov"/>
-                    <source src="where the video is" type="video/mp4" />
-                    <source src="where the video is" type="video/oog" />
-                     Your browser does not support the video tag.
-                </video>
-            </div>
-        </div>
         <div id="login" class="modal">
             <!-- Modal content -->
             <div class="modal-content" id="modal_contenido2" style="width: 25%">
@@ -64,70 +54,107 @@
         </div>
         @include('partials.nav')
         <link rel="stylesheet" href="/css/w3a.css">
-            <div id="main">
-              <div class="inner">
-                <div class="columns">
+            <div id="banner_nosotros">
+                <div id="imagen_banner_nosotros"></div>  
+                <div id="texto_banner_nosotros">
+                  <p>GALERÍA</p>
+                  <div id="subraya_banner_nosotros"></div>    
+                </div>
+            </div> 
+            <div>
+              <div id="left_main">
+                <div id="2017">
+                  <div id="number_año">
+                    <a href="#" style="text-decoration: none">2017</a>
+                  </div>
+                  <div id="mes">
+                    <ul style="list-style:none">
+                      <li>Enero</li>
+                      <li>Febrero</li>
+                      <li>Marzo</li>
+                      <li>Abril</li>
+                      <li>Mayo</li>
+                      <li>Junio</li>
+                      <li>Julio</li>
+                      <li>Agosto</li>
+                      <li>Septiembre</li>
+                      <li>Octubre</li>
+                      <li>Noviembre</li>
+                      <li>Diciembre</li>
+                    </ul>
+                  </div>
+                </div>
+                <div id="2016">
+                  <div id="number_año" style="border: none">
+                    <a href="#" style="text-decoration: none">2016</a>
+                  </div>
+                </div>
+              </div>
+              <div id="main" style="display: inline-block; width: 70%;">
+                <div class="inner">
+                  <div class="columns">
 
-                  <!-- Column 1 (horizontal, vertical, horizontal, vertical) -->
-                    <div class="image fit">
-                      <a href="detail1.html"><img src="images/pic01.jpg" alt="" /></a>
-                    </div>
-                    <div class="image fit">
-                      <a href="detail1.html"><img src="images/pic02.jpg" alt="" /></a>
-                    </div>
-                    <div class="image fit">
-                      <a href="detail1.html"><img src="images/pic03.jpg" alt="" /></a>
-                    </div>
-                    <div class="image fit">
-                      <a href="detail1.html"><img src="images/pic04.jpg" alt="" /></a>
-                    </div>
+                    <!-- Column 1 (horizontal, vertical, horizontal, vertical) -->
+                      <div class="image fit">
+                        <a href="detail1.html"><img src="images/pic01.jpg" alt="" /></a>
+                      </div>
+                      <div class="image fit">
+                        <a href="detail1.html"><img src="images/pic02.jpg" alt="" /></a>
+                      </div>
+                      <div class="image fit">
+                        <a href="detail1.html"><img src="images/pic03.jpg" alt="" /></a>
+                      </div>
+                      <div class="image fit">
+                        <a href="detail1.html"><img src="images/pic04.jpg" alt="" /></a>
+                      </div>
 
-                  <!-- Column 2 (vertical, horizontal, vertical, horizontal) -->
-                    <div class="image fit">
-                      <a href="detail1.html"><img src="images/pic06.jpg" alt="" /></a>
-                    </div>
-                    <div class="image fit">
-                      <a href="detail1.html"><img src="images/pic05.jpg" alt="" /></a>
-                    </div>
-                    <div class="image fit">
-                      <a href="detail1.html"><img src="images/pic08.jpg" alt="" /></a>
-                    </div>
-                    <div class="image fit">
-                      <a href="detail1.html"><img src="images/pic07.jpg" alt="" /></a>
-                    </div>
+                    <!-- Column 2 (vertical, horizontal, vertical, horizontal) -->
+                      <div class="image fit">
+                        <a href="detail1.html"><img src="images/pic06.jpg" alt="" /></a>
+                      </div>
+                      <div class="image fit">
+                        <a href="detail1.html"><img src="images/pic05.jpg" alt="" /></a>
+                      </div>
+                      <div class="image fit">
+                        <a href="detail1.html"><img src="images/pic08.jpg" alt="" /></a>
+                      </div>
+                      <div class="image fit">
+                        <a href="detail1.html"><img src="images/pic07.jpg" alt="" /></a>
+                      </div>
 
-                  <!-- Column 3 (horizontal, vertical, horizontal, vertical) -->
-                    <div class="image fit">
-                      <a href="detail1.html"><img src="images/pic09.jpg" alt="" /></a>
-                    </div>
-                    <div class="image fit">
-                      <a href="detail1.html"><img src="images/pic12.jpg" alt="" /></a>
-                    </div>
-                    <div class="image fit">
-                      <a href="detail1.html"><img src="images/pic11.jpg" alt="" /></a>
-                    </div>
-                    <div class="image fit">
-                      <a href="detail1.html"><img src="images/pic10.jpg" alt="" /></a>
-                    </div>
+                    <!-- Column 3 (horizontal, vertical, horizontal, vertical) -->
+                      <div class="image fit">
+                        <a href="detail1.html"><img src="images/pic09.jpg" alt="" /></a>
+                      </div>
+                      <div class="image fit">
+                        <a href="detail1.html"><img src="images/pic12.jpg" alt="" /></a>
+                      </div>
+                      <div class="image fit">
+                        <a href="detail1.html"><img src="images/pic11.jpg" alt="" /></a>
+                      </div>
+                      <div class="image fit">
+                        <a href="detail1.html"><img src="images/pic10.jpg" alt="" /></a>
+                      </div>
 
-                  <!-- Column 4 (vertical, horizontal, vertical, horizontal) -->
-                    <div class="image fit">
-                      <a href="detail1.html"><img src="images/pic13.jpg" alt="" /></a>
-                    </div>
-                    <div class="image fit">
-                      <a href="detail1.html"><img src="images/pic14.jpg" alt="" /></a>
-                    </div>
-                    <div class="image fit">
-                      <a href="detail1.html"><img src="images/pic15.jpg" alt="" /></a>
-                    </div>
-                    <div class="image fit">
-                      <a href="detail1.html"><img src="images/pic16.jpg" alt="" /></a>
-                    </div>
-
+                    <!-- Column 4 (vertical, horizontal, vertical, horizontal) -->
+                      <div class="image fit">
+                        <a href="detail1.html"><img src="images/pic13.jpg" alt="" /></a>
+                      </div>
+                      <div class="image fit">
+                        <a href="detail1.html"><img src="images/pic14.jpg" alt="" /></a>
+                      </div>
+                      <div class="image fit">
+                        <a href="detail1.html"><img src="images/pic15.jpg" alt="" /></a>
+                      </div>
+                      <div class="image fit">
+                        <a href="detail1.html"><img src="images/pic16.jpg" alt="" /></a>
+                      </div>
+                  </div>
+                   <div style="width: 100%; padding-left: 45%"> <img src="/img/mas.png">Ver más </div>
                 </div>
               </div>
             </div>
-            @include('partials.welcome_js')
+            @include('partials.nosotros_js')
         @include('partials.footer')        
     </div>
 </div>

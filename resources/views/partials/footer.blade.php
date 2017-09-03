@@ -43,7 +43,7 @@
                   <input id="inputcontacto" type="text" name="" value="¿Cuál es tu correo?">
                   <input id="inputcontacto" type="text" name="" value="¿A qué teléfono te llamamos?">
                   <input id="inputcontacto" type="text" name="" value="¿Cuál es tu dirección exacta?">
-                  <input id="inputcontacto" type="text" name="" value="Cuéntanos qué necesitas…"></br>
+                  <input id="inputcontacto" type="text" name="" value="Cuéntanos qué necesitas…">
                   <input id="submitcontacto" type="submit" name="">
             </div>            
         </div>

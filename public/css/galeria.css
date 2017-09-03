@@ -1,0 +1,29 @@
+#texto_banner_nosotros p{ margin: 0px }
+#texto_siguenos{ margin-bottom: 0px }
+#texto_nuestros{ width: 35% }
+#box_horarios{ width: 45% }
+#bottom_footer_right{ width: 11% }
+#left_main{ width: 20%; height: 100%; display: inline-block; float: left; padding-top: 2%; padding-left: 2%; color: black }
+#number_año{ width: 30%; border-right: 2px solid black; display: inline-block; height: 300px; float: left; }
+#mes{ width: 68%; display: inline-block; height: 300px }
+@media screen and (max-width: 1680px) {
+
+}
+@media screen and (max-width: 1480px) {
+
+}
+@media screen and (max-width: 1280px) {
+
+}
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 760px) {
+	#imagen_banner_nosotros{ height: 95px; }
+	#number_año{ border: none;  height: auto; float: none; display: block; margin-bottom: 5%}
+	#mes ul{ padding-left: 0px }
+	#number_año{ border-bottom: 2px solid black }
+}

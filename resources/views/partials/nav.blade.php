@@ -12,13 +12,13 @@
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right" id="navbar_right">
                         <li>
-                            <a href="#" id="btn_login" style="margin: 0px; padding: 0px; margin-right: 15px; margin-top: 4%;color: black; letter-spacing: 1px">
+                            <a href="#" id="btn_login" style="margin: 0px; padding: 0px; margin-right: 15px; margin-top: 4%;color: black; letter-spacing: 1px; text-decoration: none">
                                 <img src="/img/iniciosesion.png" style="width: 10px; margin-top: -3px">
                                 <p style="font-size: 12px; font-family: Arial">Inciar Sesión</p>
                             </a>
                         </li>
                         <li>
-                            <a href="#" style="margin: 0px; padding: 0px; margin-right: 15px; margin-top: 4%;color: black; letter-spacing: 1px">
+                            <a href="#" style="margin: 0px; padding: 0px; margin-right: 15px; margin-top: 4%;color: black; letter-spacing: 1px; text-decoration: none">
                                 <img src="/img/registro.png" style="margin-top: -3px">
                                 <p style="font-size: 12px; font-family: Arial">Registrarse</p>
                             </a>
@@ -33,12 +33,12 @@
                         </style>
                         <nav class="mynav">
                           <ul>
-                            <li><a href="/"><p>HOME</p></a></li>
-                            <li><a href="/Nosotros" ><p>NOSOTROS</p></a></li>
-                            <li><a href="/Galería"><p>GALERÍA</p></a></li>
-                            <li><a href="#"><p>AYUDA SOCIAL</p></a></li>
-                            <li><a href="#"><p>CONTACTO</p></a></li>
-                            <li><a href="#"><p>MI CUENTA</p></a></li>
+                            <li><a href="/"><p style="margin-bottom: 5%">HOME</p></a></li>
+                            <li><a href="/Nosotros" ><p style="margin-bottom: 5%">NOSOTROS</p></a></li>
+                            <li><a href="/Galería"><p style="margin-bottom: 5%">GALERÍA</p></a></li>
+                            <li><a href="/Ayuda_s"><p style="margin-bottom: 5%">AYUDA SOCIAL</p></a></li>
+                            <li><a href="/Contacto"><p style="margin-bottom: 5%">CONTACTO</p></a></li>
+                            <li><a href="#"><p style="margin-bottom: 5%">MI CUENTA</p></a></li>
                           </ul>
                         </nav>
                         <span class="target"></span>

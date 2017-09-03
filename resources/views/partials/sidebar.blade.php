@@ -20,19 +20,19 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Galería">
                         <i class="ti-camera"></i>
                         <p>GALERÍA</p>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Ayuda_s">
                         <i class="ti-heart"></i>
                         <p>AYUDA SOCIAL</p>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Contacto">
                         <i class="ti-headphone-alt"></i>
                         <p>CONTACTO</p>
                     </a>
