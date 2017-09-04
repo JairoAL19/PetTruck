@@ -57,7 +57,7 @@
                 <div id="imagen_banner_nosotros"></div>  
                 <div id="texto_banner_nosotros">
                   <p class="animated bounceInUp">NOSOTROS</p>
-                  <div id="subraya_banner_nosotros"></div>    
+                  <div class="animated bounceInUp" id="subraya_banner_nosotros"></div>    
                 </div>
             </div> 
             <div id="mision_vision">
@@ -78,14 +78,14 @@
                 <div id="nuestros_valores_bg"></div>
                 <div id="nuestros_valores_bg_top"></div>                
                 <div id="nuestros_valores_divg">
-                    <p id="nuestros_valores_title">NUESTROS VALORES</p>
-                    <div id="nuestros_valores_subraya"></div>
-                    <img id="solidaridad" src="/img/solidaridad.png">
-                    <img id="compromiso" src="/img/compromiso.png">
-                    <img id="pasion" src="/img/pasion.png">
-                    <img id="integridad" src="/img/solidaridad.png">
-                    <img id="rsocial" src="/img/compromiso.png">
-                    <div id="texto_nuestros_valores">
+                    <p class="logo_animated bounceInLeft" id="nuestros_valores_title">NUESTROS VALORES</p>
+                    <div class="logo_animated bounceInLeft" id="nuestros_valores_subraya"></div>
+                    <img class="animated bounceInUp" id="solidaridad" src="/img/solidaridad.png">
+                    <img class="animated bounceInUp" id="compromiso" src="/img/compromiso.png">
+                    <img class="animated bounceInUp" id="pasion" src="/img/pasion.png">
+                    <img class="animated bounceInUp" id="integridad" src="/img/solidaridad.png">
+                    <img class="animated bounceInUp" id="rsocial" src="/img/compromiso.png">
+                    <div class="animated bounceInUp" id="texto_nuestros_valores">
                       <p id="texto_soli">SOLIDARIDAD</p>
                       <p id="texto_comp">COMPROMISO</p>
                       <p id="texto_pasi">PASIÓN</p>

@@ -59,7 +59,7 @@
                 <div id="imagen_banner_nosotros"></div>  
                 <div id="texto_banner_nosotros">
                   <p class="animated bounceInUp">AYUDA SOCIAL</p>
-                  <div id="subraya_banner_nosotros"></div>    
+                  <div class="animated bounceInUp" id="subraya_banner_nosotros"></div>    
                 </div>
             </div> 
             <div id="voz_animal">

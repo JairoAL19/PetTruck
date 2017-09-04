@@ -5,6 +5,10 @@
 @endsection
 
 @section('main-content')
+<script type="text/javascript">
+    loadImage = new Image();
+    loadImage.src = "/img/nuestros_valores_bg2.jpg";
+</script>
 <link rel="stylesheet" href="/css/welcome.css">
 <link rel="stylesheet" href="/css/footer.css">
 <div class="wrapper">  
