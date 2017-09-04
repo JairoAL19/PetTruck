@@ -56,22 +56,22 @@
             <div id="banner_nosotros">
                 <div id="imagen_banner_nosotros"></div>  
                 <div id="texto_banner_nosotros">
-                  <p>NOSOTROS</p>
+                  <p class="animated bounceInUp">NOSOTROS</p>
                   <div id="subraya_banner_nosotros"></div>    
                 </div>
             </div> 
             <div id="mision_vision">
                 <div id="mision">
-                    <img src="/img/mision.png">
-                    <b><p id="mision_title">MISIÓN</p></b>
-                    <div id="mision_subraya"></div>
-                    <p id="mision_texto">Llevamos felicidad y cuidamos a tu mascota.</p>
+                    <img class="logo_animated bounceInLeft" src="/img/mision.png">
+                    <b><p class="logo_animated bounceInLeft" id="mision_title">MISIÓN</p></b>
+                    <div class="logo_animated bounceInLeft" id="mision_subraya"></div>
+                    <p class="logo_animated bounceInLeft" id="mision_texto">Llevamos felicidad y cuidamos a tu mascota.</p>
                 </div>
                 <div id="vision">
-                    <img src="/img/vision.png">
-                    <b><p id="vision_title">VISIÓN</p></b>
-                    <div id="vision_subraya"></div>
-                    <p id="vision_texto">Ser la primera empresa de servicio veterinario en el Perú.</p>
+                    <img class="logo_animated bounceInRight" src="/img/vision.png">
+                    <b><p class="logo_animated bounceInRight" id="vision_title">VISIÓN</p></b>
+                    <div class="logo_animated bounceInRight" id="vision_subraya"></div>
+                    <p class="logo_animated bounceInRight" id="vision_texto">Ser la primera empresa de servicio veterinario en el Perú.</p>
                 </div>
             </div> 
             <div id="nuestros_valores">

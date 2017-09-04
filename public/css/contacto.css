@@ -1,4 +1,4 @@
-#contacto{ background: white; height: 300px; padding-top: 3% }
+#contacto{ background: white; height: 300px; padding-top: 3%; }
 #contacto_sb1{ border-right: 2px solid #AC0000; width: 50%; color: black; padding-left: 24%; padding-right: 3%; height: 200px; display: inline-block; }
 #contacto_sb2{ width: 47%; color: black; padding-left: 0%; padding-right: 24%; height: 200px; display: inline-block; float: right; }
 #contacto_sb1 p{ margin-bottom: 0px; text-align: center; font-size: 18px; font-weight: 600; letter-spacing: 1px }
@@ -32,3 +32,4 @@ background-color: none; height: 32.5px; text-align: center; font-size: 10px; col
 	#contacto_sb2{ padding-right: 2%; height: 170px }
 	#contacto{ height: 200px }
 }
+		

@@ -58,20 +58,20 @@
             <div id="banner_nosotros">
                 <div id="imagen_banner_nosotros"></div>  
                 <div id="texto_banner_nosotros">
-                  <p>CONTACTO</p>
+                  <p class="animated bounceInUp">CONTACTO</p>
                   <div id="subraya_banner_nosotros"></div>    
                 </div>
             </div>             
             <div id="contacto">
                 <div id="contacto_sb1">
-                    <p>¿QUIERES SER VOLUNTARIO?</p>
-                    <div id="subraya_voluntario"></div>
-                    <input id="input_1" type="text" name="" value="Nombre Completo">
-                    <input id="input_1" type="text" name="" value="Correo Electrónico">
-                    <input id="input_1" type="text" name="" value="Número de Teléfono">
-                    <input id="enviar" type="submit" name="" value=" ">
+                    <p class="logo_animated bounceInLeft">¿QUIERES SER VOLUNTARIO?</p>
+                    <div class="logo_animated bounceInLeft" id="subraya_voluntario"></div>
+                    <input class="logo_animated bounceInLeft" id="input_1" type="text" name="" value="Nombre Completo">
+                    <input class="logo_animated bounceInLeft" id="input_1" type="text" name="" value="Correo Electrónico">
+                    <input class="logo_animated bounceInLeft" id="input_1" type="text" name="" value="Número de Teléfono">
+                    <input class="logo_animated bounceInLeft" id="enviar" type="submit" name="" value=" ">
                 </div>
-                <div id="contacto_sb2">
+                <div id="contacto_sb2" class="logo_animated bounceInRight">
                     <p>TRABAJA CON NOSOTROS</p>
                     <div id="subraya_voluntario"></div>
                     <input id="input_1" type="text" name="" value="Nombre Completo">

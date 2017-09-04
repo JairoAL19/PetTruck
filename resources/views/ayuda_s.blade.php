@@ -58,7 +58,7 @@
             <div id="banner_nosotros">
                 <div id="imagen_banner_nosotros"></div>  
                 <div id="texto_banner_nosotros">
-                  <p>AYUDA SOCIAL</p>
+                  <p class="animated bounceInUp">AYUDA SOCIAL</p>
                   <div id="subraya_banner_nosotros"></div>    
                 </div>
             </div> 
@@ -66,8 +66,7 @@
               <div id="voz_animal_bg1"></div>
               <div id="voz_animal_bg2"></div>
             </div>
-
-            <div id="garantia_pt">
+            <div id="garantia_pt" class="hidemee">
                 <div id="garantia_pt_tittle"><p>GARANTÍA PET TRUCK</p></div>
                 <div id="subraya_gpt"></div>
                 <div id="cuadros">
@@ -109,6 +108,7 @@
                     </div>
                 </div>
             </div>
+            
             <div id="reconocer">
                 <p>¿CÓMO RECONOCER UN PET TRUCK?</p>
                 <div id="subraya_recono"></div>

@@ -57,12 +57,12 @@
             <div id="banner_nosotros">
                 <div id="imagen_banner_nosotros"></div>  
                 <div id="texto_banner_nosotros">
-                  <p>GALERÍA</p>
+                  <p class="animated bounceInUp">GALERÍA</p>
                   <div id="subraya_banner_nosotros"></div>    
                 </div>
             </div> 
             <div>
-              <div id="left_main">
+              <div id="left_main" class="logo_animated bounceInLeft">
                 <div id="2017">
                   <div id="number_año">
                     <a href="#" style="text-decoration: none">2017</a>
@@ -90,7 +90,7 @@
                   </div>
                 </div>
               </div>
-              <div id="main" style="display: inline-block; width: 70%;">
+              <div class="logo_animated bounceInRight" id="main" style="display: inline-block; width: 70%;">
                 <div class="inner">
                   <div class="columns">
 

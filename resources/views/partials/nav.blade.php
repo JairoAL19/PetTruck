@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="/css/nav.css">
 <nav class="navbar navbar-default">
             <div class="container-fluid" style="height: 90px">
                 <div class="navbar-header">
@@ -7,10 +8,10 @@
                         <span class="icon-bar bar2"></span>
                         <span class="icon-bar bar3"></span>
                     </button>
-                    <a class="navbar-brand" id="navbar_brand" href="/" style="padding: 0px"><img style="height: 75px; " src="/img/logo.png"></a>
+                    <a class="navbar-brand" id="navbar_brand" href="/" style="padding: 0px"><img class="logo_animated bounceInLeft" style="height: 75px; " src="/img/logo.png"></a>
                 </div>
                 <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right" id="navbar_right">
+                    <ul class="nav navbar-nav navbar-right logo_animated bounceInRight" id="navbar_right" >
                         <li>
                             <a href="#" id="btn_login" style="margin: 0px; padding: 0px; margin-right: 15px; margin-top: 4%;color: black; letter-spacing: 1px; text-decoration: none">
                                 <img src="/img/iniciosesion.png" style="width: 10px; margin-top: -3px">

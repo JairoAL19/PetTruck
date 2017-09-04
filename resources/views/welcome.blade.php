@@ -104,8 +104,8 @@
                 <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)" style="height: 10px;"></span>
               </div>
             </div>
-            <div id="objetivo">
-                <p style=" color: #EBEBEB; text-align: center;  font-family: sans-serif;">“NUESTRO OBJETIVO ES HACER FELIZ A TU MASCOTA, MIENTRAS FACILITAMOS TU VIDA”</p>
+            <div id="objetivo" >
+                <p class="logo_animated bounceInUp" style=" color: #EBEBEB; text-align: center;  font-family: sans-serif;">“NUESTRO OBJETIVO ES HACER FELIZ A TU MASCOTA, MIENTRAS FACILITAMOS TU VIDA”</p>
             </div>
             <div id="proceso">
                 <div id="proceso_div_2"> 
