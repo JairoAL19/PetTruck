@@ -739,7 +739,7 @@
      */
     var clickNextBind = function(e) {
       e.preventDefault();
-      if (slider.controls.el.hasClass('disabled')) { return; }
+      if (slider.controls.el.hasClass('dada')) { return; }
       // if auto show is running, stop it
       if (slider.settings.auto && slider.settings.stopAutoOnClick) { el.stopAuto(); }
       el.goToNextSlide();
@@ -753,7 +753,7 @@
      */
     var clickPrevBind = function(e) {
       e.preventDefault();
-      if (slider.controls.el.hasClass('disabled')) { return; }
+      if (slider.controls.el.hasClass('dada')) { return; }
       // if auto show is running, stop it
       if (slider.settings.auto && slider.settings.stopAutoOnClick) { el.stopAuto(); }
       el.goToPrevSlide();
@@ -790,7 +790,7 @@
     var clickPagerBind = function(e) {
       var pagerLink, pagerIndex;
       e.preventDefault();
-      if (slider.controls.el.hasClass('disabled')) {
+      if (slider.controls.el.hasClass('dada')) {
         return;
       }
       // if auto show is running, stop it
@@ -876,21 +876,21 @@
      */
     var updateDirectionControls = function() {
       if (getPagerQty() === 1) {
-        slider.controls.prev.addClass('disabled');
-        slider.controls.next.addClass('disabled');
+        slider.controls.prev.addClass('dada');
+        slider.controls.next.addClass('dada');
       } else if (!slider.settings.infiniteLoop && slider.settings.hideControlOnEnd) {
         // if first slide
         if (slider.active.index === 0) {
-          slider.controls.prev.addClass('disabled');
-          slider.controls.next.removeClass('disabled');
+          slider.controls.prev.addClass('dada');
+          slider.controls.next.removeClass('dada');
         // if last slide
         } else if (slider.active.index === getPagerQty() - 1) {
-          slider.controls.next.addClass('disabled');
-          slider.controls.prev.removeClass('disabled');
+          slider.controls.next.addClass('dada');
+          slider.controls.prev.removeClass('dada');
         // if any slide in the middle
         } else {
-          slider.controls.prev.removeClass('disabled');
-          slider.controls.next.removeClass('disabled');
+          slider.controls.prev.removeClass('dada');
+          slider.controls.next.removeClass('dada');
         }
       }
     };
@@ -1076,9 +1076,9 @@
       //for browsers that have implemented pointer events and fire a click after
       //every pointerup regardless of whether pointerup is on same screen location as pointerdown or not
       slider.viewport.on('click', '.bxslider a', function(e) {
-        if (slider.viewport.hasClass('click-disabled')) {
+        if (slider.viewport.hasClass('click-dada')) {
           e.preventDefault();
-          slider.viewport.removeClass('click-disabled');
+          slider.viewport.removeClass('click-dada');
         }
       });
     };
@@ -1091,11 +1091,11 @@
      */
     var onTouchStart = function(e) {
       //disable slider controls while user is interacting with slides to avoid slider freeze that happens on touch devices when a slide swipe happens immediately after interacting with slider controls
-      slider.controls.el.addClass('disabled');
+      slider.controls.el.addClass('dada');
 
       if (slider.working) {
         e.preventDefault();
-        slider.controls.el.removeClass('disabled');
+        slider.controls.el.removeClass('dada');
       } else {
         // record the original position when touch starts
         slider.touch.originalPos = el.position();
@@ -1129,7 +1129,7 @@
       setPositionProperty(slider.touch.originalPos.left, 'reset', 0);
 
       //remove handlers
-      slider.controls.el.removeClass('disabled');
+      slider.controls.el.removeClass('dada');
       slider.viewport.unbind('MSPointerCancel pointercancel', onPointerCancel);
       slider.viewport.unbind('touchmove MSPointerMove pointermove', onTouchMove);
       slider.viewport.unbind('touchend MSPointerUp pointerup', onTouchEnd);
@@ -1183,7 +1183,7 @@
     var onTouchEnd = function(e) {
       slider.viewport.unbind('touchmove MSPointerMove pointermove', onTouchMove);
       //enable slider controls as soon as user stops interacing with slides
-      slider.controls.el.removeClass('disabled');
+      slider.controls.el.removeClass('dada');
       var orig    = e.originalEvent,
       touchPoints = (typeof orig.changedTouches !== 'undefined') ? orig.changedTouches : [orig],
       value       = 0,
