@@ -80,58 +80,65 @@
                 <div id="nuestros_valores_divg">
                     <p class="logo_animated bounceInLeft" id="nuestros_valores_title">NUESTROS VALORES</p>
                     <div class="logo_animated bounceInLeft" id="nuestros_valores_subraya"></div>
-                    <img class="animated bounceInUp" id="solidaridad" src="/img/solidaridad.png">
-                    <img class="animated bounceInUp" id="compromiso" src="/img/compromiso.png">
-                    <img class="animated bounceInUp" id="pasion" src="/img/pasion.png">
-                    <img class="animated bounceInUp" id="integridad" src="/img/solidaridad.png">
-                    <img class="animated bounceInUp" id="rsocial" src="/img/compromiso.png">
-                    <div class="animated bounceInUp" id="texto_nuestros_valores">
-                      <p id="texto_soli">SOLIDARIDAD</p>
-                      <p id="texto_comp">COMPROMISO</p>
-                      <p id="texto_pasi">PASIÓN</p>
-                      <p id="texto_inte">INTEGRIDAD</p>
-                      <p id="texto_rsoc">RESPONSABILIDAD SOCIAL</p>
+                    <div class="animated bounceInUp" style="display: inline-grid; margin-right: 5%; text-align: center;">
+                        <img id="solidaridad" src="/img/solidaridad.png">
+                        <p id="texto_soli">SOLIDARIDAD</p>
+                    </div>
+                    <div class="animated bounceInUp" style="display: inline-grid; margin-right: 5%; text-align: center;">
+                        <img id="solidaridad" src="/img/compromiso.png">
+                        <p id="texto_soli">COMPROMISO</p>
+                    </div>
+                    <div class="animated bounceInUp" style="display: inline-grid; margin-right: 5%; text-align: center;">
+                        <img id="solidaridad" src="/img/pasion.png">
+                        <p id="texto_soli">PASIÓN</p>
+                    </div>
+                    <div class="animated bounceInUp" style="display: inline-grid; margin-right: 5%; text-align: center;">
+                        <img id="solidaridad" src="/img/integridad.png">
+                        <p id="texto_soli">INTEGRIDAD</p>
+                    </div>
+                    <div class="animated bounceInUp" style="display: inline-grid; margin-right: 5%; text-align: center; ">
+                        <img id="solidaridad" src="/img/responsabilidad-social.png">
+                        <p id="texto_soli">RESPONSABILIDAD</br>SOCIAL</p>
                     </div>
                 </div>  
             </div> 
             <div id="porque_elegir">
                 <div id="porque_elegir_bg1"></div>
-                <div id="porque_elegir_bg2"></div>                
-                <div id="porque_elegir_base1"></div>
-                <div id="porque_elegir_base2"></div>
-                <div id="porque_elegir_base3"></div>
-                <div id="porque_elegir_base4"></div>
-
-                <div id="pasion_animal"></div>
-                <div id="tecnologia"></div>
-                <div id="servicio_express"></div>
-                <div id="ayuda"></div>
-
-                <div id="textos_porque_elegir">     
-                        <p id="tittle_porque_e">¿POR QUÉ ELEGIR PET TRUCK?</p>
-                        <div id="subraya_title"></div>
-                        <div id="div_pasion_animal">
-                            <p id="text_pasion_animal">PASIÓN POR</br> LOS ANIMALES</p>
-                            <div id="linea_blanca"></div>
-                            <p id="text_pasion_animal2">Nos interesa que los animales estén cuidados y saludables, por eso tenemos el mejor Staff, los mejores productos y servicios especializados.</p>
-                        </div>
-                        <div id="div_tecnolog">
-                            <p id="text_tecnolog">TECNOLOGÍA Y ACCESIBILIDAD</p>
-                            <div id="linea_blanca"></div>
-                            <p id="text_3">¡Tomar nuestros servicios es súper fácil! Contamos con una aplicacíón móvil y central telefónica las 24 horas del día, solo tienes que programar tu cita y esperar que nuestro camión llegue. Es magia.</p>
-                        </div>
-                        <div id="div_serv_expre">
-                            <p id="text_serv_e">SERVICIO</br>EXPRESS</p>
-                            <div id="linea_blanca"></div>
-                            <p id="text_3">¡Olvidate del tráfico! ¡Que tu engreido se olvide de las horas de espera en jaula y del espantoso transporte! Con nuestro camión ambientado todo se hace en la puerta de tu hogar. </p>
-                        </div>
-                        <div id="div_ayuda">
-                            <p id="text_ayuda">AYUDA A</br>LOS DEMÁS</p>
-                            <div id="linea_blanca"></div>
-                            <p id="text_3">Contratando nuestros servicios no solo ayudas a tu mascota, ¡también ayudas a los que no tienen la misma suerte! Visitamos una vez al mes diferentes albergues para brindar ayuda.</p>
-                        </div>
-
+                <div id="porque_elegir_bg2"></div>
+                <p id="tittle_porque_e">¿POR QUÉ ELEGIR PET TRUCK?</p>
+                <div id="subraya_title"></div>
+                <div id="div_pasion_animal" style="margin-left: 18%">
+                    <div id="porque_elegir_base1">                        
+                    </div>
+                    <img src="/img/pasion-animal.png" style="margin-bottom: 9%; width: 45%">
+                    <p id="text_pasion_animal">PASIÓN POR</br> LOS ANIMALES</p>
+                    <div id="linea_blanca"></div>
+                    <p id="text_pasion_animal2">Nos interesa que los animales estén cuidados y saludables, por eso tenemos el mejor Staff, los mejores productos y servicios especializados.</p>
+                </div>  
+                <div id="div_pasion_animal">
+                    <div id="porque_elegir_base1">                        
+                    </div>
+                    <img src="/img/tecxnologia.png" style="margin-bottom: 9%; width: 40%">
+                    <p id="text_pasion_animal">TECNOLOGÍA Y ACCESIBILIDAD</p>
+                    <div id="linea_blanca"></div>
+                    <p id="text_pasion_animal2">¡Tomar nuestros servicios es súper fácil! Contamos con una aplicacíón móvil y central telefónica las 24 horas del día, solo tienes que programar tu cita y esperar que nuestro camión llegue. Es magia.</p>
+                </div> 
+                <div id="div_pasion_animal">
+                    <div id="porque_elegir_base1">                        
+                    </div>
+                    <img src="/img/express.png" style="margin-bottom: 13%; width: 45%">
+                    <p id="text_pasion_animal">SERVICIO</br> EXPRESS</p>
+                    <div id="linea_blanca"></div>
+                    <p id="text_pasion_animal2">¡Olvidate del tráfico! ¡Que tu engreido se olvide de las horas de espera en jaula y del espantoso transporte! Con nuestro camión ambientado todo se hace en la puerta de tu hogar. </p>
                 </div>
+                <div id="div_pasion_animal">
+                    <div id="porque_elegir_base1">                        
+                    </div>
+                    <img src="/img/ayuda-a-los-demas.png" style="margin-bottom: 9%; width: 29%">
+                    <p id="text_pasion_animal">AYUDA A </br>LOS DEMÁS</p>
+                    <div id="linea_blanca"></div>
+                    <p id="text_pasion_animal2">Contratando nuestros servicios no solo ayudas a tu mascota, ¡también ayudas a los que no tienen la misma suerte! Visitamos una vez al mes diferentes albergues para brindar ayuda</p>
+                </div>      
             </div>
             <div id="nuestros_servicios">
                 <div id="nuestros_servicios_fondo"></div>

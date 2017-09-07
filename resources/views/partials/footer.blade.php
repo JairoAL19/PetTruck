@@ -89,4 +89,18 @@
                         </div>
                   </div>
            </div>
+           <div style="height: 300px; width: 100%; background: #E9E9E9">
+                <p id="texto_siguenos" style="color: black">CONTÁCTANOS</p>
+                <div id="subraya_left" style="border-top: 1px solid black"></div>
+                <div style="text-align: center; margin-top: 3%">
+                    <input id="inputcontacto" type="text" name="" value="¿Cuál es tu nombre completo?">
+                    <input id="inputcontacto" type="text" name="" value="¿Cuál es tu correo?">
+                    <input id="inputcontacto" type="text" name="" value="¿A qué teléfono te llamamos?">
+                    <input id="inputcontacto" type="text" name="" value="¿Cuál es tu dirección exacta?">
+                    <input id="inputcontacto" type="text" name="" value="Cuéntanos qué necesitas…">
+                </div>
+                <div style="text-align: center;">
+                  <input id="boton_enviar"  type="submit" name="" value=" ">
+                </div>
+           </div>
         </div>

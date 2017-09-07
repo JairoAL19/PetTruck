@@ -2354,11 +2354,11 @@ textarea.form-control {
     text-align: left;
     padding-right: 0px;
     padding-left: 0;
-    -webkit-transform: translate3d(-800px, 0, 0);
-    -moz-transform: translate3d(-800px, 0, 0);
-    -o-transform: translate3d(-800px, 0, 0);
-    -ms-transform: translate3d(-800px, 0, 0);
-    transform: translate3d(-800px, 0, 0);
+    -webkit-transform: translate3d(-1200px, 0, 0);
+    -moz-transform: translate3d(-1200px, 0, 0);
+    -o-transform: translate3d(-1200px, 0, 0);
+    -ms-transform: translate3d(-1200px, 0, 0);
+    transform: translate3d(-1200px, 0, 0);
     -webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
     -moz-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
     -o-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
@@ -2444,11 +2444,11 @@ textarea.form-control {
       margin: 10px 0; }
 
   .nav-open .navbar-collapse {
-    -webkit-transform: translate3d(-540px, 0, 0);
-    -moz-transform: translate3d(-540px, 0, 0);
-    -o-transform: translate3d(-540px, 0, 0);
-    -ms-transform: translate3d(-540px, 0, 0);
-    transform: translate3d(-540px, 0, 0); }
+    -webkit-transform: translate3d(-750px, 0, 0);
+    -moz-transform: translate3d(-750px, 0, 0);
+    -o-transform: translate3d(-750px, 0, 0);
+    -ms-transform: translate3d(-750px, 0, 0);
+    transform: translate3d(-750px, 0, 0); }
 
   .nav-open .navbar .container {
     left: 230px; }
@@ -2474,7 +2474,8 @@ textarea.form-control {
     width: 40px;
     height: 40px; 
     float: left;
-    margin-left: 5%
+    margin-left: 0%;
+    margin-top: 2%
   }
 
   .bar1,
@@ -2755,6 +2756,78 @@ textarea.form-control {
     padding: 0px 15px;
     width: 100%; } 
   }
+@media (max-width: 800px) {
+  
+  .off-canvas-sidebar {
+    position: fixed;
+    display: block;
+    top: 0;
+    height: 100%;
+    width: 230px;
+    right: 0;
+    z-index: 1032;
+    visibility: visible;
+    background-color: #999;
+    overflow-y: visible;
+    border-top: none;
+    text-align: left;
+    padding-right: 0px;
+    padding-left: 0;
+    -webkit-transform: translate3d(-1200px, 0, 0);
+    -moz-transform: translate3d(-1200px, 0, 0);
+    -o-transform: translate3d(-1200px, 0, 0);
+    -ms-transform: translate3d(-1200px, 0, 0);
+    transform: translate3d(-1200px, 0, 0);
+    -webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -moz-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -o-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -ms-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1); }
+    
+  .nav-open .navbar-collapse {
+    -webkit-transform: translate3d(-570px, 0, 0);
+    -moz-transform: translate3d(-570px, 0, 0);
+    -o-transform: translate3d(-570px, 0, 0);
+    -ms-transform: translate3d(-570px, 0, 0);
+    transform: translate3d(-570px, 0, 0); }
+
+}
+  @media (max-width: 768px) {
+  
+  .off-canvas-sidebar {
+    position: fixed;
+    display: block;
+    top: 0;
+    height: 100%;
+    width: 230px;
+    right: 0;
+    z-index: 1032;
+    visibility: visible;
+    background-color: #999;
+    overflow-y: visible;
+    border-top: none;
+    text-align: left;
+    padding-right: 0px;
+    padding-left: 0;
+    -webkit-transform: translate3d(-1200px, 0, 0);
+    -moz-transform: translate3d(-1200px, 0, 0);
+    -o-transform: translate3d(-1200px, 0, 0);
+    -ms-transform: translate3d(-1200px, 0, 0);
+    transform: translate3d(-1200px, 0, 0);
+    -webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -moz-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -o-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -ms-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1); }
+    
+  .nav-open .navbar-collapse {
+    -webkit-transform: translate3d(-540px, 0, 0);
+    -moz-transform: translate3d(-540px, 0, 0);
+    -o-transform: translate3d(-540px, 0, 0);
+    -ms-transform: translate3d(-540px, 0, 0);
+    transform: translate3d(-540px, 0, 0); }
+
+  }
   @media (max-width: 500px) {
   .sidebar {
     display: none; }
@@ -2931,17 +3004,18 @@ textarea.form-control {
     display: block;
     position: relative;
     background: #fff;
-    width: 24px;
-    height: 2px;
+    width: 30px;
+    height: 3px;
     border-radius: 1px;
-    margin: 0 auto; }
+    margin: 2px; }
 
   .navbar-header .navbar-toggle {
     margin: 10px 15px 10px 0;
     width: 40px;
     height: 40px; 
     float: left;
-    margin-left: 5%
+    margin-left: 0%;
+    margin-top: 2%
   }
 
   .bar1,

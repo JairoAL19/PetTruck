@@ -5,14 +5,15 @@
 #nuestros_valores_bg_top{ background: black; width: 100%; height: 200px; position: absolute; filter: opacity(0.5); z-index: -2; }
 #nuestros_valores_divg{ width: 100%; height: 350px; padding-top: 2%; padding-left: 20% }
 #nuestros_valores_title{ color: white; margin-top: 0px; font-size: 30px; font-weight: 700; letter-spacing: 3px }
-#nuestros_valores_subraya{ border-top: 2px solid #AC0000; width: 15%; margin-bottom: 3% }
-#solidaridad{ z-index: 1; position: absolute; background: transparent; margin-left: 3% }
+#nuestros_valores_subraya{ border-top: 1.5px solid #AC0000; width: 33%; margin-bottom: 3% }
+#solidaridad{ background: transparent; margin-left: 3% }
 #compromiso{ z-index: 1; position: absolute; background: transparent; margin-left: 15% }
 #pasion{ z-index: 1; position: absolute; background: transparent; margin-left: 27% }
 #integridad{ z-index: 1; position: absolute; background: transparent; margin-left: 39% }
 #rsocial{ z-index: 1; position: absolute; background: transparent; margin-left: 51% }
 #texto_nuestros_valores{ padding-left: 5% }
-#texto_soli{display: inline-block; margin-right: 5%; color: white; margin-top: 13%; font-weight: 700; letter-spacing: 1px }
+#texto_soli{ display: block; color: white; font-weight: 700; letter-spacing: 1px; margin-top: 13% }
+#texto_soli2{ display: block; color: white; font-weight: 700; letter-spacing: 1px; margin-top: 13%; width: 50%; margin-left: 25% }
 #texto_comp{ display: inline-block; margin-right: 6%; color: white; margin-top: 13%; font-weight: 700; letter-spacing: 1px }
 #texto_pasi{ display: inline-block; margin-right: 8%; color: white; margin-top: 13%; font-weight: 700; letter-spacing: 1px }
 #texto_inte{ display: inline-block; color: white; margin-top: 13%; font-weight: 700; letter-spacing: 1px }
@@ -23,7 +24,7 @@
 #porque_elegir_base2{width: 13%; background: url('/img/bg3.png'); background-repeat: no-repeat; position: absolute; z-index: -1; filter: opacity(0.6); height: 45%; margin-top: 8%; background-size: 100%; margin-left: 38%; height: 40%}
 #porque_elegir_base3{width: 13%; background: url('/img/bg3.png'); background-repeat: no-repeat; position: absolute; z-index: -1; filter: opacity(0.6); height: 45%; margin-top: 8%; background-size: 100%; margin-left: 54%; height: 40%}
 #porque_elegir_base4{width: 13%; background: url('/img/bg3.png'); background-repeat: no-repeat; position: absolute; z-index: -1; filter: opacity(0.6); height: 45%; margin-top: 8%; background-size: 100%; margin-left: 71%; height: 40%}
-#pasion_animal{background: url('/img/pasion-animal.png'); width: 5%; background-repeat: no-repeat; background-size: 100%; height: 30%; position: absolute; z-index: -1; margin-left: 24%; margin-top: 8.5%}
+#pasion_animal{background: url('/img/pasion-animal.png'); width: 5%; background-repeat: no-repeat; background-size: 100%; height: 30%; margin-left: 24%; margin-top: 8.5%}
 #tecnologia{background: url('/img/tecxnologia.png'); width: 4.5%; background-repeat: no-repeat; background-size: 100%; height: 30%; position: absolute; z-index: -1; margin-left: 42%; margin-top: 8.5%}
 #servicio_express{background: url('/img/tecxnologia.png'); width: 4.5%; background-repeat: no-repeat; background-size: 100%; height: 30%; position: absolute; z-index: -1; margin-left: 58%; margin-top: 8.5%}
 #ayuda{background: url('/img/ayuda-a-los-demas.png'); width: 3.5%; background-repeat: no-repeat; background-size: 100%; height: 30%; position: absolute; z-index: -1; margin-left: 76%; margin-top: 8%}
@@ -56,8 +57,8 @@
 }
 
 @media screen and (max-width: 1680px) {#texto_comp{ margin-right: 6%; } #div_pasion_animal{ float: left; } #div_tecnolog{ float: left; margin-left: 5% } #div_serv_expre{ float: left; margin-left: 3% }}
-@media screen and (max-width: 1480px) {#solidaridad{ width: 130px; } #compromiso{ width: 130px; }#pasion{ width: 130px; } #integridad{ width: 130px; } #rsocial{ width: 130px; }	#texto_nuestros_valores{ padding-left: 4% }	#texto_soli{ margin-right: 4% }	#texto_pasi{ margin-right: 7% } #div_pasion_animal{	float: left;}#div_tecnolog{	float: left;margin-left: 5%;}#div_serv_expre{float: left;}#div_ayuda{float: left;}#tittle_porque_e{padding-top: 2.5%;margin-left: 34%;}#div_serv_expre{margin-left: 3%}#div_ayuda{margin-left: 4%}#text_pasion_animal2{font-size: 12px;}#porque_elegir_base1{ height: 40% } #porque_elegir_base2{ height: 40% } #porque_elegir_base3{ height: 40% } #porque_elegir_base4{ height: 40% }}
-@media screen and (max-width: 1280px) {#texto_soli{ margin-top: 16%; font-size: 13px; margin-left: 1%; margin-right: 3%}	p{ font-size: 14px } #texto_rsoc{ margin-top: 16%; font-size: 13px; margin-right: 27.5%} #nuestros_valores_title{ font-size: 28px; } #solidaridad{ width: 120px; } #compromiso{ width: 120px; }	#pasion{ width: 120px; } #integridad{ width: 120px;	} #rsocial{	width: 120px; }	#texto_pasi{ margin-right: 7%; font-size: 13px; margin-left: 0.5%} #nuestros_valores{ height: 335px; } #nuestros_valores_title{ margin-top: 11px } #nuestros_valores_subraya{ margin-bottom: 5%; }#text_pasion_animal2{font-size: 10px;}#text_3{font-size: 9px;}#tittle_porque_e{font-size: 21px;}#texto_comp{font-size: 13px;	margin-right: 5%;}#texto_inte{font-size: 13px;}#text_pasion_animal{font-size: 12px;}#porque_elegir{height: 65%;}#porque_elegir_bg1{height: 65%;}#porque_elegir_bg2{	height: 60%;}#porque_elegir_base1{ height: 45% } #porque_elegir_base2{ height: 45% } #porque_elegir_base3{ height: 45% } #porque_elegir_base4{ height: 45% }#subraya_title{margin-bottom: 1%}}
+@media screen and (max-width: 1480px) {#solidaridad{ width: 130px; } #compromiso{ width: 130px; }#pasion{ width: 130px; } #integridad{ width: 130px; } #rsocial{ width: 130px; }	#texto_nuestros_valores{ padding-left: 4% }	#texto_pasi{ margin-right: 7% } #div_pasion_animal{	float: left;}#div_tecnolog{	float: left;margin-left: 5%;}#div_serv_expre{float: left;}#div_ayuda{float: left;}#tittle_porque_e{padding-top: 2.5%;margin-left: 34%;}#div_serv_expre{margin-left: 3%}#div_ayuda{margin-left: 4%}#text_pasion_animal2{font-size: 12px;}#porque_elegir_base1{ height: 40% } #porque_elegir_base2{ height: 40% } #porque_elegir_base3{ height: 40% } #porque_elegir_base4{ height: 40% }}
+@media screen and (max-width: 1280px) {p{ font-size: 14px } #texto_rsoc{ margin-top: 16%; font-size: 13px; margin-right: 27.5%} #nuestros_valores_title{ font-size: 28px; } #solidaridad{ width: 120px; } #compromiso{ width: 120px; }	#pasion{ width: 120px; } #integridad{ width: 120px;	} #rsocial{	width: 120px; }	#texto_pasi{ margin-right: 7%; font-size: 13px; margin-left: 0.5%} #nuestros_valores{ height: 335px; } #nuestros_valores_title{ margin-top: 11px } #nuestros_valores_subraya{ margin-bottom: 5%; }#text_pasion_animal2{font-size: 10px;}#text_3{font-size: 9px;}#tittle_porque_e{font-size: 21px;}#texto_comp{font-size: 13px;	margin-right: 5%;}#texto_inte{font-size: 13px;}#text_pasion_animal{font-size: 12px;}#porque_elegir{height: 65%;}#porque_elegir_bg1{height: 65%;}#porque_elegir_bg2{	height: 60%;}#porque_elegir_base1{ height: 45% } #porque_elegir_base2{ height: 45% } #porque_elegir_base3{ height: 45% } #porque_elegir_base4{ height: 45% }#subraya_title{margin-bottom: 1%}}
 @media screen and (max-width: 1024px) {#porque_elegir_base1{ height: 20% } #porque_elegir_base2{ height: 20% } #porque_elegir_base3{ height: 20% } #porque_elegir_base4{ height: 20% }	#mision_vision{	height: 235px; } #mision_subraya{ width: 13%; } #vision_subraya{ width: 13%; } #nuestros_valores_divg{ padding-left: 17%; } #solidaridad{ margin-left: 0px; } #compromiso{ margin-left: 13.5% } #integridad{ margin-left: 39.5% } #rsocial{ margin-left: 52% } #texto_soli{ margin-top: 16% } #texto_nuestros_valores{ padding-left: 1% } p{ font-size: 13px; } #texto_rsoc{ margin-right: 26.5%; margin-top: 16%; }#porque_elegir{height: 29%}#porque_elegir_bg2{height: 29%}#porque_elegir_bg1{height: 29%}#tittle_porque_e{margin-left: 24%;}#subraya_title{	margin-left: 43%}#tittle_porque_e{padding-top: 2%}#text_pasion_animal2{font-size: 10px;}}
 @media screen and (max-width: 768px) {#mision_vision{ height: 210px; } #vision_texto{ font-size: 90%; } #mision_texto{ font-size: 90%; } #vision img{ width: 65px; } #mision img{ width: 63px; } #vision_title{ font-size: 22px; } #mision_title{ font-size: 22px; } #nuestros_valores_title{ margin-top: 9px; } #nuestros_valores_bg_top{ height: 170px; } #solidaridad{ width: 100px; } #compromiso{ width: 100px; margin-left: 15% } #pasion{ width: 100px; margin-left: 29.5% } #integridad{ width: 100px; margin-left: 44%} #rsocial{ width: 100px; margin-left: 58.5%; }p{ font-size: 9px; } #nuestros_valores_divg{padding-left: 14% } #texto_nuestros_valores{ padding-left: 0%; } #texto_soli{ margin-top: 17%; margin-right: 4%; } #texto_comp{ margin-right: 5%; } #texto_pasi{ margin-right: 6%;}#texto_rsoc{ margin-right: 22.5%; margin-top: 17% } #nuestros_valores{ height: 258px; } #nuestros_valores_bg{ height: 258px }#text_pasion_animal2{font-size: 7px}#text_3{font-size: 6.5px;}#tittle_porque_e{padding-top: 1%;font-size: 24px}#div_pasion_animal{margin-top: 8%}#div_tecnolog{margin-top: 8%}#div_serv_expre{margin-top: 8%}#div_ayuda{margin-top: 8%;}#texto_soli{font-size: 11px}#texto_pasi{font-size: 11px}#texto_comp{	font-size: 11px}#texto_inte{font-size: 11px}#texto_rsoc{font-size: 11px} #porque_elegir_base1{ height: 19% } #porque_elegir_base2{ height: 19% } #porque_elegir_base3{ height: 19% } #porque_elegir_base4{ height: 19% }#text_pasion_animal{font-size: 10px}}
 @media screen and (max-width: 760px) {#mision img{ width: 53px; margin-right: 5%; } #vision img{ width: 55px; margin-left: 4%; } #vision_title{ margin-top: 3.5%; font-size: 18px; margin-left: 4%; } #mision_title{ margin-top: 3.5%; font-size: 18px; margin-right: 5%; } #mision_subraya{ width: 28%; margin-right: 6%; } #vision_subraya{ width: 28%; margin-left: 4%; } #mision_texto{ font-size: 75%; margin-right: 5%; } #vision_texto{ font-size: 75%; margin-left: 4%; } #mision_vision{ height: 170px; } #nuestros_valores_title{ font-size: 12px; margin-top: 0px; margin-bottom: 2% } #nuestros_valores_bg_top{ height: 11%; } #nuestros_valores_subraya{ margin-bottom: 1%; } #nuestros_valores_divg{ padding-left: 10%; } #nuestros_valores_bg{ height: 19%; } p{ font-size: 37.5%; } #texto_nuestros_valores{ padding-left: 1%; } #nuestros_valores_divg{ height: 19% } #texto_soli{ margin-top: 18%; margin-right: 3%; } #texto_comp{ margin-right: 5%; } #texto_pasi{ margin-right: 5%; } #texto_rsoc{ margin-right: 20.5%; margin-top: 18%; } #nuestros_valores{ height: 19%; } #solidaridad{ width: 14%; } #compromiso{ width: 14%; margin-left: 15.5% } #pasion{ width: 14%; margin-left: 31% } #integridad{ width: 14%; margin-left: 46.5%} #rsocial{ width: 14%; margin-left: 62%; }#tittle_porque_e{font-size: 11px;padding-top: 2%;margin-bottom: 1px;margin-left: 9%;}#subraya_title{margin-left: 12%;}#porque_elegir{height: 21%;}#porque_elegir_bg1{height: 21%;}#porque_elegir_bg2{height: 21%;}#div_pasion_animal p{font-size: 25.5%;}#text_tecnolog{font-size: 25.5%}#text_serv_e{font-size: 25.5%;}#text_ayuda{font-size: 25.5%;}#linea_blanca{border-top: 1px solid white;}#text_pasion_animal2{font-size: 4px}#text_3{	font-size: 4px}#texto_nuestros_valores{	padding-left: 0px;}#texto_soli{	font-size: 40%; margin-left: -3px; margin-right: 1%;}#texto_comp{font-size: 40%; margin-right: 3%;}#texto_pasi{	font-size: 40%}#texto_inte{	font-size: 40%}#texto_rsoc{	font-size: 40%;} #porque_elegir_base1{ height: 17% } #porque_elegir_base2{ height: 17% } #porque_elegir_base3{ height: 17% } #porque_elegir_base4{ height: 17% }#porque_elegir{	height: 24%;}#porque_elegir_bg1{height: 24%;}#tittle_porque_e{font-size: 10px}#text_tecnolog{font-size: 20%;}#porque_elegir_base1{margin-left: 9%;width: 20%}#pasion_animal{margin-left: 17%;}#div_pasion_animal{margin-left: 9%; width: 20%; height: 100px;}#porque_elegir_base2{margin-left: 31%; width: 20%}#div_tecnolog{margin-left: 2.5%; width: 20%; height: 100px;}#tecnologia{	margin-left: 38%}#subraya_title{margin-bottom: 3%}#porque_elegir_base3{	margin-left: 53%; width: 20%}#porque_elegir_base4{margin-left: 75%; width: 20%}#div_serv_expre{	margin-left: 2%; width: 19%; height: 100px;}#div_ayuda{	margin-left: 2%; width: 19%; height: 100px;}#servicio_express{margin-left: 61%}#ayuda{margin-left: 83%}}
@@ -160,5 +161,52 @@
 	#div_testimonios_2 p{ margin-left: 34% }
 	#div_testimonios{ height: 215px; }
 	.bx-wrapper .bx-controls-direction a{ margin-right: -12px; }
-
 }
+#porque_elegir{ height: 450px }
+#porque_elegir_bg1{ height: 450px }
+#porque_elegir_bg2{ height: 400px }
+#div_pasion_animal{ margin-left: 0%; margin-top: 0%; text-align: center; margin-right: 4%; display: inline-table}
+#porque_elegir_base1{ margin: 0%; height: 280px }
+#pasion_animal{ margin: 0px; width: 45%; height: 90px; margin: 0px}
+#tittle_porque_e{ padding-top: 3% }
+#subraya_title{ width: 33%; margin-left: 36%; margin-bottom: 2% }
+@media screen and (max-width: 2200px) {
+	#nuestros_valores_subraya{ width: 23% }
+	#nuestros_valores_divg{ padding-left: 25%; padding-top: 1% }
+	#subraya_title{ width: 26% }
+	#porque_elegir{ height: 500px }
+	#porque_elegir_bg1{ height: 500px }
+	#porque_elegir_bg2{ height: 450px }
+	#porque_elegir_base1{ height: 315px }
+}
+ @media screen and (max-width: 1780px) {
+ 	#nuestros_valores_divg{ padding-left: 21%; padding-top: 1.5%; }
+ 	#subraya_title{ width: 33% }
+ }
+ @media screen and (max-width: 1480px) {
+ 	#nuestros_valores_divg{ padding-left: 19%; padding-top: 1.5%; }
+ 	#subraya_title{ width: 34% }
+ }
+ @media screen and (max-width: 1280px) {
+ 	#nuestros_valores_divg{ padding-left: 17%; padding-top: 1.5%; }
+ 	#subraya_title{ width: 29%; }
+ 	#porque_elegir_base1{ height: 280px }
+ 	#porque_elegir{ height: 450px }
+ 	#porque_elegir_bg1{ height: 450px }
+	#porque_elegir_bg2{ height: 400px }
+ }
+ @media screen and (max-width: 1024px) {
+ 	#solidaridad{ width: 113px; }
+ 	#nuestros_valores_divg{ padding-left: 14% }
+ }
+ @media screen and (max-width: 980px) {
+ 	#solidaridad{ width: 80px; }
+ 	#nuestros_valores_divg{ padding-top: 4% }
+ }
+ @media screen and (max-width: 768px) {
+ 	#porque_elegir{ height: 300px}
+ 	#porque_elegir_bg1{ height: 300px; background-repeat: no-repeat; }
+	#porque_elegir_bg2{ height: 250px; background-repeat: no-repeat; }
+	#porque_elegir_base1{ height: 190px }
+	#subraya_title{ width: 35% }
+ }

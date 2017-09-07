@@ -2,7 +2,7 @@
 <nav class="navbar navbar-default">
             <div class="container-fluid" style="height: 90px">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle">
+                    <button type="button" class="navbar-toggle logo_animated bounceInRight">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar bar1"></span>
                         <span class="icon-bar bar2"></span>

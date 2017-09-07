@@ -418,6 +418,12 @@
 	}
 }
 @media screen and (max-width: 760px) {
+	#boton_enviar{
+		width: 18% !important;
+		margin-top: 3% !important;
+		height: 26px !important;
+		margin-left: 0%;
+	}
 	#mobile_footer{
 		display: block;
 	}
@@ -514,8 +520,8 @@
 		height: 54px;
 	}
 	#inputcontacto{
-		font-size: 6px;
-		margin-bottom: 0px;
+		font-size: 11px;
+		margin-bottom: 8px;
 	}
 	#footer_pg_right p{
 		font-size: 11px;
@@ -557,5 +563,18 @@
 	#bottom_footer_right{
 		width: 24%;
 	}
+	
+}
+@media screen and (max-width: 375px) {
 
+}
+@media screen and (max-width: 360px) {
+	#boton_enviar{
+		height: 24px !important; 
+	}
+}
+@media screen and (max-width: 320px) {
+	#boton_enviar{
+		height: 21px !important; 
+	}
 }

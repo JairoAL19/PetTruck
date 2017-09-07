@@ -40,7 +40,12 @@ h1 {
     font-family: arial;
     margin-top: -3px;
     font-weight: 500;
-}.mynav a  p{
+}
+.mynav a:hover{
+    color: #8E0E00
+}
+
+.mynav a  p{
     margin-top: -3px;
     font-weight: 600;
     font-size: 13px;
@@ -232,6 +237,16 @@ h1 {
     #div_testimonios_4{
         display: none
     }
+    #navbar_brand{
+        margin: 0 !important;
+    }
+    .navbar-header{
+        margin-left: 19% !important;
+        margin-top: 0.5%;
+    }
+    .mynav{
+        width: 90%
+    }
     @media screen and (max-width: 2200px) {
         #sidebar_mobile{
             display: none;
@@ -280,11 +295,11 @@ h1 {
             padding-top: 0%; 
         }
         #div_div_2{
-            width: 13%; 
+            width: 15%; 
             margin-left: 20.5%; 
         }
         #div_div_3{
-            width: 10%; 
+            width: 12%; 
             margin-left: 0%; 
             padding-top: 0px
         }
@@ -393,11 +408,11 @@ h1 {
             padding-top: 0%; 
         }
         #div_div_2{
-            width: 13%; 
+            width: 19%; 
             margin-left: 20.5%; 
         }
         #div_div_3{
-            width: 10%; 
+            width: 12%; 
             margin-left: 0%; 
             padding-top: 0px
         }
@@ -447,7 +462,7 @@ h1 {
         }
         #div_testimonios_3{
             width: 18%;
-            margin-left: 29%
+            margin-left: 30%
         }
     }
     @media screen and (max-width: 1480px) {
@@ -498,11 +513,11 @@ h1 {
             padding-top: 0%; 
         }
         #div_div_2{
-            width: 13%; 
+            width: 22%; 
             margin-left: 20.5%; 
         }
         #div_div_3{
-            width: 10%; 
+            width: 13%; 
             margin-left: 0%; 
             padding-top: 0px
         }
@@ -589,7 +604,7 @@ h1 {
         padding-top: 3%; 
         }
         #div_div_2{
-            width: 13%; 
+            width: 20%; 
             margin-left: 20.5%; 
         }
         #proceso_div_2{            
@@ -618,7 +633,7 @@ h1 {
             margin-left: 35%
         }
         #div_testimonios_3{
-            margin-left: 34%;
+            margin-left: 35%;
         }
         #img_testimonio{            
             width: 125px; 
@@ -636,6 +651,12 @@ h1 {
         }
         #slide_b22{
             width: 310px; padding-left: 10%
+        }
+        .navbar-header{
+            margin-left: 12% !important;
+        }
+        .mynav{
+            width: 100%;
         }
     }
     @media screen and (max-width: 1024px) {
@@ -731,7 +752,27 @@ h1 {
         #boton_enviar{
             height: 20px !important
         }
-
+        .navbar-header{
+            margin-left: 8% !important;
+            margin-top: 0.5%;
+        }
+    }
+    @media screen and (max-width: 980px) {
+        #div_galeria_3{
+            margin-left: 1.5%;
+        }
+        #div_testimonios_2{
+            margin-left: 2%;
+        }
+        #div_testimonios{
+            height: 265px
+        }
+        #div_testimonios_2 p{
+            margin-left: 41%;
+        }
+        #div_testimonios_3{
+            margin-left: 40%;
+        }
     }
     @media screen and (max-width: 768px) {
         #sidebar_mobile{
@@ -740,10 +781,13 @@ h1 {
         #navbar_brand{
             margin-left: 0%;
             float: right;
-            margin-right: 5%;
+            margin-right: 5% !important;
+        }
+        #navbar_brand img{
+            margin-top: 5%;
         }
         .navbar-toggle{
-            margin-top: 6% !important;
+            margin-top: 4% !important;
         }
         .navbar_ne{
             display: none;
@@ -1021,6 +1065,9 @@ h1 {
         }
         #web_footer{
             display: none;
+        }
+        .navbar-header{
+            margin-left: 0% !important; 
         }
     }
     @media screen and (max-width: 375px) {
