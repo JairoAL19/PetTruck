@@ -13,7 +13,8 @@
                                     if (links[i].parentNode.classList.contains("active")) {
                                       links[i].parentNode.classList.remove("active");
                                     }
-                                    links[i].style.opacity = "0.25";
+                                    links[i].style.opacity = "0.65";
+                                    links[i].style.color = "black";
                                   }
 
                                   this.parentNode.classList.add("active");
@@ -26,13 +27,14 @@
                                   var top = this.getBoundingClientRect().top;
                                   var color = colors[Math.floor(Math.random() * colors.length)];
 
-                                  target.style.width = width + "px";
+                                  target.style.width = width-25 + "px";
                                   target.style.height = height + "1px";
                                   target.style.left = left + "px";
                                   target.style.top = top + "px";
                                   target.style.borderColor = color;
                                   target.style.borderBottom = "2px solid black";
                                   target.style.transform = "none";
+                                  target.style.marginLeft = "12.5px";
                                 }
                               }
 

@@ -114,7 +114,8 @@
                     <p id="text_pasion_animal">PASIÓN POR</br> LOS ANIMALES</p>
                     <div id="linea_blanca"></div>
                     <p id="text_pasion_animal2">Nos interesa que los animales estén cuidados y saludables, por eso tenemos el mejor Staff, los mejores productos y servicios especializados.</p>
-                </div>  
+                </div>                
+                <div id="divisor"></div>  
                 <div id="div_pasion_animal">
                     <div id="porque_elegir_base1">                        
                     </div>
@@ -123,6 +124,7 @@
                     <div id="linea_blanca"></div>
                     <p id="text_pasion_animal2">¡Tomar nuestros servicios es súper fácil! Contamos con una aplicacíón móvil y central telefónica las 24 horas del día, solo tienes que programar tu cita y esperar que nuestro camión llegue. Es magia.</p>
                 </div> 
+                <div id="divisor"></div>  
                 <div id="div_pasion_animal">
                     <div id="porque_elegir_base1">                        
                     </div>
@@ -131,6 +133,7 @@
                     <div id="linea_blanca"></div>
                     <p id="text_pasion_animal2">¡Olvidate del tráfico! ¡Que tu engreido se olvide de las horas de espera en jaula y del espantoso transporte! Con nuestro camión ambientado todo se hace en la puerta de tu hogar. </p>
                 </div>
+                <div id="divisor"></div>  
                 <div id="div_pasion_animal">
                     <div id="porque_elegir_base1">                        
                     </div>

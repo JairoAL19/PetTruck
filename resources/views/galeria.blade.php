@@ -61,7 +61,7 @@
                   <div class="animated bounceInUp" id="subraya_banner_nosotros"></div>    
                 </div>
             </div> 
-            <div>
+            <div style="background: white">
               <div id="left_main" class="logo_animated bounceInLeft">
                 <div id="2017">
                   <div id="number_año">
@@ -69,18 +69,18 @@
                   </div>
                   <div id="mes">
                     <ul style="list-style:none">
-                      <li>Enero</li>
-                      <li>Febrero</li>
-                      <li>Marzo</li>
-                      <li>Abril</li>
-                      <li>Mayo</li>
-                      <li>Junio</li>
-                      <li>Julio</li>
-                      <li>Agosto</li>
-                      <li>Septiembre</li>
-                      <li>Octubre</li>
-                      <li>Noviembre</li>
-                      <li>Diciembre</li>
+                      <li>ENERO</li>
+                      <li>FEBRERO</li>
+                      <li>MARZO</li>
+                      <li>ABRIL</li>
+                      <li>MAYO</li>
+                      <li>JUNIO</li>
+                      <li>JULIO</li>
+                      <li>AGOSTO</li>
+                      <li>SEPTIEMBRE</li>
+                      <li>OCTUBRE</li>
+                      <li>NOVIEMBRE</li>
+                      <li>DICIEMBRE</li>
                     </ul>
                   </div>
                 </div>

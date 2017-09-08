@@ -18,7 +18,7 @@
 #texto_pasi{ display: inline-block; margin-right: 8%; color: white; margin-top: 13%; font-weight: 700; letter-spacing: 1px }
 #texto_inte{ display: inline-block; color: white; margin-top: 13%; font-weight: 700; letter-spacing: 1px }
 #texto_rsoc{ display: inline-block; color: white; margin-top: 13%; font-weight: 700; letter-spacing: 1px; width: 10%; float: right; margin-right: 28.5%; text-align: center; }
-#porque_elegir{	height: 60%;}#porque_elegir_bg1{width: 100%; height: 60%; background: url('/img/perro2.png'); background-size: 100%; position: absolute; z-index: -2}
+#porque_elegir{	height: 60%;}#porque_elegir_bg1{width: 100%; height: 60%; background: url('/img/perro2.png'); background-size: 100%; position: absolute; z-index: -2; background-repeat: no-repeat;}
 #porque_elegir_bg2{width: 100%; height: 55%; background: url('/img/perro2.png'); background-size: 100%; position: absolute; z-index: -2; filter: blur(3px);}
 #porque_elegir_base1{width: 13%; background: url('/img/bg3.png'); background-repeat: no-repeat; position: absolute; z-index: -1; filter: opacity(0.6); height: 45%; margin-top: 8%; background-size: 100%; margin-left: 20%; height: 40%}
 #porque_elegir_base2{width: 13%; background: url('/img/bg3.png'); background-repeat: no-repeat; position: absolute; z-index: -1; filter: opacity(0.6); height: 45%; margin-top: 8%; background-size: 100%; margin-left: 38%; height: 40%}
@@ -66,9 +66,9 @@
 
 /*NUESTROS SERVICIOS*/
 
-#nuestros_servicios{ height: 175%; }
-#nuestros_servicios_fondo{ height: 175%;width: 100%; background: url('/img/perro3.jpg'); position: absolute; z-index: -3; filter: blur(8px); }
-#nuestros_servicios_fondo_degra{ height: 175%;width: 100%; background: rgb(232,168,71); background: -moz-linear-gradient(top, rgb(232,168,71) 0%, rgb(0,0,0) 71%); background: -webkit-linear-gradient(top, rgb(232,168,71) 0%,rgb(0,0,0) 71%); background: linear-gradient(to bottom, rgb(232,168,71) 0%,rgb(0,0,0) 71%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8a847', endColorstr='#000000',GradientType=0 ); filter: opacity(0.8); position: absolute; z-index: -2 }
+#nuestros_servicios{ height: 1305px; }
+#nuestros_servicios_fondo{ height: 1305px;width: 100%; background: url('/img/perro3.jpg'); position: absolute; z-index: -3; filter: blur(8px); }
+#nuestros_servicios_fondo_degra{ height: 1305px;width: 100%; background: rgb(232,168,71); background: -moz-linear-gradient(top, rgb(232,168,71) 0%, rgb(0,0,0) 71%); background: -webkit-linear-gradient(top, rgb(232,168,71) 0%,rgb(0,0,0) 71%); background: linear-gradient(to bottom, rgb(232,168,71) 0%,rgb(0,0,0) 71%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8a847', endColorstr='#000000',GradientType=0 ); filter: opacity(0.8); position: absolute; z-index: -2 }
 #ns_text{ height: 100%; width: 100%; text-align: center; }
 #ns_tittle{ width: 100%; }
 #ns_tittle p { color: white; margin-top: 0px; font-size: 30px; font-weight: 700; letter-spacing: 3px; padding-top: 2%; }
@@ -100,9 +100,9 @@
 
 }
 @media screen and (max-width: 1480px) {
-	#nuestros_servicios{ height: 190%; }
-	#nuestros_servicios_fondo{ height: 190%; }
-	#nuestros_servicios_fondo_degra{ height: 190%; }
+	#nuestros_servicios{ height: 1215px; }
+	#nuestros_servicios_fondo{ height: 1215px; }
+	#nuestros_servicios_fondo_degra{ height: 1215px; }
 	#ns_div1{ height: 21% }
 	#div_testimonios_2{ margin-left: 13% }
 	#div_testimonios_2 p { margin-left: 33% }
@@ -120,10 +120,23 @@
 	#div_testimonios_3_p5{ font-size: 13px !important; margin-left: 11% !important; width: 75% !important; text-align: center !important; }
 	#div_testimonios{ height: 300px }
 }
+
+@media screen and (max-width: 1080px) {
+	#porque_elegir{ height: 400px !important }
+	#solidaridad{ width: 110px }
+	#nuestros_valores_divg{ padding-top: 2% }
+	#nuestros_valores{ height: 280px }
+	#nuestros_valores_bg{ height: 300px }
+	#nuestros_valores_bg_top{ height: 180px }
+	#nuestros_valores_subraya{ width: 44% }
+	#div_pasion_animal{ width: 15% }
+	#porque_elegir_base1{ width: 15% }
+	#div_testimonios_2{ margin-left: 3% }
+	#divisor{ height: 280px !important}
+	#porque_elegir_bg1{ height: 400px !important }
+	#porque_elegir_bg2{ height: 350px !important }
+}
 @media screen and (max-width: 1024px) {
-	#nuestros_servicios{ height: 73% }
-	#nuestros_servicios_fondo{ height: 73% }
-	#nuestros_servicios_fondo_degra{ height: 73%; }
 	#ns_div1{ height: 21% }
 	#div_testimonios_2 p{ margin-left: 35% }
 	#div_testimonios_3{ margin-left: 37% }
@@ -165,11 +178,12 @@
 #porque_elegir{ height: 450px }
 #porque_elegir_bg1{ height: 450px }
 #porque_elegir_bg2{ height: 400px }
-#div_pasion_animal{ margin-left: 0%; margin-top: 0%; text-align: center; margin-right: 4%; display: inline-table}
+#div_pasion_animal{ margin-left: 0%; margin-top: 0%; text-align: center; margin-right: 2%; display: inline-table}
 #porque_elegir_base1{ margin: 0%; height: 280px }
 #pasion_animal{ margin: 0px; width: 45%; height: 90px; margin: 0px}
 #tittle_porque_e{ padding-top: 3% }
 #subraya_title{ width: 33%; margin-left: 36%; margin-bottom: 2% }
+#divisor{ height:  315px; border-right: 1px solid white; display: inline-block;  float: left; margin-right: 2%}
 @media screen and (max-width: 2200px) {
 	#nuestros_valores_subraya{ width: 23% }
 	#nuestros_valores_divg{ padding-left: 25%; padding-top: 1% }

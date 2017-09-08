@@ -15,7 +15,7 @@
                         <li>
                             <a href="#" id="btn_login" style="margin: 0px; padding: 0px; margin-right: 15px; margin-top: 4%;color: black; letter-spacing: 1px; text-decoration: none">
                                 <img src="/img/iniciosesion.png" style="width: 10px; margin-top: -3px">
-                                <p style="font-size: 12px; font-family: Arial">Inciar Sesión</p>
+                                <p style="font-size: 12px; font-family: Arial">Iniciar Sesión</p>
                             </a>
                         </li>
                         <li>

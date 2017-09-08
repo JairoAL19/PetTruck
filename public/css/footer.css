@@ -62,7 +62,7 @@
 	padding-top: 3%; 
 	font-weight: 600; 
 	letter-spacing: 2px; 
-	font-family: lucida Sans Unicode;
+	font-family: Coco-bold;
 }
 #subraya_left{
 	border-top: 2px solid white; 
@@ -91,7 +91,7 @@
 #email_web{
 	margin-top: 2%; 
 	margin-left: 37%; 
-	width: 30%; 
+	width: 40%; 
 	color: white; 
 	font-size: 12px; 
 	font-weight: 100;
@@ -205,11 +205,11 @@
 	float: right; 
 	color: black; 
 	font-size: 13px; 
-	width: 8%; 
+	width: 15%; 
 	margin-top: 1%;	
 }
 #boton_enviar{
-	background: url('/img/enviar.png'); background-size: 100%; border: none; width: 12%; height: 40px; margin-left: 17%
+	background: url('/img/enviar.png'); background-size: 100%; border: none; width: 12%; height: 40px; margin-left: 17%; background-repeat: no-repeat;
 }
 #mobile_footer{
 	display: none;
@@ -259,7 +259,7 @@
 		margin-top: 3%;
 	}
 	#bottom_footer_right{
-		width: 9%;
+		width: 10%;
 	}
 	#submitcontacto{
 		width: 14.5%;
@@ -282,9 +282,7 @@
 	#footer_pg_texto{
         height: 400px !important
     }
-    #boton_enviar{
-		height: 26px		
-	}
+    cc
 }
 @media screen and (max-width: 1280px) {
 	#texto_siguenos{
@@ -303,7 +301,7 @@
 		width: 30%;
 	}
 	#telefonos{
-		width: 35%;
+		width: 40%;
 	}
 	#texto_nuestros{
 		width: 40%;
@@ -312,13 +310,16 @@
 		width: 47%
 	}
 	#bottom_footer_right{
-		width: 10%;
+		width: 15%;
 	}
 	#submitcontacto{
 		width: 16.5%;
 	}
 	#texto_nuestros{ width: 45% !important }
-	#box_horarios{ width: 52% !important }
+	#box_horarios{ width: 60% !important }
+	#boton_enviar{
+		height: 22px
+	}
 }
 @media screen and (max-width: 1024px) {
 	#email_web{
@@ -352,7 +353,7 @@
 		width: 19.5%;
 	}
 	#bottom_footer_right{
-		width: 14% !important;
+		width: 15% !important;
 	}
 	.bx-wrapper .bx-controls-direction a{
 		margin-right: 0%

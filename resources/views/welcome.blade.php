@@ -69,9 +69,8 @@
         <link rel="stylesheet" href="/css/w3a.css">
         <div class="content" style="padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px">
             <div class="w3-content w3-display-container" style="max-width:100%; background: black">                            
-                <div class="w3-display-container mySlides w3-animate-fading">                
-                  <div id="bg_neg_slide"></div>
-                  <img src="img/slide1.png" id="slide" style="width:100%;">
+                <div class="w3-display-container mySlides w3-animate-fading">      
+                  <img src="img/slide1.png" id="slide" style="width:100%; filter: brightness(0.4);">
                   <div class="w3-display-middle w3-large w3-container w3-padding-16" id="div_p_banner">
                     <p id="p_banner" style="position: absolute; z-index: 2">“LOREM IPSUM DOLOR SIT AMET, CONSECTETUER ADIPISCING ELIT, SED DIAM
                     NONUMMY NIBH EUISMOD TINCIDUNT UT LAOREET DOLORE ”</p>
@@ -79,8 +78,7 @@
                 </div>
 
                 <div class="w3-display-container mySlides w3-animate-fading">
-                  <div style="width: 100%; background: black; position: absolute; z-index: 0; height: 92.5%; filter: opacity(0.5); margin-top: 2.5%"></div>
-                  <img src="img/slide2.png" id="slide" style="width:100%">
+                  <img src="img/slide2.png" id="slide" style="width:100%; filter: brightness(0.4);">
                   <div class="w3-display-middle w3-large w3-container w3-padding-16" style="width: 55%;">
                     <p id="p_banner" style="position: absolute; z-index: 2">“LOREM IPSUM DOLOR SIT AMET, CONSECTETUER ADIPISCING ELIT, SED DIAM
                     NONUMMY NIBH EUISMOD TINCIDUNT UT LAOREET DOLORE ”</p>
@@ -88,8 +86,7 @@
                 </div>
 
                 <div class="w3-display-container mySlides w3-animate-fading">
-                  <div style="width: 100%; background: black; position: absolute; z-index: 0; height: 92.5%; filter: opacity(0.5); margin-top: 2.5%"></div>
-                  <img src="img/slide1.png" id="slide" style="width:100%;">
+                  <img src="img/slide1.png" id="slide" style="width:100%; filter: brightness(0.4);">
                   <div class="w3-display-middle w3-large w3-container w3-padding-16" style="width: 55%;">
                     <p id="p_banner" style="position: absolute; z-index: 2">“LOREM IPSUM DOLOR SIT AMET, CONSECTETUER ADIPISCING ELIT, SED DIAM
                     NONUMMY NIBH EUISMOD TINCIDUNT UT LAOREET DOLORE ”</p>
@@ -111,18 +108,22 @@
                   </div>
             </div>
             <div id="objetivo" >
-                <p class="logo_animated bounceInUp" style=" color: #EBEBEB; text-align: center;  font-family: Coco Gothic Bold; letter-spacing: 2px">“NUESTRO OBJETIVO ES HACER FELIZ A TU MASCOTA, MIENTRAS FACILITAMOS TU VIDA”</p>
+                <p class="logo_animated bounceInUp" style=" color: #EBEBEB; text-align: center;  font-family: Coco; letter-spacing: 2px">“NUESTRO OBJETIVO ES HACER FELIZ A TU MASCOTA, MIENTRAS FACILITAMOS TU VIDA”</p>
             </div>
             <div id="proceso">
                 <div id="proceso_div_2"> 
-                    <p id="p_div_2" class="logo_animated bounceInUp">NUESTRO PROCESO</p>         
-                    <div id="div_div_2" class="logo_animated bounceInUp"></div>         
+                    <div style="width: 18%; margin-left: 20%; padding-top: 3%">
+                      <p id="p_div_2" class="logo_animated bounceInUp">NUESTRO PROCESO</p>         
+                      <div id="div_div_2" class="logo_animated bounceInUp"></div> 
+                    </div>        
                 </div>
             </div>
             <div id="div_galeria_1">
                 <div id="div_galeria_3">
-                    <p id="p_div_3">GALERÍA</p>  
-                    <div id="div_div_3"></div> 
+                    <div style="width: 10.5%; margin-left: 0%; padding-top: 0%">
+                      <p id="p_div_2" class="logo_animated bounceInUp">GALERÍA</p>         
+                      <div id="div_div_2" class="logo_animated bounceInUp" style="height: 0px; margin-bottom: 10%"></div> 
+                    </div> 
                     <div class="slider1">
                       <div class="slide" id="slide_1_galeria"><img src="/img/slidegaleria1.png"></div>
                       <div class="slide" id="slide_2_galeria"><img src="/img/slidegaleria2.png"></div>
@@ -141,8 +142,10 @@
             </div>
             <div id="div_testimonios">
                 <div id="div_testimonios_2">
-                    <p>TESTIMONIOS</p>  
-                    <div id="div_testimonios_3"></div> 
+                    <div id="header_testimonios" style="width: 16.5%; margin-left: 0%; padding-top: 0%; margin-left: 33%">
+                      <p id="p_div_2" class="logo_animated bounceInUp" style="margin-left: 0%">TESTIMONIOS</p>         
+                      <div id="div_div_2" class="logo_animated bounceInUp" style="height: 0px; margin-bottom: 0%; width: 90%; margin-left: 5%"></div> 
+                    </div> 
                     <div class="slider2">
                       <div class="slide" style="background: none">
                             <div id="slide_b10">

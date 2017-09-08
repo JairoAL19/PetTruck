@@ -44,7 +44,7 @@
                     <input id="inputcontacto" type="text" name="" value="¿Cuál es tu nombre completo?">
                     <input id="inputcontacto" type="text" name="" value="¿Cuál es tu correo?">
                     <input id="inputcontacto" type="text" name="" value="¿A qué teléfono te llamamos?">
-                    <input id="inputcontacto" type="text" name="" value="¿Cuál es tu dirección exacta?">
+                    <input id="inputcontacto" type="text" name="" value="¿Cuál es tu distrito?"">
                     <input id="inputcontacto" type="text" name="" value="Cuéntanos qué necesitas…">
                     </div>
                     <input id="boton_enviar"  type="submit" name="" value=" ">
@@ -54,7 +54,7 @@
           <div id="bottom_footer">
               <a href="/"><img src="/img/logo.png"></a>
               <p id="bottom_footer_center">© Derechos reservados Pet Truck 2017</p>
-              <p id="bottom_footer_right"><b>Web elaborada por:<a href="#"></b> El Rincón Creativo</p></a>
+              <p id="bottom_footer_right"><b>Web elaborada por:<a href="#"></b></br>El Rincón Creativo</p></a>
           </div>
         </div>
         <div id="mobile_footer">
@@ -96,7 +96,7 @@
                     <input id="inputcontacto" type="text" name="" value="¿Cuál es tu nombre completo?">
                     <input id="inputcontacto" type="text" name="" value="¿Cuál es tu correo?">
                     <input id="inputcontacto" type="text" name="" value="¿A qué teléfono te llamamos?">
-                    <input id="inputcontacto" type="text" name="" value="¿Cuál es tu dirección exacta?">
+                    <input id="inputcontacto" type="text" name="" value="¿Cuál es tu distrito?">
                     <input id="inputcontacto" type="text" name="" value="Cuéntanos qué necesitas…">
                 </div>
                 <div style="text-align: center;">
