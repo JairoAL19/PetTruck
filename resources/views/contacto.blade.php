@@ -79,6 +79,7 @@
                     <input id="input_1" style="margin-bottom: 5%" type="text" name="" value="Número de Teléfono">
                     <img src="/img/subir.png" style="position: absolute; z-index: 0">
                     <input type="file" style="opacity: 0; background: url(/img/subir.png); position: absolute; z-index: 1">
+                    <input class="logo_animated bounceInLeft" id="enviar" type="submit" name="" value=" " style="margin-top: 7%; margin-left: 0%">
                 </div>
             </div> 
             @include('partials.nosotros_js')

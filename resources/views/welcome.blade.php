@@ -119,8 +119,8 @@
                 </div>
             </div>
             <div id="div_galeria_1">
-                <div id="div_galeria_3">
-                    <div style="width: 10.5%; margin-left: 0%; padding-top: 0%">
+                <div id="div_galeria_3" class="margen">
+                    <div style="width: 10.5%; margin-left: auto; margin-right: auto; padding-top: 2%">
                       <p id="p_div_2" class="logo_animated bounceInUp">GALERÍA</p>         
                       <div id="div_div_2" class="logo_animated bounceInUp" style="height: 0px; margin-bottom: 10%"></div> 
                     </div> 
@@ -141,8 +141,8 @@
                 </div>
             </div>
             <div id="div_testimonios">
-                <div id="div_testimonios_2">
-                    <div id="header_testimonios" style="width: 16.5%; margin-left: 0%; padding-top: 0%; margin-left: 33%">
+                <div id="div_testimonios_2" class="margen">
+                    <div id="header_testimonios" style="width: 16.5%; margin-left: auto; padding-top: 0%; margin-right: auto;">
                       <p id="p_div_2" class="logo_animated bounceInUp" style="margin-left: 0%">TESTIMONIOS</p>         
                       <div id="div_div_2" class="logo_animated bounceInUp" style="height: 0px; margin-bottom: 0%; width: 90%; margin-left: 5%"></div> 
                     </div> 
@@ -159,7 +159,7 @@
                             </div>                            
                       </div>
                       <div class="slide">
-                            <div id="slide_b12">
+                            <div id="slide_b10">
                                <img src="/img/testimonio2.png" id="img_testimonio">
                                     <div id="img_testimonio_div"> 
                                        @for($i = 1 ; $i <= 5; $i++)
@@ -170,7 +170,7 @@
                             </div> 
                       </div>
                       <div class="slide">
-                            <div id="slide_b22">
+                            <div id="slide_b10">
                                <img src="/img/testimonio3.png" id="img_testimonio">
                                     <div id="img_testimonio_div"> 
                                        @for($i = 1 ; $i <= 5; $i++)

@@ -67,44 +67,48 @@
               <div id="voz_animal_bg2"></div>
             </div>
             <div id="garantia_pt" class="hidemee">
-                <div id="garantia_pt_tittle"><p>GARANTÍA PET TRUCK</p></div>
-                <div id="subraya_gpt"></div>
-                <div id="cuadros">
-                    <div id="gpt_1">
-                        <div id="box_blanco">
-                          <img src="/img/groming3.png">
-                          <p id="box_blanco_p1">GROOMING</p>
-                          <div id="subraya_gpt2"></div>
-                          <p id="box_blanco_p2">Animales de diferentes fundaciones contarán periódicamente con un baño, corte de pelo, paticure y limpieza de orejas para estar siempre presentables. ¡Adopten!</p>
-                        </div>
-                        <div id="number_top">1</div>
+                <div class="margen" style="margin-left: auto; margin-right: auto;">
+                    <div style="width: 32%; margin-right: auto; margin-left: auto; padding-top: 2%">
+                        <div id="garantia_pt_tittle"><p>GARANTÍA PET TRUCK</p></div>
+                        <div id="subraya_gpt"></div>
                     </div>
-                    <div id="gpt_2">
-                        <div id="box_blanco">
-                          <img src="/img/groming3.png">
-                          <p  id="box_blanco_p1">GROOMING</p>
-                          <div id="subraya_gpt2"></div>
-                          <p id="box_blanco_p2">Animales de diferentes fundaciones contarán periódicamente con un baño, corte de pelo, paticure y limpieza de orejas para estar siempre presentables. ¡Adopten!</p>
+                    <div id="cuadros">
+                        <div id="gpt_1">
+                            <div id="box_blanco">
+                              <img src="/img/groming-rojo.png">
+                              <p id="box_blanco_p1">GROOMING</p>
+                              <div id="subraya_gpt2"></div>
+                              <p id="box_blanco_p2">Animales de diferentes fundaciones contarán periódicamente con un baño, corte de pelo, paticure y limpieza de orejas para estar siempre presentables. ¡Adopten!</p>
+                            </div>
+                            <div id="number_top">1</div>
                         </div>
-                        <div id="number_top">2</div>
-                    </div>
-                    <div id="gpt_2">
-                        <div id="box_blanco">
-                          <img src="/img/groming3.png">
-                          <p id="box_blanco_p1">GROOMING</p>
-                          <div id="subraya_gpt2"></div>
-                          <p id="box_blanco_p2">Animales de diferentes fundaciones contarán periódicamente con un baño, corte de pelo, paticure y limpieza de orejas para estar siempre presentables. ¡Adopten!</p>
+                        <div id="gpt_2">
+                            <div id="box_blanco">
+                              <img src="/img/antiparasitos.png">
+                              <p  id="box_blanco_p1">ANTI-PARÁSITOS</p>
+                              <div id="subraya_gpt2"></div>
+                              <p id="box_blanco_p2">Animales de diferentes fundaciones contarán periódicamente con un baño, corte de pelo, paticure y limpieza de orejas para estar siempre presentables. ¡Adopten!</p>
+                            </div>
+                            <div id="number_top">2</div>
                         </div>
-                        <div id="number_top">3</div>
-                    </div>
-                    <div id="gpt_2">
-                        <div id="box_blanco">
-                          <img src="/img/groming3.png">
-                          <p id="box_blanco_p1">GROOMING</p>
-                          <div id="subraya_gpt2"></div>
-                          <p id="box_blanco_p2">Animales de diferentes fundaciones contarán periódicamente con un baño, corte de pelo, paticure y limpieza de orejas para estar siempre presentables. ¡Adopten!</p>
+                        <div id="gpt_2">
+                            <div id="box_blanco">
+                              <img src="/img/desparasittacion.png">
+                              <p id="box_blanco_p1">DESPARASITACIÓN</p>
+                              <div id="subraya_gpt2"></div>
+                              <p id="box_blanco_p2">Animales de diferentes fundaciones contarán periódicamente con un baño, corte de pelo, paticure y limpieza de orejas para estar siempre presentables. ¡Adopten!</p>
+                            </div>
+                            <div id="number_top">3</div>
                         </div>
-                        <div id="number_top">4</div>
+                        <div id="gpt_2">
+                            <div id="box_blanco">
+                              <img src="/img/vacunacion.png">
+                              <p id="box_blanco_p1">VACUNACIÓN</p>
+                              <div id="subraya_gpt2"></div>
+                              <p id="box_blanco_p2">Animales de diferentes fundaciones contarán periódicamente con un baño, corte de pelo, paticure y limpieza de orejas para estar siempre presentables. ¡Adopten!</p>
+                            </div>
+                            <div id="number_top">4</div>
+                        </div>
                     </div>
                 </div>
             </div>

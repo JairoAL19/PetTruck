@@ -78,70 +78,82 @@
                 <div id="nuestros_valores_bg"></div>
                 <div id="nuestros_valores_bg_top"></div>                
                 <div id="nuestros_valores_divg">
-                    <p class="logo_animated bounceInLeft" id="nuestros_valores_title">NUESTROS VALORES</p>
-                    <div class="logo_animated bounceInLeft" id="nuestros_valores_subraya"></div>
-                    <div class="animated bounceInUp" style="display: inline-grid; margin-right: 5%; text-align: center;">
-                        <img id="solidaridad" src="/img/solidaridad.png">
-                        <p id="texto_soli">SOLIDARIDAD</p>
+                    <div id="nuestros_valores_divtop">
+                        <p class="logo_animated bounceInLeft" id="nuestros_valores_title">NUESTROS VALORES</p>
+                        <div class="logo_animated bounceInLeft" id="nuestros_valores_subraya"></div>
                     </div>
-                    <div class="animated bounceInUp" style="display: inline-grid; margin-right: 5%; text-align: center;">
-                        <img id="solidaridad" src="/img/compromiso.png">
-                        <p id="texto_soli">COMPROMISO</p>
-                    </div>
-                    <div class="animated bounceInUp" style="display: inline-grid; margin-right: 5%; text-align: center;">
-                        <img id="solidaridad" src="/img/pasion.png">
-                        <p id="texto_soli">PASIÓN</p>
-                    </div>
-                    <div class="animated bounceInUp" style="display: inline-grid; margin-right: 5%; text-align: center;">
-                        <img id="solidaridad" src="/img/integridad.png">
-                        <p id="texto_soli">INTEGRIDAD</p>
-                    </div>
-                    <div class="animated bounceInUp" style="display: inline-grid; margin-right: 5%; text-align: center; ">
-                        <img id="solidaridad" src="/img/responsabilidad-social.png">
-                        <p id="texto_soli">RESPONSABILIDAD</br>SOCIAL</p>
+                    <div class="margen" style="margin-right: auto; margin-left: auto; text-align: center;">
+                        <div>
+                            <div class="animated bounceInUp" style="display: inline-grid; margin-right: 6%; text-align: center;">
+                                <img id="solidaridad" src="/img/solidaridad.png">
+                                <p id="texto_soli">SOLIDARIDAD</p>
+                            </div>
+                            <div class="animated bounceInUp" style="display: inline-grid; margin-right: 6%; text-align: center;">
+                                <img id="solidaridad" src="/img/compromiso.png">
+                                <p id="texto_soli">COMPROMISO</p>
+                            </div>
+                            <div class="animated bounceInUp" style="display: inline-grid; margin-right: 6%; text-align: center;">
+                                <img id="solidaridad" src="/img/pasion.png">
+                                <p id="texto_soli">PASIÓN</p>
+                            </div>
+                            <div class="animated bounceInUp" style="display: inline-grid; margin-right: 6%; text-align: center;">
+                                <img id="solidaridad" src="/img/integridad.png">
+                                <p id="texto_soli">INTEGRIDAD</p>
+                            </div>
+                            <div class="animated bounceInUp" style="display: inline-grid; text-align: center; ">
+                                <img id="solidaridad" src="/img/responsabilidad-social.png">
+                                <p id="texto_soli">RESPONSABILIDAD</br>SOCIAL</p>
+                            </div>
+                        </div>
                     </div>
                 </div>  
             </div> 
             <div id="porque_elegir">
                 <div id="porque_elegir_bg1"></div>
                 <div id="porque_elegir_bg2"></div>
-                <p id="tittle_porque_e">¿POR QUÉ ELEGIR PET TRUCK?</p>
-                <div id="subraya_title"></div>
-                <div id="div_pasion_animal" style="margin-left: 18%">
-                    <div id="porque_elegir_base1">                        
+                <div class="margen">
+                    <div style="width: 44%; margin-left: auto;margin-right: auto; margin-bottom: 4%">
+                        <p id="tittle_porque_e">¿POR QUÉ ELEGIR PET TRUCK?</p>
+                        <div id="subraya_title"></div>
                     </div>
-                    <img src="/img/pasion-animal.png" style="margin-bottom: 9%; width: 45%">
-                    <p id="text_pasion_animal">PASIÓN POR</br> LOS ANIMALES</p>
-                    <div id="linea_blanca"></div>
-                    <p id="text_pasion_animal2">Nos interesa que los animales estén cuidados y saludables, por eso tenemos el mejor Staff, los mejores productos y servicios especializados.</p>
-                </div>                
-                <div id="divisor"></div>  
-                <div id="div_pasion_animal">
-                    <div id="porque_elegir_base1">                        
+                    <div>
+                        <div id="div_pasion_animal">
+                            <div id="porque_elegir_base1">                        
+                            </div>
+                            <img src="/img/pasion-animal.png" style="margin-bottom: 9%; width: 45%">
+                            <p id="text_pasion_animal">PASIÓN POR</br> LOS ANIMALES</p>
+                            <div id="linea_blanca"></div>
+                            <p id="text_pasion_animal2">Nos interesa que los animales estén cuidados y saludables, por eso tenemos el mejor Staff, los mejores productos y servicios especializados.</p>
+                        </div>                
+                        <div id="divisor"></div>  
+                        <div id="div_pasion_animal">
+                            <div id="porque_elegir_base1">                        
+                            </div>
+                            <img src="/img/tecxnologia.png" style="margin-bottom: 9%; width: 40%">
+                            <p id="text_pasion_animal">TECNOLOGÍA Y ACCESIBILIDAD</p>
+                            <div id="linea_blanca"></div>
+                            <p id="text_pasion_animal2">¡Tomar nuestros servicios es súper fácil! Contamos con una aplicacíón móvil y central telefónica las 24 horas del día, solo tienes que programar tu cita y esperar que nuestro camión llegue. Es magia.</p>
+                        </div> 
+                        <div id="divisor"></div>  
+                        <div id="div_pasion_animal">
+                            <div id="porque_elegir_base1">                        
+                            </div>
+                            <img src="/img/express.png" style="margin-bottom: 13%; width: 45%">
+                            <p id="text_pasion_animal">SERVICIO</br> EXPRESS</p>
+                            <div id="linea_blanca"></div>
+                            <p id="text_pasion_animal2">¡Olvidate del tráfico! ¡Que tu engreido se olvide de las horas de espera en jaula y del espantoso transporte! Con nuestro camión ambientado todo se hace en la puerta de tu hogar. </p>
+                        </div>
+                        <div id="divisor"></div>  
+                        <div id="div_pasion_animal">
+                            <div id="porque_elegir_base1">                        
+                            </div>
+                            <img src="/img/ayuda-a-los-demas.png" style="margin-bottom: 9%; width: 29%">
+                            <p id="text_pasion_animal">AYUDA A </br>LOS DEMÁS</p>
+                            <div id="linea_blanca"></div>
+                            <p id="text_pasion_animal2">Contratando nuestros servicios no solo ayudas a tu mascota, ¡también ayudas a los que no tienen la misma suerte! Visitamos una vez al mes diferentes albergues para brindar ayuda</p>
+                        </div>   
                     </div>
-                    <img src="/img/tecxnologia.png" style="margin-bottom: 9%; width: 40%">
-                    <p id="text_pasion_animal">TECNOLOGÍA Y ACCESIBILIDAD</p>
-                    <div id="linea_blanca"></div>
-                    <p id="text_pasion_animal2">¡Tomar nuestros servicios es súper fácil! Contamos con una aplicacíón móvil y central telefónica las 24 horas del día, solo tienes que programar tu cita y esperar que nuestro camión llegue. Es magia.</p>
-                </div> 
-                <div id="divisor"></div>  
-                <div id="div_pasion_animal">
-                    <div id="porque_elegir_base1">                        
-                    </div>
-                    <img src="/img/express.png" style="margin-bottom: 13%; width: 45%">
-                    <p id="text_pasion_animal">SERVICIO</br> EXPRESS</p>
-                    <div id="linea_blanca"></div>
-                    <p id="text_pasion_animal2">¡Olvidate del tráfico! ¡Que tu engreido se olvide de las horas de espera en jaula y del espantoso transporte! Con nuestro camión ambientado todo se hace en la puerta de tu hogar. </p>
-                </div>
-                <div id="divisor"></div>  
-                <div id="div_pasion_animal">
-                    <div id="porque_elegir_base1">                        
-                    </div>
-                    <img src="/img/ayuda-a-los-demas.png" style="margin-bottom: 9%; width: 29%">
-                    <p id="text_pasion_animal">AYUDA A </br>LOS DEMÁS</p>
-                    <div id="linea_blanca"></div>
-                    <p id="text_pasion_animal2">Contratando nuestros servicios no solo ayudas a tu mascota, ¡también ayudas a los que no tienen la misma suerte! Visitamos una vez al mes diferentes albergues para brindar ayuda</p>
-                </div>      
+                </div>   
             </div>
             <div id="nuestros_servicios">
                 <div id="nuestros_servicios_fondo"></div>
@@ -216,9 +228,11 @@
                 </div>        
             </div>
             <div id="div_testimonios" style="background: white">
-                <div id="div_testimonios_2">
-                    <p>NUESTROS ALIADOS</p>  
-                    <div id="div_testimonios_3"></div> 
+                <div id="div_testimonios_2" class="margen">
+                    <div style="width: 25%; margin-left: auto;margin-right: auto; margin-bottom: 4%">
+                        <p id="tittle_porque_e">NUESTROS ALIADOS</p>
+                        <div id="subraya_title"></div>
+                    </div>
                     <p id="div_testimonios_3_p5">Nuestros aliados estratégicos son empresas y fundaciones que comparten nuestra pasión por los animales. ¡Gracias a ellos podemos seguir creciendo y ayudando!</p>
                     <div class="slider2">
                       <div class="slide" style="background: none">
