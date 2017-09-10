@@ -112,7 +112,7 @@
             </div>
             <div id="proceso">
                 <div id="proceso_div_2"> 
-                    <div style="width: 18%; margin-left: 20%; padding-top: 3%">
+                    <div id="proceso_titulo">
                       <p id="p_div_2" class="logo_animated bounceInUp">NUESTRO PROCESO</p>         
                       <div id="div_div_2" class="logo_animated bounceInUp"></div> 
                     </div>        
@@ -120,7 +120,7 @@
             </div>
             <div id="div_galeria_1">
                 <div id="div_galeria_3" class="margen">
-                    <div id="galeria_tittle">
+                    <div id="galeria_tittle" style="width: fit-content">
                       <p id="p_div_2" class="logo_animated bounceInUp">GALERÍA</p>         
                       <div id="div_div_2" class="logo_animated bounceInUp" style="height: 0px; margin-bottom: 10%"></div> 
                     </div> 
@@ -142,9 +142,11 @@
             </div>
             <div id="div_testimonios">
                 <div id="div_testimonios_2" class="margen">
-                    <div id="header_testimonios" style="width: 16.5%; margin-left: auto; padding-top: 0%; margin-right: auto;">
+                    <div id="header_testimonios" style="width: fit-content; margin-left: auto; padding-top: 0%; margin-right: auto;">
                       <p id="p_div_2" class="logo_animated bounceInUp" style="margin-left: 0%">TESTIMONIOS</p>         
-                      <div id="div_div_2" class="logo_animated bounceInUp" style="height: 0px; margin-bottom: 0%; width: 90%; margin-left: 5%"></div> 
+                      <div id="div_div_2" class="logo_animated bounceInUp" style="height: 0px; margin-bottom: 0%; width: 90%; margin-left: 4.5%">
+                    </div> 
+
                     </div> 
                     <div class="slider2">
                       <div class="slide" style="background: none">

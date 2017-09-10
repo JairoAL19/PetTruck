@@ -93,61 +93,46 @@
               <div class="logo_animated bounceInRight" id="main" style="display: inline-block; width: 70%;">
                 <div class="inner">
                   <div class="columns">
-
-                    <!-- Column 1 (horizontal, vertical, horizontal, vertical) -->
-                      <div class="image fit">
-                        <a href="detail1.html"><img src="images/pic01.jpg" alt="" /></a>
+                      <div class="image fit" style="display: block">
+                        <a href="detail1.html"><img src="images/galeria3.jpg" alt="" /></a>
                       </div>
-                      <div class="image fit">
-                        <a href="detail1.html"><img src="images/pic02.jpg" alt="" /></a>
+                      <div class="image fit" style="display: block">
+                        <a href="detail1.html"><img src="images/galeria3.jpg" alt="" /></a>
                       </div>
+                  </div>
+                  <div class="columns" style="-moz-column-count: 1; -webkit-column-count: 1; column-count: 1; margin-top: 1%">
                       <div class="image fit">
-                        <a href="detail1.html"><img src="images/pic03.jpg" alt="" /></a>
+                        <a href="detail1.html"><img src="images/galeria4.png" alt="" /></a>
                       </div>
-                      <div class="image fit">
-                        <a href="detail1.html"><img src="images/pic04.jpg" alt="" /></a>
+                  </div>
+                  <div class="columns" style="-moz-column-count: 3; -webkit-column-count: 3; column-count: 3; margin-top: 0.5%">
+                      <div class="image fit" style="display: block">
+                        <a href="detail1.html"><img src="images/galeria3.jpg" alt="" /></a>
                       </div>
-
-                    <!-- Column 2 (vertical, horizontal, vertical, horizontal) -->
-                      <div class="image fit">
-                        <a href="detail1.html"><img src="images/pic06.jpg" alt="" /></a>
+                      <div class="image fit" style="display: block">
+                        <a href="detail1.html"><img src="images/galeria3.jpg" alt="" /></a>
                       </div>
-                      <div class="image fit">
-                        <a href="detail1.html"><img src="images/pic05.jpg" alt="" /></a>
+                      <div class="image fit" style="display: block">
+                        <a href="detail1.html"><img src="images/galeria3.jpg" alt="" /></a>
                       </div>
-                      <div class="image fit">
-                        <a href="detail1.html"><img src="images/pic08.jpg" alt="" /></a>
+                  </div>
+                  <div style="margin-top: 1%">
+                      <div style="width: 50%; display: inline-block;">
+                        <div class="columns" style="-moz-column-count: 1; -webkit-column-count: 1; column-count: 1;">
+                            <div class="image fit">
+                              <a href="detail1.html"><img src="images/galeria4.png" alt="" /></a>
+                            </div>
+                            <div class="image fit">
+                              <a href="detail1.html"><img src="images/galeria4.png" alt="" /></a>
+                            </div>
+                        </div>
                       </div>
-                      <div class="image fit">
-                        <a href="detail1.html"><img src="images/pic07.jpg" alt="" /></a>
-                      </div>
-
-                    <!-- Column 3 (horizontal, vertical, horizontal, vertical) -->
-                      <div class="image fit">
-                        <a href="detail1.html"><img src="images/pic09.jpg" alt="" /></a>
-                      </div>
-                      <div class="image fit">
-                        <a href="detail1.html"><img src="images/pic12.jpg" alt="" /></a>
-                      </div>
-                      <div class="image fit">
-                        <a href="detail1.html"><img src="images/pic11.jpg" alt="" /></a>
-                      </div>
-                      <div class="image fit">
-                        <a href="detail1.html"><img src="images/pic10.jpg" alt="" /></a>
-                      </div>
-
-                    <!-- Column 4 (vertical, horizontal, vertical, horizontal) -->
-                      <div class="image fit">
-                        <a href="detail1.html"><img src="images/pic13.jpg" alt="" /></a>
-                      </div>
-                      <div class="image fit">
-                        <a href="detail1.html"><img src="images/pic14.jpg" alt="" /></a>
-                      </div>
-                      <div class="image fit">
-                        <a href="detail1.html"><img src="images/pic15.jpg" alt="" /></a>
-                      </div>
-                      <div class="image fit">
-                        <a href="detail1.html"><img src="images/pic16.jpg" alt="" /></a>
+                      <div style="width: 48%; display: inline-block; vertical-align: top; margin-left: 1%">
+                        <div class="columns" style="-moz-column-count: 1; -webkit-column-count: 1; column-count: 1;">
+                            <div class="image fit">
+                              <a href="detail1.html"><img src="images/galeria3.jpg" alt="" /></a>
+                            </div>
+                        </div>
                       </div>
                   </div>
                    <div style="width: 100%; padding-left: 45%"> <img src="/img/mas.png">Ver más </div>

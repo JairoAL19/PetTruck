@@ -5,7 +5,7 @@
 
                               var target = document.querySelector(".target");
                               var links = document.querySelectorAll(".mynav a");
-                              var colors = ["black", "black", "black", "black", "black", "black", "black"];
+                              var colors = ["#4F4F4F", "#4F4F4F", "#4F4F4F", "#4F4F4F", "#4F4F4F", "#4F4F4F", "#4F4F4F"];
 
                               function mouseenterFunc() {
                                 if (!this.parentNode.classList.contains("active")) {
@@ -14,7 +14,7 @@
                                       links[i].parentNode.classList.remove("active");
                                     }
                                     links[i].style.opacity = "0.65";
-                                    links[i].style.color = "black";
+                                    links[i].style.color = "#4F4F4F";
                                   }
 
                                   this.parentNode.classList.add("active");
@@ -32,7 +32,7 @@
                                   target.style.left = left + "px";
                                   target.style.top = top + "px";
                                   target.style.borderColor = color;
-                                  target.style.borderBottom = "2px solid black";
+                                  target.style.borderBottom = "2px solid #4F4F4F";
                                   target.style.transform = "none";
                                   target.style.marginLeft = "12.5px";
                                 }

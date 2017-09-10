@@ -8,9 +8,10 @@
 <link rel="stylesheet" href="/assets/css/main.css" />
 <link rel="stylesheet" href="/css/welcome.css">
 <link rel="stylesheet" href="/css/banner_page.css">
-<link rel="stylesheet" href="/css/footer.css">
 <link rel="stylesheet" href="/css/galeria.css">
 <link rel="stylesheet" href="/css/contacto.css">
+<link rel="stylesheet" href="/css/footer.css">
+
 <div class="wrapper">  
     <div class="main-panel">
         <div id="login" class="modal">
@@ -64,22 +65,26 @@
             </div>             
             <div id="contacto">
                 <div id="contacto_sb1">
-                    <p class="logo_animated bounceInLeft">¿QUIERES SER VOLUNTARIO?</p>
-                    <div class="logo_animated bounceInLeft" id="subraya_voluntario"></div>
-                    <input class="logo_animated bounceInLeft" id="input_1" type="text" name="" value="Nombre Completo">
+                    <div style="width: fit-content; margin-left: auto; margin-right: auto;">
+                        <p class="logo_animated bounceInLeft">¿QUIERES SER VOLUNTARIO?</p>
+                        <div class="logo_animated bounceInLeft" id="subraya_voluntario"></div>
+                    </div>
+                    <input class="logo_animated bounceInLeft" id="input_1" type="text" name="" value="Nombre y Apellido">
                     <input class="logo_animated bounceInLeft" id="input_1" type="text" name="" value="Correo Electrónico">
                     <input class="logo_animated bounceInLeft" id="input_1" type="text" name="" value="Número de Teléfono">
                     <input class="logo_animated bounceInLeft" id="enviar" type="submit" name="" value=" ">
                 </div>
                 <div id="contacto_sb2" class="logo_animated bounceInRight">
-                    <p>TRABAJA CON NOSOTROS</p>
-                    <div id="subraya_voluntario"></div>
-                    <input id="input_1" type="text" name="" value="Nombre Completo">
+                    <div style="width: fit-content; margin-left: auto; margin-right: auto;">
+                        <p>TRABAJA CON NOSOTROS</p>
+                        <div id="subraya_voluntario"></div>
+                    </div>
+                    <input id="input_1" type="text" name="" value="Nombre y Apellido">
                     <input id="input_1" type="text" name="" value="Correo Electrónico">
                     <input id="input_1" style="margin-bottom: 5%" type="text" name="" value="Número de Teléfono">
                     <img src="/img/subir.png" style="position: absolute; z-index: 0">
                     <input type="file" style="opacity: 0; background: url(/img/subir.png); position: absolute; z-index: 1">
-                    <input class="logo_animated bounceInLeft" id="enviar" type="submit" name="" value=" " style="margin-top: 7%; margin-left: 0%">
+                    <input class="logo_animated bounceInLeft" id="enviar" type="submit" name="" value=" " style="margin-top: 9%; margin-left: 0%">
                 </div>
             </div> 
             @include('partials.nosotros_js')

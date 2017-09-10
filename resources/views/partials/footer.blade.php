@@ -2,16 +2,15 @@
           <div>
             <div id="footer_pg">              
                 <div id="footer_pg_left"></div>              
-                <div id="footer_pg_right">
-                    <p>CONTÁCTANOS</p>
-                    <div id="footer_pg_right_div"></div>
-                </div>         
+                <div id="footer_pg_right"></div>         
             </div>
           </div>
           <div id="footer_pg_texto">
               <div id="texto_left">
-                  <p id="texto_siguenos">SÍGUENOS EN:</p>
-                  <div id="subraya_left"></div>
+                  <div style="width: fit-content; margin-left: 37%; padding-top: 3%">
+                    <p id="texto_siguenos">SÍGUENOS EN:</p>
+                    <div id="subraya_left"></div>
+                  </div>
                   <div id="redes">
                       <a href="#"><div id="fb_img"></div></a>
                       <a href="#"><div id="instagram_img"></div></a>                   
@@ -40,12 +39,16 @@
                   </div>
               </div>
               <div id="texto_right">
+                    <div style="width: fit-content; margin-bottom: 5%; margin-left: 12%">
+                      <p id="texto_siguenos2" style="color: black">CONTÁCTANOS</p>
+                      <div id="subraya_left" style="border-top: 1px solid black"></div>
+                    </div>
                     <div>
                     <input id="inputcontacto" type="text" name="" value="¿Cuál es tu nombre completo?">
                     <input id="inputcontacto" type="text" name="" value="¿Cuál es tu correo?">
                     <input id="inputcontacto" type="text" name="" value="¿A qué teléfono te llamamos?">
                     <input id="inputcontacto" type="text" name="" value="¿Cuál es tu distrito?"">
-                    <input id="inputcontacto" type="text" name="" value="Cuéntanos qué necesitas…">
+                    <textarea id="inputcontacto">Cuéntanos qué necesitas…</textarea>
                     </div>
                     <input id="boton_enviar"  type="submit" name="" value=" ">
               </div>        

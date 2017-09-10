@@ -28,13 +28,16 @@ h1 {
 @media screen and (max-width: 1200px) {
     .margen{ width: 1050px }    
 }
+@media screen and (max-width: 1024px) {
+    .margen{ width: 990px }    
+}
 @media screen and (max-width: 1000px) {
     .margen{ width: 875px }    
 }
 
 
 #galeria_tittle{
-    width: 10.5%; margin-right: auto; margin-left: 10%; padding-top: 2%;
+    width: fit-content; margin-right: auto; margin-left: 10%; padding-top: 2%;
 }
 .mynav ul {
     display: -webkit-box;
@@ -183,7 +186,7 @@ h1 {
         height: 10px; 
         border-bottom: 2px solid #AC0000; 
         margin-top: 0px;
-        width: 95%;
+        width: 100%;
     }
     #div_div_3{
         height: 10px; 
@@ -285,6 +288,12 @@ h1 {
         margin-right: auto;
         margin-left: auto;
     }
+    #header_testimonios{
+        text-align: center;
+    }
+    #proceso_titulo{
+        width: fit-content; margin-left: 20%; padding-top: 3%
+    }
     @media screen and (max-width: 9999px) {
         #sidebar_mobile{
             display: none;
@@ -364,7 +373,7 @@ h1 {
             padding-top: 2%;       
         }
         #div_testimonios_2 p{
-            font-size: 30px;
+            font-size: 32px;
             margin-left: 27%
         }
         #img_testimonio{            
@@ -597,7 +606,7 @@ h1 {
     @media screen and (max-width: 1366px) {
         #proceso_div_2{ height: 548px }
         #div_testimonios{ height: 363px }
-
+        #div_testimonios_2 p{ font-size: 25px }
     }
     @media screen and (max-width: 1280px) {
         #sidebar_mobile{
@@ -638,7 +647,7 @@ h1 {
         padding-top: 3%; 
         }
         #proceso_div_2{            
-            height: 510px; 
+            height: 495px; 
         }
         #div_galeria_2{
             margin-left: 16%; 
@@ -686,7 +695,7 @@ h1 {
         #p_div_2{
             font-size: 19px
         }
-        #galeria_tittle{ margin-left: 5%; width: 8.5% }
+        #galeria_tittle{ margin-left: 10.5%; width: 8.5% }
     }
     @media screen and (max-width: 1110px) {
         #div_testimonios_2 p{ margin-left: 39% }
@@ -701,6 +710,12 @@ h1 {
         }
     }
     @media screen and (max-width: 1024px) {
+        #proceso_titulo{
+            margin-left: 5%;
+        }
+        #galeria_tittle{
+            margin-left: 2.5%
+        }
         #sidebar_mobile{
             display: none;
         }
@@ -737,7 +752,7 @@ h1 {
             width: 70%;
         }
         #p_div_2{
-        font-size: 18px; 
+        font-size: 16px; 
         padding-top: 3%; 
         }
         #p_div_3{
@@ -777,9 +792,6 @@ h1 {
         }
         #img_testimonio_div{
             padding-left: 24%;
-        }
-        #boton_enviar{
-            height: 20px !important
         }
         .navbar-header{
             margin-left: 8% !important;
@@ -911,10 +923,6 @@ h1 {
         }
         #stars{
             width: 16px;
-        }
-        #boton_enviar{
-            height: 15px !important;
-            margin-top: 5% !important
         }
     }
     @media screen and (max-width: 760px) {

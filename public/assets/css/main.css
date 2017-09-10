@@ -910,9 +910,9 @@
 
 	.columns {
 		position: relative;
-		-moz-column-count: 4;
-		-webkit-column-count: 4;
-		column-count: 4;
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
 		-moz-column-gap: 1em;
 		-webkit-column-gap: 1em;
 		column-gap: 1em;

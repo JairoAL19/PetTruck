@@ -53,22 +53,29 @@
 #texto_right{
 	width: 46%; 
 	float: right; 
-	padding-top: 9%
 }
 #texto_siguenos{
 	color: white; 
-	font-size: 32px; 
-	margin-left: 37%; 
-	padding-top: 3%; 
+	font-size: 32px;  
 	font-weight: 600; 
 	letter-spacing: 2px; 
 	font-family: Coco-bold;
 }
+#texto_siguenos2{
+	color: white; 
+	font-size: 24px; 
+	margin-left: 0%; 
+	padding-top: 17%; 
+	font-weight: 600; 
+	letter-spacing: 2px; 
+	font-family: Coco-bold;
+	margin-bottom: 0px
+}
 #subraya_left{
 	border-top: 2px solid white; 
-	width: 19%; 
 	margin-top: 1%; 
-	margin-left: 37%
+	width: 99%;
+	margin-left: 0%
 }
 #redes{
 	margin-top: 4%; 
@@ -126,7 +133,7 @@
 }
 #box_horarios{
 	margin-top: 1%; 
-	margin-left: 37%; 
+	margin-left: 36%; 
 	width: 40%; 
 	color: white; 
 	font-size: 14px; 
@@ -219,7 +226,7 @@
 		width: 8%;
 	}
 	#footer_pg_right_div{
-        margin-left: -20% !important; width: 22% !important;
+        margin-left: -19% !important; width: 18% !important;
     }
     #footer_pg_right p{
         margin-left: 18%
@@ -230,6 +237,7 @@
     #footer_pg{
         height: 460px !important
     }
+    #bottom_footer_center{ margin-top: 1.5% }
 }
 @media screen and (max-width: 1780px) {
 	#boton_enviar{
@@ -239,9 +247,13 @@
 		margin-left: -21% !important;
 		width: 22% !important;
 	}
+	#box_horarios{ margin-left: 36.5% }
 }
 @media screen and (max-width: 1480px) {
 	#texto_siguenos{
+		font-size: 30px;
+	}
+	#texto_siguenos2{
 		font-size: 30px;
 	}
 	#redes{
@@ -276,16 +288,27 @@
 		margin-left: 20%
 	}
 	#footer_pg_right_div{
-		margin-left: -26% !important;
+		margin-left: -27% !important;
 		width: 27% !important;
 	}
 	#footer_pg_texto{
         height: 400px !important
     }
-    cc
+    
 }
+@media screen and (max-width: 1366px) {
+	#footer_pg_right_div{
+		margin-left: -28% !important;
+		width: 26% !important;
+	}
+
+}
+
 @media screen and (max-width: 1280px) {
 	#texto_siguenos{
+		font-size: 28px;
+	}
+	#texto_siguenos2{
 		font-size: 28px;
 	}
 	#instagram_img{
@@ -342,8 +365,8 @@
 	#texto_siguenos{
 		padding-top: 10%;
 	}
-	#texto_right{
-		padding-top: 14%
+	#texto_siguenos2{
+		padding-top: 20%;
 	}
 	#footer_pg_right p{
 		margin-left: 15%;
@@ -363,6 +386,9 @@
 	.bx-wrapper .bx-controls-direction a{
 		margin-right: 0%
 	}
+	#boton_enviar{
+		height: 30px
+	}
 }
 @media screen and (max-width: 768px) {
 	#footer_pg_texto{
@@ -372,11 +398,10 @@
 		height: 342px;
 	}
 	#texto_siguenos{
-		font-size: 25px;
-		margin-left: 33%;
+		font-size: 24px;
 	}
-	#subraya_left{
-		margin-left: 33%;
+	#texto_siguenos2{
+		font-size: 23px;
 	}
 	#redes{
 		width: 20%;
@@ -439,10 +464,6 @@
 		padding-top: 10%;
 		margin-bottom: 4px;
 		text-align: center;
-	}
-	#subraya_left{
-		margin-left: 28%;
-		width: 43%;
 	}
 	#redes{
 		width: 100%;
@@ -558,7 +579,6 @@
 	}
 	#texto_right{
 		height: 146px;
-		padding-top: 7.5%
 	}
 	#bottom_footer_center{
 		font-size: 7px;

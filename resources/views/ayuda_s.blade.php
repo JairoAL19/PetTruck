@@ -68,7 +68,7 @@
             </div>
             <div id="garantia_pt" class="hidemee">
                 <div class="margen" style="margin-left: auto; margin-right: auto;">
-                    <div style="width: 32%; margin-right: auto; margin-left: auto; padding-top: 2%">
+                    <div style="width: fit-content; margin-right: auto; margin-left: auto; padding-top: 2%">
                         <div id="garantia_pt_tittle"><p>GARANTÍA PET TRUCK</p></div>
                         <div id="subraya_gpt"></div>
                     </div>
@@ -112,18 +112,19 @@
                     </div>
                 </div>
             </div>
-            
-            <div id="reconocer" class="margen">
-                <div class="main-panel_as">
-                    <div  style="width: 58%">
-                        <p>¿CÓMO RECONOCER UN PET TRUCK?</p>
-                        <div id="subraya_recono"></div>
-                    </div>
-                    <div>
-                        <div id="img_perro"> <img > </div>
-                        <div style="width: 35%; display: inline-block; height: auto; vertical-align: top; margin-top: 6%"> 
-                            <p id="reconocer_text">1. Collar diferenciador: Todos nuestros afortunados llevan un collar con nuestra marca. ¡de esta manera podrás identificarlos fácilmente!</p>
-                            <p id="reconocer_text2">2. Cartilla de servicios y vacunación: Al identificar uno de nuestros engreídos, solicita su cartilla: en esta encontraras todos los servicios y cuidados que ha tenido. </p>
+            <div style="background: #E6E6E6">
+                <div id="reconocer" class="margen">
+                    <div class="main-panel_as">
+                        <div  style="width: fit-content">
+                            <p>¿CÓMO RECONOCER UN PET TRUCK?</p>
+                            <div id="subraya_recono"></div>
+                        </div>
+                        <div>
+                            <div id="img_perro"> <img > </div>
+                            <div style="width: 35%; display: inline-block; height: auto; vertical-align: top; margin-top: 6%"> 
+                                <p id="reconocer_text">1. Collar diferenciador: Todos nuestros afortunados llevan un collar con nuestra marca. ¡de esta manera podrás identificarlos fácilmente!</p>
+                                <p id="reconocer_text2">2. Cartilla de servicios y vacunación: Al identificar uno de nuestros engreídos, solicita su cartilla: en esta encontraras todos los servicios y cuidados que ha tenido. </p>
+                            </div>
                         </div>
                     </div>
                 </div>
