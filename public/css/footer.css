@@ -318,7 +318,12 @@
 	#texto_nuestros{ width: 45% !important }
 	#box_horarios{ width: 60% !important }
 	#boton_enviar{
-		height: 22px
+		height: 25px
+	}
+}
+@media screen and (max-width: 1124px) {
+	#boton_enviar{
+		height: 26px
 	}
 }
 @media screen and (max-width: 1024px) {

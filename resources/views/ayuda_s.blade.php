@@ -74,7 +74,7 @@
                     </div>
                     <div id="cuadros">
                         <div id="gpt_1">
-                            <div id="box_blanco">
+                            <div id="box_blanco_b">
                               <img src="/img/groming-rojo.png">
                               <p id="box_blanco_p1">GROOMING</p>
                               <div id="subraya_gpt2"></div>
@@ -101,7 +101,7 @@
                             <div id="number_top">3</div>
                         </div>
                         <div id="gpt_2">
-                            <div id="box_blanco">
+                            <div id="box_blanco_b">
                               <img src="/img/vacunacion.png">
                               <p id="box_blanco_p1">VACUNACIÓN</p>
                               <div id="subraya_gpt2"></div>
@@ -113,9 +113,20 @@
                 </div>
             </div>
             
-            <div id="reconocer">
-                <p>¿CÓMO RECONOCER UN PET TRUCK?</p>
-                <div id="subraya_recono"></div>
+            <div id="reconocer" class="margen">
+                <div class="main-panel_as">
+                    <div  style="width: 58%">
+                        <p>¿CÓMO RECONOCER UN PET TRUCK?</p>
+                        <div id="subraya_recono"></div>
+                    </div>
+                    <div>
+                        <div id="img_perro"> <img > </div>
+                        <div style="width: 35%; display: inline-block; height: auto; vertical-align: top; margin-top: 6%"> 
+                            <p id="reconocer_text">1. Collar diferenciador: Todos nuestros afortunados llevan un collar con nuestra marca. ¡de esta manera podrás identificarlos fácilmente!</p>
+                            <p id="reconocer_text2">2. Cartilla de servicios y vacunación: Al identificar uno de nuestros engreídos, solicita su cartilla: en esta encontraras todos los servicios y cuidados que ha tenido. </p>
+                        </div>
+                    </div>
+                </div>
             </div>
             
             @include('partials.nosotros_js')

@@ -120,7 +120,7 @@
             </div>
             <div id="div_galeria_1">
                 <div id="div_galeria_3" class="margen">
-                    <div style="width: 10.5%; margin-left: auto; margin-right: auto; padding-top: 2%">
+                    <div id="galeria_tittle">
                       <p id="p_div_2" class="logo_animated bounceInUp">GALERÍA</p>         
                       <div id="div_div_2" class="logo_animated bounceInUp" style="height: 0px; margin-bottom: 10%"></div> 
                     </div> 
