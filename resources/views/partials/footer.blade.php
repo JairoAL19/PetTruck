@@ -63,8 +63,10 @@
         <div id="mobile_footer">
             <div style="height: 300px;">
                   <div style="background: url('/img/footer_bg.png'); height: 300px; width: 100%; filter: brightness(0.5); position: absolute;z-index: -1"></div>
-                  <p id="texto_siguenos">SÍGUENOS EN:</p>
-                  <div id="subraya_left"></div>
+                  <div style="width: fit-content; margin-right: auto; margin-left: auto">
+                    <p id="texto_siguenos">SÍGUENOS EN:</p>                  
+                    <div id="subraya_left"></div>
+                  </div>
                   <div id="redes">
                       <a href="#"><div id="fb_img"></div></a>
                       <a href="#"><div id="instagram_img"></div></a>                   
@@ -93,8 +95,10 @@
                   </div>
            </div>
            <div style="height: 300px; width: 100%; background: #E9E9E9">
-                <p id="texto_siguenos" style="color: black">CONTÁCTANOS</p>
-                <div id="subraya_left" style="border-top: 1px solid black"></div>
+                <div style="width: fit-content; margin-right: auto; margin-left: auto">
+                    <p id="texto_siguenos" style="color: black">CONTÁCTANOS</p>
+                    <div id="subraya_left" style="border-top: 1px solid black"></div>
+                </div>
                 <div style="text-align: center; margin-top: 3%">
                     <input id="inputcontacto" type="text" name="" value="¿Cuál es tu nombre completo?">
                     <input id="inputcontacto" type="text" name="" value="¿Cuál es tu correo?">

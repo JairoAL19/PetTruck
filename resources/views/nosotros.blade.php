@@ -52,9 +52,20 @@
             </div>
         </div>        
         @include('partials.nav')
-        <link rel="stylesheet" href="/css/w3a.css">
-        @include('partials.nosotros_page.nosotros_web')
-        
+        <link rel="stylesheet" href="/css/w3a.css">  
+        <div id="banner_nosotros">
+                <div id="imagen_banner_nosotros"></div>  
+                <div id="texto_banner_nosotros">
+                  <p class="animated bounceInUp">NOSOTROS</p>
+                  <div class="animated bounceInUp" id="subraya_banner_nosotros"></div>    
+                </div>
+        </div>       
+        @if($agent->isMobile())
+            @include('partials.nosotros_page.nosotros_mobile')
+        @else
+            @include('partials.nosotros_page.nosotros_web')
+        @endif
+                
         
         
             

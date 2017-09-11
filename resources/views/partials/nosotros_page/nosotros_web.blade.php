@@ -1,10 +1,3 @@
-            <div id="banner_nosotros">
-                <div id="imagen_banner_nosotros"></div>  
-                <div id="texto_banner_nosotros">
-                  <p class="animated bounceInUp">NOSOTROS</p>
-                  <div class="animated bounceInUp" id="subraya_banner_nosotros"></div>    
-                </div>
-            </div> 
             <div id="mision_vision">
                 <div id="mision">
                     <img class="logo_animated bounceInLeft" src="/img/mision.png">
