@@ -23,7 +23,7 @@
 #mision_vision{	width: 100%; height: 270px; background: white; padding-top: 1.5% } #mision{	width: 50%; border-right: 2px solid #AC0000; height: 85%; text-align: right; display: inline-block; } #mision img{ margin-top: 4%; margin-right: 2%; width: 68px } #mision_title{ color: black; margin-top: 1.5%; font-size: 24px; font-weight: 800; font-family: Trebuchet MS; letter-spacing: 3px; margin-right: 2%; margin-bottom: 0px } #mision_texto{ color: black; margin-top: 2.5%; font-size: 14px; font-family: Trebuchet MS; margin-right: 2%; margin-bottom: 0px } #vision{ width: 47%; height: 85%; text-align: left; display: inline-block; } #vision img{ margin-top: 4%; margin-left: 2%; width: 70px } #vision_title{ color: black; margin-top: 1.5%; font-size: 24px; font-weight: 800; font-family: Trebuchet MS; letter-spacing: 3px; margin-left: 2%; margin-bottom: 0px } 
 #vision_texto{ color: black; margin-top: 2.5%; font-size: 14px; font-family: Trebuchet MS; margin-left: 2%; margin-bottom: 0px}
 #nuestros_valores{ width: 100%; height: 350px }
-#nuestros_valores_bg{ background: url(/img/nuestros_valores_bg2.jpg); width: 100%; height: 350px; position: absolute; z-index: -3; background-size: 100% }
+#nuestros_valores_bg{ background: url(/img/nuestros_valores_bg02.jpg); width: 100%; height: 350px; position: absolute; z-index: -3; background-size: 100% }
 #nuestros_valores_bg_top{ background: black; width: 100%; height: 200px; position: absolute; filter: opacity(0.5); z-index: -2; }
 #nuestros_valores_divg{ width: 100%; height: 350px; padding-top: 2.5%  }
 #nuestros_valores_title{ color: white; margin-top: 0px; font-size: 30px; font-weight: 700; letter-spacing: 3px }

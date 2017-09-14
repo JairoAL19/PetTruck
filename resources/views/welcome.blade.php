@@ -70,7 +70,7 @@
         <div class="content" style="padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px">
             <div class="w3-content w3-display-container" style="max-width:100%; background: black">                            
                 <div class="w3-display-container mySlides w3-animate-fading">      
-                  <img src="img/slide1.png" id="slide" style="width:100%; filter: brightness(0.4);">
+                  <img src="img/slide01.jpg" id="slide" style="width:100%; filter: brightness(0.4); background-size: 100%">
                   <div class="w3-display-middle w3-large w3-container w3-padding-16" id="div_p_banner">
                     <p id="p_banner" style="position: absolute; z-index: 2">“LOREM IPSUM DOLOR SIT AMET, CONSECTETUER ADIPISCING ELIT, SED DIAM
                     NONUMMY NIBH EUISMOD TINCIDUNT UT LAOREET DOLORE ”</p>
@@ -125,18 +125,18 @@
                       <div id="div_div_2" class="logo_animated bounceInUp" style="height: 0px; margin-bottom: 10%"></div> 
                     </div> 
                     <div class="slider1">
-                      <div class="slide" id="slide_1_galeria"><img src="/img/slidegaleria1.png"></div>
-                      <div class="slide" id="slide_2_galeria"><img src="/img/slidegaleria2.png"></div>
-                      <div class="slide" id="slide_3_galeria"><img src="/img/slidegaleria3.png"></div>                      
+                      <div class="slide" id="slide_1_galeria"><img src="/img/slidegaleria01.jpg"></div>
+                      <div class="slide" id="slide_2_galeria"><img src="/img/slidegaleria02.jpg"></div>
+                      <div class="slide" id="slide_3_galeria"><img src="/img/slidegaleria03.jpg"></div>                      
                     </div>
                 </div>
                 <div id="div_galeria_4">
                     <p id="p_div_4">GALERÍA</p>  
                     <div id="div_div_4"></div> 
                     <div class="slider3">
-                      <div class="slide" id="slide_1_galeria"><img src="/img/slidegaleria1.png"></div>
-                      <div class="slide" id="slide_2_galeria"><img src="/img/slidegaleria2.png"></div>
-                      <div class="slide" id="slide_3_galeria"><img src="/img/slidegaleria3.png"></div>                      
+                      <div class="slide" id="slide_1_galeria"><img src="/img/slidegaleria01.jpg"></div>
+                      <div class="slide" id="slide_2_galeria"><img src="/img/slidegaleria02.jpg"></div>
+                      <div class="slide" id="slide_3_galeria"><img src="/img/slidegaleria03.jpg"></div>                     
                     </div>
                 </div>
             </div>
