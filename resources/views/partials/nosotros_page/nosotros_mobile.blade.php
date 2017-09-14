@@ -19,7 +19,7 @@
 		margin-bottom: 0px
 	}
 	#p_titulo2{
-		font-size: 24px;
+		font-size: 26px;
 		color: black;
 		padding-top: 2%;
 		font-family: Coco-bold;
@@ -31,13 +31,13 @@
 		width: 92%; margin-left: 3.5%;
 	}
 	#p_texto{
-		font-size: 16px;
+		font-size: 15px;
 		color: black;
 		padding-top: 12%;
 		font-family: Coco;
 		margin-bottom: 0px;
-		width: 80%;
-		margin-left: 10%;
+		width: 95%;
+		margin-left: 2%;
 		margin-bottom: 5%
 	}
 	#valores{ width: 100%; }
@@ -59,7 +59,7 @@
 		<p id="p_texto">Ser la primera empresa de servicio veterinario en el Perú.</p>
 	</div>
 	<div id="valores">
-		<div style="background: url('/img/slidegaleria2.png'); width: 100%; position: absolute; z-index: 0; height: 500px; background-size: 100%"></div>
+		<div style="background: url('/img/nuestros_valores_bg02.jpg'); width: 100%; position: absolute; z-index: 0; height: 660px; background-size: cover; background-position: center center; filter: brightness(0.5);"></div>
 		<div class="margen_mobile logo_animated bounceInLeft" style="padding-top: 10%">
 			<div class="fit_content">
 				<p id="p_titulo2">NUESTROS VALORES</p>

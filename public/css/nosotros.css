@@ -40,8 +40,8 @@
 #texto_pasi{ display: inline-block; margin-right: 8%; color: white; margin-top: 13%; font-weight: 700; letter-spacing: 1px }
 #texto_inte{ display: inline-block; color: white; margin-top: 13%; font-weight: 700; letter-spacing: 1px }
 #texto_rsoc{ display: inline-block; color: white; margin-top: 13%; font-weight: 700; letter-spacing: 1px; width: 10%; float: right; margin-right: 28.5%; text-align: center; }
-#porque_elegir{	height: 60%;}#porque_elegir_bg1{width: 100%; height: 60%; background: url('/img/perro2.png'); background-size: 100%; position: absolute; z-index: -2; background-repeat: no-repeat;}
-#porque_elegir_bg2{width: 100%; height: 55%; background: url('/img/perro2.png'); background-size: 100%; position: absolute; z-index: -2; filter: blur(3px);}
+#porque_elegir{	height: 60%;}#porque_elegir_bg1{width: 100%; height: 60%; background: url('/img/porqueelegir.jpg'); background-size: 100%; position: absolute; z-index: -2; background-repeat: no-repeat;}
+#porque_elegir_bg2{width: 100%; height: 55%; background: url('/img/porqueelegir.jpg'); background-size: 100%; position: absolute; z-index: -2; filter: blur(2px);}
 #porque_elegir_base1{width: 15%; background: url('/img/bg3.png'); background-repeat: no-repeat; position: absolute; z-index: -1; filter: opacity(0.6); height: 45%; margin-top: 8%; background-size: 100%; margin-left: 20%; height: 40%}
 #porque_elegir_base2{width: 13%; background: url('/img/bg3.png'); background-repeat: no-repeat; position: absolute; z-index: -1; filter: opacity(0.6); height: 45%; margin-top: 8%; background-size: 100%; margin-left: 38%; height: 40%}
 #porque_elegir_base3{width: 13%; background: url('/img/bg3.png'); background-repeat: no-repeat; position: absolute; z-index: -1; filter: opacity(0.6); height: 45%; margin-top: 8%; background-size: 100%; margin-left: 54%; height: 40%}
@@ -89,7 +89,7 @@
 /*NUESTROS SERVICIOS*/
 
 #nuestros_servicios{ height: 1305px; }
-#nuestros_servicios_fondo{ height: 1305px;width: 100%; background: url('/img/perro3.jpg'); position: absolute; z-index: -3; filter: blur(8px); }
+#nuestros_servicios_fondo{ height: 1305px;width: 100%; background: url('/img/nuestros_servicios.jpg'); position: absolute; z-index: -3; filter: blur(5px); background-size: 100% }
 #nuestros_servicios_fondo_degra{ height: 1305px;width: 100%; background: rgb(232,168,71); background: -moz-linear-gradient(top, rgb(232,168,71) 0%, rgb(0,0,0) 71%); background: -webkit-linear-gradient(top, rgb(232,168,71) 0%,rgb(0,0,0) 71%); background: linear-gradient(to bottom, rgb(232,168,71) 0%,rgb(0,0,0) 71%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8a847', endColorstr='#000000',GradientType=0 ); filter: opacity(0.8); position: absolute; z-index: -2 }
 #ns_text{ height: 100%; width: 100%; text-align: center; }
 #ns_tittle{ width: 100%; }
@@ -226,7 +226,7 @@
  	#porque_elegir_base1{ width: 15%; }
 }
 @media screen and (max-width: 1480px) {
- 	#porque_elegir_base1{ width: 17% }
+ 	#porque_elegir_base1{ width: 16% }
 }
 @media screen and (max-width: 1280px) {
  	#porque_elegir_base1{ height: 280px }

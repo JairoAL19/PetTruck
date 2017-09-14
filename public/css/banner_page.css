@@ -1,5 +1,5 @@
 #imagen_banner_nosotros{
-	background: url('/img/bg_nosotros2.jpg'); background-size: 100%;filter: brightness(40%); position: absolute; width: 100%; height: 180px; z-index: -2
+	background: url('/img/bg_nosotros2.jpg'); background-size: 100%;filter: brightness(40%); position: absolute; width: 100%; height: 180px; z-index: -2; background-repeat: no-repeat;
 }
 #texto_banner_nosotros{
 	height: 180px; width: fit-content; text-align: center; padding-top: 4%; margin-left: auto; margin-right: auto;
@@ -40,7 +40,7 @@
 }
 @media screen and (max-width: 760px) {
 	#texto_banner_nosotros{
-		height: 100px;
+		height: 85px;
 	}
 	#texto_banner_nosotros p{
 		font-size: 20px;

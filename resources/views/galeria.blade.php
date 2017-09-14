@@ -92,45 +92,56 @@
               </div>
               <div class="logo_animated bounceInRight" id="main" style="display: inline-block; width: 70%;">
                 <div class="inner">
-                  <div class="columns">
-                      <div class="image fit" style="display: block">
-                        <a href="detail1.html"><img src="images/galeria3.jpg" alt="" /></a>
+                  <div style="margin-top: 1%">
+                      <div style="width: 48%; display: inline-block; vertical-align: top; margin-left: 1%">
+                        <div class="columns" style="-moz-column-count: 1; -webkit-column-count: 1; column-count: 1;">
+                            <div class="image fit">
+                              <a href="detail1.html"><img src="img/galeria_folder/galeria1.jpg" alt="" /></a>
+                            </div>
+                        </div>
                       </div>
-                      <div class="image fit" style="display: block">
-                        <a href="detail1.html"><img src="images/galeria3.jpg" alt="" /></a>
+                      <div style="width: 50%; display: inline-block;">
+                        <div class="columns" style="-moz-column-count: 1; -webkit-column-count: 1; column-count: 1;">
+                            <div class="image fit">
+                              <a href="detail1.html"><img src="img/galeria_folder/galeria2.jpg" alt="" /></a>
+                            </div>
+                            <div class="image fit">
+                              <a href="detail1.html"><img src="img/galeria_folder/galeria3.jpg" alt="" /></a>
+                            </div>
+                        </div>
                       </div>
                   </div>
                   <div class="columns" style="-moz-column-count: 1; -webkit-column-count: 1; column-count: 1; margin-top: 1%">
                       <div class="image fit">
-                        <a href="detail1.html"><img src="images/galeria4.png" alt="" /></a>
+                        <a href="detail1.html"><img src="img/galeria_folder/galeria4.jpg" alt="" /></a>
                       </div>
                   </div>
                   <div class="columns" style="-moz-column-count: 3; -webkit-column-count: 3; column-count: 3; margin-top: 0.5%">
                       <div class="image fit" style="display: block">
-                        <a href="detail1.html"><img src="images/galeria3.jpg" alt="" /></a>
+                        <a href="detail1.html"><img src="img/galeria_folder/galeria5.jpg" alt="" /></a>
                       </div>
                       <div class="image fit" style="display: block">
-                        <a href="detail1.html"><img src="images/galeria3.jpg" alt="" /></a>
+                        <a href="detail1.html"><img src="img/galeria_folder/galeria6.jpg" alt="" /></a>
                       </div>
                       <div class="image fit" style="display: block">
-                        <a href="detail1.html"><img src="images/galeria3.jpg" alt="" /></a>
+                        <a href="detail1.html"><img src="img/galeria_folder/galeria7.jpg" alt="" /></a>
                       </div>
                   </div>
                   <div style="margin-top: 1%">
                       <div style="width: 50%; display: inline-block;">
                         <div class="columns" style="-moz-column-count: 1; -webkit-column-count: 1; column-count: 1;">
                             <div class="image fit">
-                              <a href="detail1.html"><img src="images/galeria4.png" alt="" /></a>
+                              <a href="detail1.html"><img src="img/galeria_folder/galeria8.jpg" alt="" /></a>
                             </div>
                             <div class="image fit">
-                              <a href="detail1.html"><img src="images/galeria4.png" alt="" /></a>
+                              <a href="detail1.html"><img src="img/galeria_folder/galeria9.jpg" alt="" /></a>
                             </div>
                         </div>
                       </div>
                       <div style="width: 48%; display: inline-block; vertical-align: top; margin-left: 1%">
                         <div class="columns" style="-moz-column-count: 1; -webkit-column-count: 1; column-count: 1;">
                             <div class="image fit">
-                              <a href="detail1.html"><img src="images/galeria3.jpg" alt="" /></a>
+                              <a href="detail1.html"><img src="img/galeria_folder/galeria10.jpg" alt="" /></a>
                             </div>
                         </div>
                       </div>

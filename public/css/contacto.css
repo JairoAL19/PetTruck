@@ -4,7 +4,7 @@
 #contacto_sb1 p{ margin-bottom: 0px; text-align: center; font-size: 18px; font-weight: 600; letter-spacing: 1px }
 #subraya_voluntario{ border-top: 2px solid black; margin-top: 2%; margin-bottom: 8%; width: 94%; margin-left: 2.5% }
 #input_1{ background: none; border: none; border-bottom: 1px solid black; color: black; font-size: 11px; border-radius: 0px }
-#enviar{ background: url(/img/enviar.png); width: 26.5%;background-repeat: no-repeat; border: 0px; 
+#enviar{ background: url(/img/enviar.png); width: 22%;background-repeat: no-repeat; border: 0px; 
 background-color: none; height: 40.5px; text-align: center; font-size: 10px; color: white; margin-left: 37%; margin-top: 8%; background-size: 100% }
 #contacto_sb2 p{ margin-bottom: 0px; text-align: center; font-size: 18px; font-weight: 600; letter-spacing: 1px }
 @media screen and (max-width: 1680px) {
