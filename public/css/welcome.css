@@ -1085,6 +1085,9 @@ h1 {
         .navbar-header{
             margin-left: 0% !important; 
         }
+        .bx-wrapper img{
+            max-width: 80%;
+        }
     }
     @media screen and (max-width: 375px) {
         #proceso_div_2{

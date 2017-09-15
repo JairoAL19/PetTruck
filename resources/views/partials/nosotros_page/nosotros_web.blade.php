@@ -94,7 +94,7 @@
                 </div>   
             </div>
             <div id="nuestros_servicios">
-                <div id="nuestros_servicios_fondo"></div>
+                <div id="nuestros_servicios_fondo" style="height: 100px"></div>
                 <div id="nuestros_servicios_fondo_degra"></div>
                 <div id="ns_text">
                     <div style="width: fit-content; margin-right: auto; margin-left: auto;">
